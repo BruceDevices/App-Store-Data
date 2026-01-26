@@ -1,0 +1,12 @@
+{
+  "category": "Games",
+  "count": 1,
+  "apps": [
+    {
+      "name": "Dino",
+      "description": "Dino game - written for T-Embed",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/Dino"
+    }
+  ]
+}

@@ -1,11 +1,17 @@
 {
-  "count": 5,
+  "count": 6,
   "apps": [
     {
       "name": "Device Info",
       "description": "Device information display showing hardware details and memory statistics",
       "version": "1.0.0",
       "slug": "emericklaw/Bruce-Device-Info-App/Device Info"
+    },
+    {
+      "name": "Dino",
+      "description": "Dino game - written for T-Embed",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/sd_files/interpreter/Dino"
     },
     {
       "name": "Flashlight",

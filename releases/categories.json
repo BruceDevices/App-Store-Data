@@ -1,10 +1,15 @@
 {
-  "totalCategories": 3,
-  "totalApps": 5,
+  "totalCategories": 4,
+  "totalApps": 6,
   "categories": [
     {
       "name": "Audio",
       "slug": "audio",
+      "count": 1
+    },
+    {
+      "name": "Games",
+      "slug": "games",
       "count": 1
     },
     {
