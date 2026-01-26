@@ -14,10 +14,10 @@
       "slug": "emericklaw/Bruce-Flashlight-App/Flashlight"
     },
     {
-      "name": "Hello World",
+      "name": "Hello World Example",
       "description": "A simple test app for the Bruce JavaScript interpreter that displays 'Hello World!' on the screen.",
       "version": "1.0.0",
-      "slug": "emericklaw/Bruce-Hello-World-Example-App/Hello World"
+      "slug": "emericklaw/Bruce-Hello-World-Example-App/Hello World Example"
     },
     {
       "name": "Lock Device",
