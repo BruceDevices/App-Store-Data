@@ -14,63 +14,18 @@ jobs:
       pull-requests: write
     
     steps:
-      - name: Remove review required label
-        uses: actions/github-script@v7
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          script: |
-            const { owner, repo } = context.repo;
-            const issue_number = context.issue.number;
-            
-            try {
-              // Get current labels on the PR
-              const { data: labels } = await github.rest.issues.listLabelsOnIssue({
-                owner,
-                repo,
-                issue_number
-              });
-              
-              // Check if 'review required' label exists
-              const hasReviewRequiredLabel = labels.some(label => label.name === 'review required');
-              
-              if (hasReviewRequiredLabel) {
-                // Remove the 'review required' label
-                await github.rest.issues.removeLabel({
-                  owner,
-                  repo,
-                  issue_number,
-                  name: 'review required'
-                });
-                
-                console.log('✅ Removed "review required" label from merged PR #' + issue_number);
-              } else {
-                console.log('ℹ️ No "review required" label found on PR #' + issue_number);
-              }
-              
-              // Also remove validation-related labels that are no longer relevant
-              const labelsToRemove = [
-                'missing metadata.json',
-                'invalid metadata.json', 
-                'missing logo.png'
-              ];
-              
-              for (const labelName of labelsToRemove) {
-                const hasLabel = labels.some(label => label.name === labelName);
-                if (hasLabel) {
-                  await github.rest.issues.removeLabel({
-                    owner,
-                    repo,
-                    issue_number,
-                    name: labelName
-                  });
-                  console.log('✅ Removed "' + labelName + '" label from merged PR #' + issue_number);
-                }
-              }
-              
-            } catch (error) {
-              if (error.status === 404) {
-                console.log('ℹ️ Label not found (may have been already removed)');
-              } else {
-                console.error('❌ Error removing labels:', error);
-                throw error;
-              }
-            }
+          node-version: '18'
+      
+      - name: Run PR cleanup script
+        run: node .scripts/cleanup-merged-pr.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
