@@ -6,9 +6,6 @@
       "name": "Tone Generator",
       "description": "Tone generator that can play different frequencies/musical notes with customisable duration",
       "version": "1.0.0",
-      "files": [
-        "Tone Generator.js"
-      ],
       "slug": "emericklaw/Bruce-Tone-Generator-App/Tone Generator"
     }
   ]

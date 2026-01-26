@@ -6,27 +6,18 @@
       "name": "Flashlight",
       "description": "Simple multi-colour flashlight",
       "version": "1.0.0",
-      "files": [
-        "Flashlight.js"
-      ],
       "slug": "emericklaw/Bruce-Flashlight-App/Flashlight"
     },
     {
       "name": "Hello World",
       "description": "A simple test app for the Bruce JavaScript interpreter that displays 'Hello World!' on the screen.",
       "version": "1.0.0",
-      "files": [
-        "Hello World.js"
-      ],
       "slug": "emericklaw/Bruce-Hello-World-Example-App/Hello World"
     },
     {
       "name": "Lock Device",
       "description": "Password protection app that locks your Bruce device on startup or on-demand",
       "version": "1.1.0",
-      "files": [
-        "Lock Device.js"
-      ],
       "slug": "emericklaw/Bruce-Lock-Device-App/Lock Device"
     }
   ]

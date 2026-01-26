@@ -6,9 +6,6 @@
       "name": "Device Info",
       "description": "Device information display showing hardware details and memory statistics",
       "version": "1.0.0",
-      "files": [
-        "Device Info.js"
-      ],
       "slug": "emericklaw/Bruce-Device-Info-App/Device Info"
     }
   ]
