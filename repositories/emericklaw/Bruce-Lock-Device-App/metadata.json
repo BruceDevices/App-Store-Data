@@ -1,0 +1,13 @@
+{
+  "name": "Lock Device",
+  "description": "Password protection app that locks your Bruce device on startup or on-demand",
+  "category": "Utilities",
+  "version": "1.1.0",
+  "commit": "438afcea7823457ae6728b85f73b7cca27c52b7f",
+  "owner": "emericklaw",
+  "repo": "Bruce-Lock-Device-App",
+  "path": "/",
+  "files": [
+    "Lock Device.js"
+  ]
+}

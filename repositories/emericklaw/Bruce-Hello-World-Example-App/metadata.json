@@ -1,0 +1,13 @@
+{
+  "name": "Hello World",
+  "description": "A simple test app for the Bruce JavaScript interpreter that displays 'Hello World!' on the screen.",
+  "category": "Utilities",
+  "version": "1.0.0",
+  "commit": "b3ff054aab8e624ca29b346dfa687c5c0dcd9a3c",
+  "owner": "emericklaw",
+  "repo": "Bruce-Hello-World-Example-App",
+  "path": "/",
+  "files": [
+    "Hello World.js"
+  ]
+}

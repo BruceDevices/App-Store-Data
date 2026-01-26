@@ -1,0 +1,13 @@
+{
+  "name": "Tone Generator",
+  "description": "Tone generator that can play different frequencies/musical notes with customisable duration",
+  "category": "Audio",
+  "version": "1.0.0",
+  "commit": "3d3f98cd55a9671a1a0879b980b3a06356a81172",
+  "owner": "emericklaw",
+  "repo": "Bruce-Tone-Generator-App",
+  "path": "/",
+  "files": [
+    "Tone Generator.js"
+  ]
+}
