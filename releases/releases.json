@@ -1,11 +1,29 @@
 {
-  "count": 10,
+  "count": 22,
   "apps": [
+    {
+      "name": "Arcade Games",
+      "description": "Arcade Games for M5 Stick",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/sd_files/interpreter/Arcade Games"
+    },
     {
       "name": "Calculator",
       "description": "Calculator - written for T-Embed",
       "version": "1.0.0",
       "slug": "BruceDevices/firmware/sd_files/interpreter/Calculator"
+    },
+    {
+      "name": "Calculator M5 Stick",
+      "description": "Calculator for M5 Stick",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/sd_files/interpreter/Calculator M5 Stick"
+    },
+    {
+      "name": "Crypto Prices",
+      "description": "Track real-time crypto prices",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/sd_files/interpreter/Crypto Prices"
     },
     {
       "name": "Device Info",
@@ -20,6 +38,12 @@
       "slug": "BruceDevices/firmware/sd_files/interpreter/Dino"
     },
     {
+      "name": "DTMF Tones",
+      "description": "Generate DTMF tones",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/sd_files/interpreter/DTMF Tones"
+    },
+    {
       "name": "Flashlight",
       "description": "Simple multi-colour flashlight",
       "version": "1.0.0",
@@ -32,10 +56,22 @@
       "slug": "emericklaw/Bruce-Hello-World-Example-App/Hello World"
     },
     {
+      "name": "Highway Racer",
+      "description": "Car racing game",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/sd_files/interpreter/Highway Racer"
+    },
+    {
       "name": "IR Bruce Force",
       "description": "Brute force IR remote control codes",
       "version": "1.0.0",
       "slug": "BruceDevices/firmware/sd_files/interpreter/IR Bruce Force"
+    },
+    {
+      "name": "IR2Keyboard",
+      "description": "Use any IR remote to send commands to your pc requires: IR receiver + USBHID-capable device",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/sd_files/interpreter/IR2Keyboard"
     },
     {
       "name": "Lock Device",
@@ -44,16 +80,52 @@
       "slug": "emericklaw/Bruce-Lock-Device-App/Lock Device"
     },
     {
+      "name": "Ping Pong",
+      "description": "Ping Pong game",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/sd_files/interpreter/Ping Pong"
+    },
+    {
       "name": "RF Bruce Force",
       "description": "Brute force RF signals",
       "version": "1.0.0",
       "slug": "BruceDevices/firmware/sd_files/interpreter/RF Bruce Force"
     },
     {
+      "name": "Snake Cardputer",
+      "description": "Snake game for Cardputer",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/sd_files/interpreter/Snake Cardputer"
+    },
+    {
+      "name": "Snake M5 Stick",
+      "description": "Snake game for M5 Stick and M5 Core",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/sd_files/interpreter/Snake M5 Stick"
+    },
+    {
+      "name": "Space Shooter",
+      "description": "Space Shooter game",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/sd_files/interpreter/Space Shooter"
+    },
+    {
+      "name": "Tamagochi",
+      "description": "Tamagochi virtual pet",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/sd_files/interpreter/Tamagochi"
+    },
+    {
       "name": "Tone Generator",
       "description": "Tone generator that can play different frequencies/musical notes with customisable duration",
       "version": "1.0.0",
       "slug": "emericklaw/Bruce-Tone-Generator-App/Tone Generator"
+    },
+    {
+      "name": "Web Browser",
+      "description": "Very basic web browser",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/sd_files/interpreter/Web Browser"
     },
     {
       "name": "WiFi Bruce Force",

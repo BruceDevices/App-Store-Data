@@ -1,12 +1,24 @@
 {
   "category": "Utilities",
-  "count": 4,
+  "count": 7,
   "apps": [
     {
       "name": "Calculator",
       "description": "Calculator - written for T-Embed",
       "version": "1.0.0",
       "slug": "BruceDevices/firmware/Calculator"
+    },
+    {
+      "name": "Calculator M5 Stick",
+      "description": "Calculator for M5 Stick",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/Calculator M5 Stick"
+    },
+    {
+      "name": "Crypto Prices",
+      "description": "Track real-time crypto prices",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/Crypto Prices"
     },
     {
       "name": "Flashlight",
@@ -25,6 +37,12 @@
       "description": "Password protection app that locks your Bruce device on startup or on-demand",
       "version": "1.1.0",
       "slug": "emericklaw/Bruce-Lock-Device-App/Lock Device"
+    },
+    {
+      "name": "Web Browser",
+      "description": "Very basic web browser",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/Web Browser"
     }
   ]
 }

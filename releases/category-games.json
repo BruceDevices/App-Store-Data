@@ -1,12 +1,54 @@
 {
   "category": "Games",
-  "count": 1,
+  "count": 8,
   "apps": [
+    {
+      "name": "Arcade Games",
+      "description": "Arcade Games for M5 Stick",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/Arcade Games"
+    },
     {
       "name": "Dino",
       "description": "Dino game - written for T-Embed",
       "version": "1.0.0",
       "slug": "BruceDevices/firmware/Dino"
+    },
+    {
+      "name": "Highway Racer",
+      "description": "Car racing game",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/Highway Racer"
+    },
+    {
+      "name": "Ping Pong",
+      "description": "Ping Pong game",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/Ping Pong"
+    },
+    {
+      "name": "Snake Cardputer",
+      "description": "Snake game for Cardputer",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/Snake Cardputer"
+    },
+    {
+      "name": "Snake M5 Stick",
+      "description": "Snake game for M5 Stick and M5 Core",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/Snake M5 Stick"
+    },
+    {
+      "name": "Space Shooter",
+      "description": "Space Shooter game",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/Space Shooter"
+    },
+    {
+      "name": "Tamagochi",
+      "description": "Tamagochi virtual pet",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/Tamagochi"
     }
   ]
 }

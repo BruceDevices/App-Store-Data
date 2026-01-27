@@ -1,21 +1,21 @@
 {
   "totalCategories": 7,
-  "totalApps": 10,
+  "totalApps": 22,
   "categories": [
     {
       "name": "Audio",
       "slug": "audio",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Games",
       "slug": "games",
-      "count": 1
+      "count": 8
     },
     {
       "name": "Infrared",
       "slug": "infrared",
-      "count": 1
+      "count": 2
     },
     {
       "name": "RF",
@@ -30,7 +30,7 @@
     {
       "name": "Utilities",
       "slug": "utilities",
-      "count": 4
+      "count": 7
     },
     {
       "name": "WiFi",

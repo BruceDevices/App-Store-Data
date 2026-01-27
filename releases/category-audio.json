@@ -1,7 +1,13 @@
 {
   "category": "Audio",
-  "count": 1,
+  "count": 2,
   "apps": [
+    {
+      "name": "DTMF Tones",
+      "description": "Generate DTMF tones",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/DTMF Tones"
+    },
     {
       "name": "Tone Generator",
       "description": "Tone generator that can play different frequencies/musical notes with customisable duration",

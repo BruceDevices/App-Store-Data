@@ -1,12 +1,18 @@
 {
   "category": "Infrared",
-  "count": 1,
+  "count": 2,
   "apps": [
     {
       "name": "IR Bruce Force",
       "description": "Brute force IR remote control codes",
       "version": "1.0.0",
       "slug": "BruceDevices/firmware/IR Bruce Force"
+    },
+    {
+      "name": "IR2Keyboard",
+      "description": "Use any IR remote to send commands to your pc requires: IR receiver + USBHID-capable device",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/IR2Keyboard"
     }
   ]
 }
