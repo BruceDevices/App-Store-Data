@@ -128,6 +128,18 @@ async function main() {
             const { commit, owner, repo, path, filePath, category, files, ...cleanApp } = app;
             // Add slug in format: owner/repo/appname
             cleanApp.slug = `${owner}/${repo}/${app.name}`;
+            
+            // Include supported-devices if present (apps/scripts only, not themes)
+            const isTheme = app.category === 'Themes';
+            if (app['supported-devices'] && !isTheme) {
+                cleanApp['supported-devices'] = app['supported-devices'];
+            }
+            
+            // Include supported-screen-size if present (themes only)
+            if (app['supported-screen-size'] && isTheme) {
+                cleanApp['supported-screen-size'] = app['supported-screen-size'];
+            }
+            
             return cleanApp;
         });
         

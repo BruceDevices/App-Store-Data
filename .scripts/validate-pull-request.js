@@ -28,6 +28,21 @@ function loadValidCategories() {
     }
 }
 
+// Function to load supported devices from supported-devices.json
+function loadSupportedDevices() {
+    try {
+        const devicesPath = path.join(__dirname, '..', 'supported-devices.json');
+        const devicesContent = fs.readFileSync(devicesPath, 'utf8');
+        const devicesData = JSON.parse(devicesContent);
+
+        return devicesData;
+    } catch (error) {
+        console.log(`❌ Could not load \`supported-devices.json\` - ${error.message}`);
+        console.log('Please ensure \`supported-devices.json\` exists and contains a valid JSON array of device names');
+        return null;
+    }
+}
+
 // Function to read PNG dimensions
 function getPngDimensions(filePath) {
     try {
@@ -157,6 +172,93 @@ async function validateMetadata(filePath, dir) {
             hasErrors = true;
         } else {
             console.log(`      - ✅ Category valid: \`${category}\``);
+        }
+    }
+
+    // Validate supported-screen-size (required for themes)
+    const isTheme = metadata.category === 'Themes' || metadata.category === 'Theme';
+    if (isTheme) {
+        if (!metadata['supported-screen-size']) {
+            console.log(`      - ❌ Field 'supported-screen-size' is required for themes`);
+            hasErrors = true;
+        } else {
+            const screenSize = metadata['supported-screen-size'];
+            if (typeof screenSize !== 'string') {
+                console.log(`      - ❌ supported-screen-size must be a string`);
+                hasErrors = true;
+            } else if (!/^\d+x\d+$/.test(screenSize)) {
+                console.log(`      - ❌ supported-screen-size must be in format 'widthxheight' (e.g., '320x170')`);
+                hasErrors = true;
+            } else {
+                const [width, height] = screenSize.split('x').map(Number);
+                if (width <= 0 || height <= 0) {
+                    console.log(`      - ❌ supported-screen-size dimensions must be positive numbers`);
+                    hasErrors = true;
+                } else {
+                    console.log(`      - ✅ Screen size valid: \`${screenSize}\` (${width}x${height})`);
+                }
+            }
+        }
+    } else {
+        // For non-themes, supported-screen-size should not be present
+        if (metadata['supported-screen-size']) {
+            console.log(`      - ❌ Field 'supported-screen-size' is only allowed for themes`);
+            hasErrors = true;
+        }
+    }
+
+    // Validate supported-devices (not allowed for themes)
+    if (metadata['supported-devices']) {
+        if (isTheme) {
+            console.log(`      - ❌ Field 'supported-devices' is not allowed for themes`);
+            hasErrors = true;
+        } else {
+            const supportedDevices = metadata['supported-devices'];
+            const validDevices = loadSupportedDevices();
+            
+            if (!validDevices) {
+                console.log(`      - ❌ Could not load supported devices list`);
+                hasErrors = true;
+            } else {
+                if (Array.isArray(supportedDevices)) {
+                    // Array of device names
+                    let allValid = true;
+                    for (const device of supportedDevices) {
+                        if (!validDevices.includes(device)) {
+                            console.log(`      - ❌ Device \`${device}\` is not in supported devices list`);
+                            hasErrors = true;
+                            allValid = false;
+                        }
+                    }
+                    if (allValid) {
+                        console.log(`      - ✅ All devices valid: \`${supportedDevices.join(', ')}\``);
+                    }
+                } else if (typeof supportedDevices === 'string') {
+                    // Check if it's a direct device name or regex pattern
+                    if (validDevices.includes(supportedDevices)) {
+                        console.log(`      - ✅ Device valid: \`${supportedDevices}\``);
+                    } else {
+                        // Try as regex pattern
+                        try {
+                            const regex = new RegExp(supportedDevices);
+                            const matchingDevices = validDevices.filter(device => regex.test(device));
+                            
+                            if (matchingDevices.length > 0) {
+                                console.log(`      - ✅ Regex pattern \`${supportedDevices}\` matches ${matchingDevices.length} devices: ${matchingDevices.join(', ')}`);
+                            } else {
+                                console.log(`      - ❌ Regex pattern \`${supportedDevices}\` doesn't match any devices`);
+                                hasErrors = true;
+                            }
+                        } catch (regexError) {
+                            console.log(`      - ❌ Invalid device name or regex pattern: \`${supportedDevices}\``);
+                            hasErrors = true;
+                        }
+                    }
+                } else {
+                    console.log(`      - ❌ supported-devices must be a string, regex pattern, or array of device names`);
+                    hasErrors = true;
+                }
+            }
         }
     }
 

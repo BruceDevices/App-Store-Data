@@ -87,6 +87,19 @@ The `metadata.json` file contains all the essential information about your app/t
 | `path` | String | Path to files in your repository | "/" or "/apps/" |
 | `files` | Array | List of files to include | See Files Array section below for details |
 
+### Optional Fields
+
+| Field | Type | Description | Example |
+| ----- | ---- | ----------- | ------- |
+| `supported-devices` | String or Array | Device compatibility (apps only, not themes) | See Supported Devices section below |
+
+### Required Fields for Themes
+
+| Field | Type | Description | Example |
+| ----- | ---- | ----------- | ------- |
+| `supported-screen-size` | String | Screen dimensions in widthxheight format | "320x170" |
+
+
 ### Valid Categories
 
 Your app must use one of these categories, if submitting a theme please use the `Theme` category:
@@ -140,6 +153,54 @@ The `files` array can contain:
      }
    ]
    ```
+
+### Supported Devices (Apps Only)
+
+The `supported-devices` field is optional for apps/scripts and allows you to specify which devices your app is compatible with. This field is **not allowed for themes**. If not specified for an app, it will be available for all devices.
+
+This field supports three formats:
+
+1. **Single device name** (string):
+   ```json
+   "supported-devices": "M5Stack Cardputer"
+   ```
+
+2. **Array of device names**:
+   ```json
+   "supported-devices": [
+     "M5Stack Cardputer",
+     "Lilygo T-Embed",
+     "M5Stack Core 2"
+   ]
+   ```
+
+3. **Regular expression pattern** (string) that matches device names:
+   ```json
+   "supported-devices": "M5Stack.*"
+   ```
+
+**Common regex patterns:**
+- `"M5Stack.*"` - All M5Stack devices
+- `"CYD-.*"` - All CYD (Cheap Yellow Display) devices  
+- `"Lilygo.*"` - All Lilygo devices
+- `".*Cardputer.*"` - Any device with "Cardputer" in the name
+
+**Valid device names** can be found in [supported-devices.json](supported-devices.json).
+
+### Supported Screen Size (Themes Only)
+
+The `supported-screen-size` field is **required for themes** and specifies the screen dimensions that the theme is designed for.
+
+**Format:** `"widthxheight"` where width and height are positive integers.
+
+**Examples:**
+- `"320x170"` - For devices with 320x170 pixel screens
+- `"240x135"` - For devices with 240x135 pixel screens  
+- `"480x320"` - For devices with 480x320 pixel screens
+
+```json
+"supported-screen-size": "320x170"
+```
 
 ## 🖼️ Creating logo.png
 
@@ -246,12 +307,50 @@ repositories/johndoe/bruce-tools/WiFi Scanner/
   "owner": "johndoe",
   "repo": "bruce-tools",
   "path": "/wifi-apps/",
+  "supported-devices": [
+    "M5Stack Cardputer",
+    "Lilygo T-Embed"
+  ],
   "files": [
     {
       "source": "wifi_scanner_main.js",
       "destination": "scanner.js"
     },
     "config.json"
+  ]
+}
+```
+
+## Example Theme Submission
+
+Here's an example for a dark theme:
+
+**Folder structure:**
+
+```txt
+repositories/johndoe/bruce-themes/Dark Theme/
+├── metadata.json
+└── logo.png
+```
+
+**metadata.json:**
+
+```json
+{
+  "name": "Dark Theme",
+  "description": "A sleek dark theme for Bruce devices",
+  "category": "Themes",
+  "version": "1.0.0",
+  "commit": "b2c3d4e5f6789012345678901234567890abcdef",
+  "owner": "johndoe",
+  "repo": "bruce-themes",
+  "path": "/themes/",
+  "supported-screen-size": "320x170",
+  "files": [
+    "wifi.gif",
+    ...
+    "config.gif",
+    "theme.json"
   ]
 }
 ```
@@ -267,6 +366,12 @@ repositories/johndoe/bruce-tools/WiFi Scanner/
 | "Folder structure invalid" | Wrong directory structure | Place app/theme in `repositories/owner/repo/AppName/` |
 | "File not found at commit" | File doesn't exist in repository | Ensure all files in `files` array exist at the commit |
 | "Version must be incremented" | Version not updated for existing app/theme | Increase version number for updates |
+| "supported-screen-size is required for themes" | Missing screen size for theme | Add supported-screen-size field with format "widthxheight" |
+| "supported-screen-size must be in format 'widthxheight'" | Invalid screen size format | Use format like "320x170" |
+| "supported-screen-size is only allowed for themes" | Used screen size on non-theme | Remove supported-screen-size field or change category to Themes |
+| "supported-devices is not allowed for themes" | Used supported-devices on theme | Remove supported-devices field from themes |
+| "Device not in supported devices list" | Invalid device name in supported-devices | Use device names from supported-devices.json |
+| "Regex pattern doesn't match any devices" | Regex doesn't match any valid devices | Verify regex pattern matches at least one device |
 
 ## 💡 Tips for Success
 
