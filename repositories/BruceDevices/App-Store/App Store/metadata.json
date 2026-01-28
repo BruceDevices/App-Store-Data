@@ -3,7 +3,7 @@
   "description": "App store for Bruce devices with over-the-air install and updates for scripts and themes",
   "category": "Tools",
   "version": "1.0.0",
-  "commit": "c940ece82c099b00dd27846820459b98c0851662",
+  "commit": "66fcb90bdf4fa0b0b56458c38c2aa8d76db35dee",
   "owner": "BruceDevices",
   "repo": "App-Store",
   "path": "/",
