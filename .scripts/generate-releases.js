@@ -46,45 +46,40 @@ function getLastCommitTimestampForCategory(category, categorizedApps) {
             return Math.floor(Date.now() / 1000);
         }
 
-        // Get the most recent commit timestamp that actually changed content in each file
+        // Get the most recent content change timestamp by checking actual file modifications
         let mostRecentTimestamp = 0;
         for (const filePath of filePaths) {
             try {
-                // Use git log with -p to find commits that actually changed the file content
-                // Skip merge commits with --no-merges to avoid bulk merge timestamps
-                const gitCommand = `git log -1 --format=%ct --follow --no-merges -- "${filePath}"`;
-                const result = execSync(gitCommand, {
-                    encoding: 'utf8',
-                    stdio: 'pipe',
-                    cwd: path.join(__dirname, '..')
-                }).trim();
-
-                if (result) {
-                    const timestamp = parseInt(result);
-                    console.log(`📅 File ${filePath}: timestamp ${timestamp} (${new Date(timestamp * 1000).toISOString()})`);
-                    if (timestamp > mostRecentTimestamp) {
-                        mostRecentTimestamp = timestamp;
-                    }
-                } else {
-                    // If no non-merge commits found, try with merges included but look further back
-                    const fallbackCommand = `git log -2 --format=%ct --follow -- "${filePath}"`;
-                    const fallbackResult = execSync(fallbackCommand, {
+                // First try to get the filesystem modification time
+                const stats = fs.statSync(filePath);
+                const fileModTime = Math.floor(stats.mtime.getTime() / 1000);
+                console.log(`📂 File system time for ${filePath}: ${fileModTime} (${new Date(fileModTime * 1000).toISOString()})`);
+                
+                // Also try to get git blame to see when content was last actually changed
+                const gitBlameCommand = `git log --format=%ct -1 --diff-filter=M -- "${filePath}"`;
+                let gitTimestamp = 0;
+                try {
+                    const result = execSync(gitBlameCommand, {
                         encoding: 'utf8',
                         stdio: 'pipe',
                         cwd: path.join(__dirname, '..')
-                    }).trim().split('\n').filter(t => t.trim());
+                    }).trim();
                     
-                    if (fallbackResult.length > 1) {
-                        // Use the second most recent commit to skip the bulk update
-                        const timestamp = parseInt(fallbackResult[1]);
-                        console.log(`📅 File ${filePath}: fallback timestamp ${timestamp} (${new Date(timestamp * 1000).toISOString()})`);
-                        if (timestamp > mostRecentTimestamp) {
-                            mostRecentTimestamp = timestamp;
-                        }
+                    if (result) {
+                        gitTimestamp = parseInt(result);
+                        console.log(`📋 Git modification time for ${filePath}: ${gitTimestamp} (${new Date(gitTimestamp * 1000).toISOString()})`);
                     }
+                } catch (gitError) {
+                    console.log(`⚠️ Git blame failed for ${filePath}, using file system time`);
                 }
-            } catch (gitError) {
-                console.log(`❌ Git error for ${filePath}: ${gitError.message}`);
+                
+                // Use the older of the two timestamps (git is more reliable for committed content)
+                const timestamp = gitTimestamp > 0 ? gitTimestamp : fileModTime;
+                if (timestamp > mostRecentTimestamp) {
+                    mostRecentTimestamp = timestamp;
+                }
+            } catch (error) {
+                console.log(`❌ Error checking ${filePath}: ${error.message}`);
             }
         }
 
