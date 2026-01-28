@@ -53,4 +53,4 @@ jobs:
         GITHUB_EVENT_NAME: ${{ github.event_name }}
         GITHUB_EVENT_PATH: ${{ github.event_path }}
         PR_NUMBER: ${{ github.event.number }}
-      run: node .scripts/validate-pull-request.js ${{ steps.changed-files.outputs.all_changed_files }}
+      run: node .github/scripts/validate-pull-request.js ${{ steps.changed-files.outputs.all_changed_files }}

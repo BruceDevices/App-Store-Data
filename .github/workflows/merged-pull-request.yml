@@ -23,7 +23,7 @@ jobs:
           node-version: '18'
       
       - name: Run PR cleanup script
-        run: node .scripts/cleanup-merged-pr.js
+        run: node .github/scripts/cleanup-merged-pr.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}

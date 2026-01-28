@@ -23,22 +23,39 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Generate release files
+      - name: Generate category files
         run: |
-          node .scripts/generate-releases.js
+          node .github/scripts/generate-category.json-files.js
 
-      - name: Commit and push release files
+      - name: Commit category.json files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          if [ -d "releases" ] && [ "$(ls -A releases 2>/dev/null)" ]; then
-            git add releases/
+          if [ -d "releases" ] && [ "$(ls -A releases/category-*.json 2>/dev/null)" ]; then
+            git add releases/category-*.json
             if git diff --staged --quiet; then
-              echo "No changes to commit"
+              echo "No category file changes to commit"
             else
-              git commit -m "Update release files [skip ci]"
+              git commit -m "Update category.json files [skip ci]"
+            fi
+          else
+            echo "No category.json files to commit"
+          fi
+
+      - name: Generate categories.json
+        run: |
+          node .github/scripts/generate-categories.json.js
+
+      - name: Commit categories.json
+        run: |
+          if [ -f "releases/categories.json" ]; then
+            git add releases/categories.json
+            if git diff --staged --quiet; then
+              echo "No categories.json changes to commit"
+            else
+              git commit -m "Update categories.json [skip ci]"
               git push
             fi
           else
-            echo "No release files to commit"
+            echo "No categories.json to commit"
           fi
