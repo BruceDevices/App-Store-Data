@@ -1,55 +1,55 @@
 {
   "totalCategories": 8,
   "totalApps": 31,
-  "lastUpdated": 1769583192,
+  "lastUpdated": 1769583412,
   "categories": [
     {
       "name": "Audio",
       "slug": "audio",
       "count": 2,
-      "lastUpdated": 1769583180
+      "lastUpdated": 1769583407
     },
     {
       "name": "Games",
       "slug": "games",
       "count": 8,
-      "lastUpdated": 1769583180
+      "lastUpdated": 1769583407
     },
     {
       "name": "Infrared",
       "slug": "infrared",
       "count": 2,
-      "lastUpdated": 1769583180
+      "lastUpdated": 1769583407
     },
     {
       "name": "RF",
       "slug": "rf",
       "count": 1,
-      "lastUpdated": 1769583180
+      "lastUpdated": 1769583407
     },
     {
       "name": "Themes",
       "slug": "themes",
       "count": 8,
-      "lastUpdated": 1769583180
+      "lastUpdated": 1769583407
     },
     {
       "name": "Tools",
       "slug": "tools",
       "count": 3,
-      "lastUpdated": 1769583180
+      "lastUpdated": 1769583407
     },
     {
       "name": "Utilities",
       "slug": "utilities",
       "count": 6,
-      "lastUpdated": 1769583180
+      "lastUpdated": 1769583407
     },
     {
       "name": "WiFi",
       "slug": "wifi",
       "count": 1,
-      "lastUpdated": 1769583180
+      "lastUpdated": 1769583407
     }
   ]
 }
