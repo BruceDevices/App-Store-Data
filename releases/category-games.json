@@ -1,14 +1,7 @@
 {
   "category": "Games",
-  "count": 8,
+  "count": 7,
   "apps": [
-    {
-      "name": "Arcade Games",
-      "description": "Collection of arcade games",
-      "version": "1.0.0",
-      "supported-devices": "M5Stick.*",
-      "slug": "BruceDevices/firmware/Arcade Games"
-    },
     {
       "name": "Dino",
       "description": "Dino game",
