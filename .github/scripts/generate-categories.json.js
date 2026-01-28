@@ -10,32 +10,120 @@ function getLastCommitTimestampForCategoryFile(categorySlug) {
     
     try {
         const categoryFilePath = `releases/category-${categorySlug}.json`;
+        const workingDir = path.join(__dirname, '../..');
+        const fullFilePath = path.join(workingDir, categoryFilePath);
         
         console.log(`🔍 DEBUG: Looking for timestamp of category file: ${categoryFilePath}`);
+        console.log(`🔍 DEBUG: Working directory: ${workingDir}`);
+        console.log(`🔍 DEBUG: Full file path: ${fullFilePath}`);
+        console.log(`🔍 DEBUG: File exists: ${fs.existsSync(fullFilePath)}`);
 
-            // Use git log to get the most recent commit timestamp for the category file
-        const gitCommand = `git log -1 --format=%ct --follow -- "${categoryFilePath}"`;
-        
-        console.log(`🔍 DEBUG: Running git command: ${gitCommand}`);
-        console.log(`🔍 DEBUG: Working directory: ${path.join(__dirname, '../..')}`);
+        // Check git repository state
+        try {
+            const gitStatusGlobal = execSync('git status --porcelain', {
+                encoding: 'utf8',
+                stdio: 'pipe',
+                cwd: workingDir
+            }).trim();
+            console.log(`🔍 DEBUG: Git status (first 5 lines):\n${gitStatusGlobal.split('\n').slice(0, 5).join('\n')}`);
+        } catch (e) {
+            console.log(`🔍 DEBUG: Git status error: ${e.message}`);
+        }
 
-        const result = execSync(gitCommand, {
-            encoding: 'utf8',
-            stdio: 'pipe',
-            cwd: path.join(__dirname, '../..')
-        }).trim();
+        // Check if we have a shallow repository
+        try {
+            const shallowCheck = execSync('git rev-parse --is-shallow-repository', {
+                encoding: 'utf8',
+                stdio: 'pipe',
+                cwd: workingDir
+            }).trim();
+            console.log(`🔍 DEBUG: Shallow repository: ${shallowCheck}`);
+            
+            if (shallowCheck === 'true') {
+                console.log('🔍 DEBUG: Repository is shallow, attempting to unshallow...');
+                try {
+                    execSync('git fetch --unshallow', {
+                        encoding: 'utf8',
+                        stdio: 'pipe',
+                        cwd: workingDir
+                    });
+                    console.log('🔍 DEBUG: Successfully unshallowed repository');
+                } catch (unshallowError) {
+                    console.log(`🔍 DEBUG: Could not unshallow: ${unshallowError.message}`);
+                }
+            }
+        } catch (e) {
+            console.log(`🔍 DEBUG: Could not check shallow status: ${e.message}`);
+        }
 
-        console.log(`🔍 DEBUG: Git command result: '${result}'`);
-        
-        if (result) {
-            const timestamp = parseInt(result);
-            console.log(`🔍 DEBUG: Parsed timestamp: ${timestamp} (${new Date(timestamp * 1000).toISOString()})`);
-            return timestamp;
+        // Try multiple git log approaches
+        const gitCommands = [
+            `git log -1 --format=%ct --follow -- "${categoryFilePath}"`,
+            `git log -1 --format=%ct -- "${categoryFilePath}"`,
+            `git log -1 --format=%ct --all -- "${categoryFilePath}"`,
+            `git log --format=%ct -n 1 -- "${categoryFilePath}"`,
+        ];
+
+        for (let i = 0; i < gitCommands.length; i++) {
+            const gitCommand = gitCommands[i];
+            console.log(`🔍 DEBUG: Trying git command ${i + 1}/${gitCommands.length}: ${gitCommand}`);
+
+            try {
+                const result = execSync(gitCommand, {
+                    encoding: 'utf8',
+                    stdio: 'pipe',
+                    cwd: workingDir
+                }).trim();
+
+                console.log(`🔍 DEBUG: Git command ${i + 1} result: '${result}'`);
+                
+                if (result) {
+                    const timestamp = parseInt(result);
+                    console.log(`🔍 DEBUG: Parsed timestamp: ${timestamp} (${new Date(timestamp * 1000).toISOString()})`);
+                    
+                    // Sanity check - timestamp should be reasonable (not too old, not in future)
+                    const now = Math.floor(Date.now() / 1000);
+                    const oneYearAgo = now - (365 * 24 * 60 * 60);
+                    const oneHourFromNow = now + (60 * 60);
+                    
+                    if (timestamp >= oneYearAgo && timestamp <= oneHourFromNow) {
+                        console.log(`🔍 DEBUG: Timestamp passes sanity check, using it`);
+                        return timestamp;
+                    } else {
+                        console.log(`🔍 DEBUG: Timestamp failed sanity check (${new Date(timestamp * 1000).toISOString()}), continuing to next method`);
+                    }
+                }
+            } catch (cmdError) {
+                console.log(`🔍 DEBUG: Git command ${i + 1} failed: ${cmdError.message}`);
+            }
+        }
+
+        // If file exists but no git history found, try getting any commit that touched the releases directory
+        if (fs.existsSync(fullFilePath)) {
+            console.log(`🔍 DEBUG: File exists but no specific history found, checking releases directory`);
+            try {
+                const dirCommand = `git log -1 --format=%ct -- releases/`;
+                console.log(`🔍 DEBUG: Trying directory command: ${dirCommand}`);
+                
+                const dirResult = execSync(dirCommand, {
+                    encoding: 'utf8',
+                    stdio: 'pipe',
+                    cwd: workingDir
+                }).trim();
+                
+                if (dirResult) {
+                    const timestamp = parseInt(dirResult);
+                    console.log(`🔍 DEBUG: Found releases directory timestamp: ${timestamp} (${new Date(timestamp * 1000).toISOString()})`);
+                    return timestamp;
+                }
+            } catch (dirError) {
+                console.log(`🔍 DEBUG: Directory timestamp failed: ${dirError.message}`);
+            }
         }
 
         // Fallback to current time if no commits found (new category file)
         const fallbackTimestamp = Math.floor(Date.now() / 1000);
-        console.log(`🔍 DEBUG: No commits found for category file (probably new), using fallback timestamp: ${fallbackTimestamp} (${new Date(fallbackTimestamp * 1000).toISOString()})`);
+        console.log(`🔍 DEBUG: No commits found for category file, using fallback timestamp: ${fallbackTimestamp} (${new Date(fallbackTimestamp * 1000).toISOString()})`);
         return fallbackTimestamp;
     } catch (error) {
         console.warn(`⚠️ Could not get git timestamp for category slug ${categorySlug}: ${error.message}`);
