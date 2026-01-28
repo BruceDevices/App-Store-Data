@@ -164,12 +164,28 @@ async function main() {
     if (categoriesWithReleases.length > 0) {
         const categoriesFilePath = path.join(releasesDir, 'categories.json');
         
-        // Create categories array with counts
-        const categoriesWithCounts = categoriesWithReleases.map(category => ({
-            name: category,
-            slug: category.toLowerCase().replace(/[^a-z0-9]/g, '-'),
-            count: categorizedApps[category].length
-        })).sort((a, b) => a.name.localeCompare(b.name));
+        // Create categories array with counts and lastUpdated timestamps
+        const categoriesWithCounts = categoriesWithReleases.map(category => {
+            const categorySlug = category.toLowerCase().replace(/[^a-z0-9]/g, '-');
+            const categoryFilePath = path.join(releasesDir, `category-${categorySlug}.json`);
+            
+            // Get last modification time of the category file
+            let lastUpdated = null;
+            try {
+                const stats = fs.statSync(categoryFilePath);
+                lastUpdated = Math.floor(stats.mtime.getTime() / 1000); // Convert to Unix timestamp
+            } catch (error) {
+                // If file doesn't exist yet, use current time
+                lastUpdated = Math.floor(Date.now() / 1000);
+            }
+            
+            return {
+                name: category,
+                slug: categorySlug,
+                count: categorizedApps[category].length,
+                lastUpdated: lastUpdated
+            };
+        }).sort((a, b) => a.name.localeCompare(b.name));
         
         const categoriesData = {
             totalCategories: categoriesWithReleases.length,
