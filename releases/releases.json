@@ -9,7 +9,7 @@
     },
     {
       "name": "Arcade Games",
-      "description": "Arcade Games for M5 Stick",
+      "description": "Collection of arcade games",
       "version": "1.0.0",
       "slug": "BruceDevices/firmware/sd_files/interpreter/Arcade Games"
     },
@@ -68,10 +68,10 @@
       "slug": "BruceDevices/firmware/sd_files/interpreter/Calculator"
     },
     {
-      "name": "Calculator M5 Stick",
-      "description": "Calculator for M5 Stick",
+      "name": "Calculator",
+      "description": "Calculator",
       "version": "1.0.0",
-      "slug": "BruceDevices/firmware/sd_files/interpreter/Calculator M5 Stick"
+      "slug": "BruceDevices/firmware/sd_files/interpreter/Calculator"
     },
     {
       "name": "Crypto Prices",
@@ -146,16 +146,16 @@
       "slug": "BruceDevices/firmware/sd_files/interpreter/RF Bruce Force"
     },
     {
+      "name": "Snake",
+      "description": "Snake game",
+      "version": "1.0.0",
+      "slug": "BruceDevices/firmware/sd_files/interpreter/Snake"
+    },
+    {
       "name": "Snake Cardputer",
       "description": "Snake game for Cardputer",
       "version": "1.0.0",
       "slug": "BruceDevices/firmware/sd_files/interpreter/Snake Cardputer"
-    },
-    {
-      "name": "Snake M5 Stick",
-      "description": "Snake game for M5 Stick and M5 Core",
-      "version": "1.0.0",
-      "slug": "BruceDevices/firmware/sd_files/interpreter/Snake M5 Stick"
     },
     {
       "name": "Space Shooter",

@@ -4,8 +4,9 @@
   "apps": [
     {
       "name": "Arcade Games",
-      "description": "Arcade Games for M5 Stick",
+      "description": "Collection of arcade games",
       "version": "1.0.0",
+      "supported-devices": "M5Stick.*",
       "slug": "BruceDevices/firmware/Arcade Games"
     },
     {
@@ -28,16 +29,17 @@
       "slug": "BruceDevices/firmware/Ping Pong"
     },
     {
+      "name": "Snake",
+      "description": "Snake game",
+      "version": "1.0.0",
+      "supported-devices": "(M5Stick.*|M5Stack Core.*)",
+      "slug": "BruceDevices/firmware/Snake"
+    },
+    {
       "name": "Snake Cardputer",
       "description": "Snake game for Cardputer",
       "version": "1.0.0",
       "slug": "BruceDevices/firmware/Snake Cardputer"
-    },
-    {
-      "name": "Snake M5 Stick",
-      "description": "Snake game for M5 Stick and M5 Core",
-      "version": "1.0.0",
-      "slug": "BruceDevices/firmware/Snake M5 Stick"
     },
     {
       "name": "Space Shooter",

@@ -1,11 +1,12 @@
 {
   "name": "Arcade Games",
-  "description": "Arcade Games for M5 Stick",
+  "description": "Collection of arcade games",
   "category": "Games",
   "version": "1.0.0",
   "commit": "300f5d00ba00599105e3b1d8790f3c6bf3f4f512",
   "owner": "BruceDevices",
   "repo": "firmware",
+  "supported-devices": "M5Stick.*",
   "path": "/sd_files/interpreter/",
   "files": [
     {
