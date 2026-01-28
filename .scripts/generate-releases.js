@@ -12,8 +12,11 @@ function getLastCommitTimestampForCategory(category, categorizedApps) {
         const filePaths = categoryApps.map(app => app.filePath + '/metadata.json');
 
         if (filePaths.length === 0) {
+            console.log(`⚠️ No files found for category ${category}`);
             return Math.floor(Date.now() / 1000); // Current time as fallback
         }
+
+        console.log(`🔍 Checking category ${category} with ${filePaths.length} files`);
 
         // Check if any of these specific files have uncommitted changes
         let hasUncommittedChanges = false;
@@ -28,9 +31,9 @@ function getLastCommitTimestampForCategory(category, categorizedApps) {
 
                 // If file shows up in git status, it has uncommitted changes
                 if (statusResult) {
-                    console.log(`📝 Found uncommitted changes in ${category}: ${filePath}`);
+                    console.log(`📝 Found uncommitted changes in ${category}: ${filePath} (${statusResult})`);
                     hasUncommittedChanges = true;
-                    break; // Found uncommitted changes, use current time
+                    // Don't break - continue checking to see all uncommitted files
                 }
             } catch (statusError) {
                 // Ignore git status errors for individual files
@@ -39,6 +42,7 @@ function getLastCommitTimestampForCategory(category, categorizedApps) {
 
         // If any files in this category have uncommitted changes, use current time
         if (hasUncommittedChanges) {
+            console.log(`⏰ Using current time for ${category} due to uncommitted changes`);
             return Math.floor(Date.now() / 1000);
         }
 
@@ -55,21 +59,24 @@ function getLastCommitTimestampForCategory(category, categorizedApps) {
 
                 if (result) {
                     const timestamp = parseInt(result);
+                    console.log(`📅 File ${filePath}: timestamp ${timestamp} (${new Date(timestamp * 1000).toISOString()})`);
                     if (timestamp > mostRecentTimestamp) {
                         mostRecentTimestamp = timestamp;
                     }
                 }
             } catch (gitError) {
-                // Ignore errors for individual files
+                console.log(`❌ Git error for ${filePath}: ${gitError.message}`);
             }
         }
 
         // If we found at least one valid timestamp, use the most recent
         if (mostRecentTimestamp > 0) {
+            console.log(`✅ Using git timestamp for ${category}: ${mostRecentTimestamp} (${new Date(mostRecentTimestamp * 1000).toISOString()})`);
             return mostRecentTimestamp;
         }
 
         // Fallback to current time if no commits found
+        console.log(`⚠️ No git timestamps found for ${category}, using current time`);
         return Math.floor(Date.now() / 1000);
     } catch (error) {
         console.warn(`⚠️ Could not get git timestamp for category ${category}: ${error.message}`);
