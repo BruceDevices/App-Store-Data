@@ -2,15 +2,15 @@
   "name": "IR Bruce Force",
   "description": "Brute force IR remote control codes",
   "category": "Infrared",
-  "version": "1.0.0",
-  "commit": "300f5d00ba00599105e3b1d8790f3c6bf3f4f512",
+  "version": "1.0.1",
+  "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
   "owner": "BruceDevices",
   "repo": "firmware",
   "path": "/sd_files/interpreter/",
   "files": [
     {
       "source": "ir_brute.js",
-      "destination": "IR Bruce Force.js"
+      "destination": "IR Brute Force.js"
     }
   ]
 }
