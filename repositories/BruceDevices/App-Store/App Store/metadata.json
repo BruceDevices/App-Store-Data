@@ -3,11 +3,11 @@
   "description": "App store for Bruce devices with over-the-air install and updates for scripts and themes",
   "category": "Tools",
   "version": "1.0.0",
-  "commit": "66fcb90bdf4fa0b0b56458c38c2aa8d76db35dee",
+  "commit": "cb56f792cc9a47d5d432df2a60f1c0649fc08792",
   "owner": "BruceDevices",
   "repo": "App-Store",
   "path": "/",
   "files": [
-    "App Store.js"
+    {"source": "minified/App Store.min.js", "destination": "App Store.js"}
   ]
 }
