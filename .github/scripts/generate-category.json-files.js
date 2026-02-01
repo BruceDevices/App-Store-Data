@@ -126,8 +126,9 @@ async function main() {
         // Filter out unwanted fields from apps for category files
         const filteredApps = apps.map(app => {
             const { commit, owner, repo, path, filePath, category, files, ...cleanApp } = app;
-            // Add slug in format: owner/repo/appname
-            cleanApp.slug = `${owner}/${repo}/${app.name}`;
+            // Add slug in format: owner/repo/subfolder_name
+            const subfolderName = filePath.split('/').pop();
+            cleanApp.slug = `${owner}/${repo}/${subfolderName}`;
 
             // Include supported-devices if present (apps/scripts only, not themes)
             const isTheme = app.category === 'Themes';
