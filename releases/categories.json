@@ -1,6 +1,6 @@
 {
   "totalCategories": 8,
-  "totalApps": 31,
+  "totalApps": 32,
   "categories": [
     {
       "name": "Audio",
@@ -35,8 +35,8 @@
     {
       "name": "Tools",
       "slug": "tools",
-      "count": 3,
-      "lastUpdated": 1770041952
+      "count": 4,
+      "lastUpdated": 1770054504
     },
     {
       "name": "Utilities",
