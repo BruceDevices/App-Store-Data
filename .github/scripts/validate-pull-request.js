@@ -720,12 +720,19 @@ async function postPRComment(validationSuccess, individualAppDetails, summary, m
             JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8')).number :
             null);
 
+    console.log('Environment variables for PR comment:');
+    console.log(`  GITHUB_TOKEN: ${token ? 'present' : 'missing'}`);
+    console.log(`  GITHUB_REPOSITORY: ${repository}`);
+    console.log(`  PR_NUMBER: ${issueNumber}`);
+    console.log(`  GITHUB_EVENT_NAME: ${process.env.GITHUB_EVENT_NAME}`);
+
     if (!token || !repository || !issueNumber) {
         console.log('Missing required environment variables for PR comment');
         return;
     }
 
     const [owner, repo] = repository.split('/');
+    console.log(`Attempting to post comment to ${owner}/${repo}#${issueNumber}`);
 
     // Build individual app sections
     let appDetailsSection = '';

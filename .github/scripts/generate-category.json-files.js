@@ -130,15 +130,23 @@ async function main() {
             const subfolderName = filePath.split('/').pop();
             cleanApp.slug = `${owner}/${repo}/${subfolderName}`;
 
+            // Add shortened field names while keeping originals
+            cleanApp.n = cleanApp.name;        // name -> n
+            cleanApp.d = cleanApp.description; // description -> d
+            cleanApp.v = cleanApp.version;     // version -> v
+            cleanApp.s = cleanApp.slug;        // slug -> s
+
             // Include supported-devices if present (apps/scripts only, not themes)
             const isTheme = app.category === 'Themes';
             if (app['supported-devices'] && !isTheme) {
                 cleanApp['supported-devices'] = app['supported-devices'];
+                cleanApp['sd'] = app['supported-devices'];
             }
 
             // Include supported-screen-size if present (themes only)
             if (app['supported-screen-size'] && isTheme) {
                 cleanApp['supported-screen-size'] = app['supported-screen-size'];
+                cleanApp['sss'] = app['supported-screen-size'];
             }
 
             return cleanApp;
