@@ -1,0 +1,18 @@
+{
+  "name": "Magic 8 Ball",
+  "description": "Ask a question, watch it Thinking..., receive a classic Magic 8 Ball answer",
+  "category": "Games",
+  "version": "1.14.0",
+  "commit": "c7d239d9323710a8d86ec9047dd56b95cde4018a",
+  "owner": "SasPes",
+  "repo": "magic-8-ball",
+  "path": "/",
+  "files": [
+    "Magic8ball.js"
+  ],
+  "supported-devices": [
+    "Lilygo T-Embed",
+    "Lilygo T-Embed CC1101",
+    "Smoochiee Board"
+  ]
+}
