@@ -973,6 +973,11 @@ async function main() {
             // Validate this directory
             const result = await validateDirectoryFiles(directory, metadataFile, logoFile, prAuthor);
             
+            // Track missing logos
+            if (result.hasMissingLogo) {
+                hasMissingLogo = true;
+            }
+            
             // Restore console functions
             console.log = originalLog;
             console.error = originalError;
@@ -1060,12 +1065,11 @@ async function main() {
             }
         } else {
             console.log(`    - ❌ File not found`);
-            hasMissingLogo = true;
             validationFailed = true;
             directoryValid = false;
         }
         
-        return { directoryValid, directoryMetadataInfo };
+        return { directoryValid, directoryMetadataInfo, hasMissingLogo: !fs.existsSync(logoPath) };
     }
 
     let validationSuccess = false;

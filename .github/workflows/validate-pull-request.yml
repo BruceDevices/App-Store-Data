@@ -64,20 +64,6 @@ jobs:
         
     - name: Change to PR directory and validate
       working-directory: pr-repo
-      run: |
-        # Get changed files using git in the PR directory
-        CHANGED_FILES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD 2>/dev/null || git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
-        echo "Changed files: $CHANGED_FILES"
-        
-        # Set up Node.js environment variables and run validation
-        export GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}"
-        export GITHUB_REPOSITORY="${{ github.repository }}"
-        export GITHUB_EVENT_NAME="${{ github.event_name }}"
-        export GITHUB_BASE_REF="${{ github.base_ref }}"
-        export PR_NUMBER="${{ github.event.number }}"
-        
-        # Run the validation script
-        node .github/scripts/validate-pull-request.js $CHANGED_FILES
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_REPOSITORY: ${{ github.repository }}
@@ -85,4 +71,10 @@ jobs:
         GITHUB_EVENT_PATH: ${{ github.event_path }}
         GITHUB_BASE_REF: ${{ github.base_ref }}
         PR_NUMBER: ${{ github.event.number }}
-      run: node .github/scripts/validate-pull-request.js ${{ steps.changed-files.outputs.all_changed_files }}
+      run: |
+        # Get changed files using git in the PR directory
+        CHANGED_FILES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD 2>/dev/null || git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
+        echo "Changed files: $CHANGED_FILES"
+        
+        # Run the validation script
+        node .github/scripts/validate-pull-request.js $CHANGED_FILES
