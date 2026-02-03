@@ -8,7 +8,10 @@
   "repo": "magic-8-ball",
   "path": "/",
   "files": [
-    "Magic8ball.js"
+    {
+      "source": "Magic8ball.js",
+      "destination": "Magic 8 Ball.js"
+    }
   ],
   "supported-devices": [
     "Lilygo T-Embed",
