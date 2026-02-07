@@ -614,7 +614,7 @@ async function managePRLabels(hasMetadataIssues, hasMissingMetadata, hasInvalidM
     }
 
     const [owner, repo] = repository.split('/');
-    const labelsToManage = ['missing metadata.json', 'invalid metadata.json', 'missing logo.png', 'review required', 'external contribution'];
+    const labelsToManage = ['missing metadata.json', 'invalid metadata.json', 'missing logo.png', 'review required', 'external contribution', 'validation passed', 'validation failed'];
 
     try {
         // Get current labels
@@ -680,6 +680,25 @@ async function managePRLabels(hasMetadataIssues, hasMissingMetadata, hasInvalidM
         } else {
             if (currentLabelNames.includes('external contribution')) {
                 labelsToRemove.push('external contribution');
+            }
+        }
+
+        // Manage 'validation passed' and 'validation failed' labels
+        if (validationSuccess) {
+            // Add 'validation passed' and remove 'validation failed'
+            if (!currentLabelNames.includes('validation passed')) {
+                labelsToAdd.push('validation passed');
+            }
+            if (currentLabelNames.includes('validation failed')) {
+                labelsToRemove.push('validation failed');
+            }
+        } else {
+            // Add 'validation failed' and remove 'validation passed'
+            if (!currentLabelNames.includes('validation failed')) {
+                labelsToAdd.push('validation failed');
+            }
+            if (currentLabelNames.includes('validation passed')) {
+                labelsToRemove.push('validation passed');
             }
         }
 
