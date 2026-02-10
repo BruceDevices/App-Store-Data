@@ -64,7 +64,7 @@ jobs:
 
       - name: Generate category-all.json
         run: |
-          node .github/scripts/generate-category-all.js
+          node .github/scripts/generate-category-all.json.js
 
       - name: Commit category-all.json
         run: |
