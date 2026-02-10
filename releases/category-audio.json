@@ -1,6 +1,6 @@
 {
   "category": "Audio",
-  "count": 3,
+  "count": 4,
   "apps": [
     {
       "name": "Cricket",
@@ -21,6 +21,16 @@
       "d": "Generate DTMF tones",
       "v": "1.0.1",
       "s": "BruceDevices/firmware/DTMF Tones"
+    },
+    {
+      "name": "Nokia",
+      "description": "plays Nokia ringtone",
+      "version": "1.0.0",
+      "slug": "sloth632/Nokia-app/Nokia-app",
+      "n": "Nokia",
+      "d": "plays Nokia ringtone",
+      "v": "1.0.0",
+      "s": "sloth632/Nokia-app/Nokia-app"
     },
     {
       "name": "Tone Generator",
