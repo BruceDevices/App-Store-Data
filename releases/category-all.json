@@ -1,0 +1,855 @@
+{
+  "generated": 1770743412,
+  "generatedISO": "2026-02-10T17:10:12.966Z",
+  "totalCategories": 8,
+  "totalApps": 35,
+  "categories": [
+    {
+      "name": "Audio",
+      "slug": "audio",
+      "count": 4,
+      "apps": [
+        {
+          "name": "Cricket",
+          "description": "Cricket.js is an audio app that plays cricket sounds.",
+          "category": "Audio",
+          "version": "1.0.0",
+          "commit": "5210a794005d897f8ccaf502f0aa37dea7228b85",
+          "owner": "sloth632",
+          "repo": "Cricket-app",
+          "path": "/",
+          "files": [
+            "Cricket.js"
+          ],
+          "slug": "sloth632/Cricket-app",
+          "lastUpdated": 1770500040,
+          "metadataPath": "repositories/sloth632/Cricket-app/metadata.json"
+        },
+        {
+          "name": "DTMF Tones",
+          "description": "Generate DTMF tones",
+          "category": "Audio",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "dtmf.js",
+              "destination": "DTMF Tones.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/DTMF Tones",
+          "lastUpdated": 1769975681,
+          "metadataPath": "repositories/BruceDevices/firmware/DTMF Tones/metadata.json"
+        },
+        {
+          "name": "Nokia",
+          "description": "plays Nokia ringtone",
+          "category": "Audio",
+          "version": "1.0.0",
+          "commit": "a4dcf73e754523cd54c0b2fd00c9fdc972126c3b",
+          "owner": "sloth632",
+          "repo": "Nokia-app",
+          "path": "/",
+          "files": [
+            "Nokia.js"
+          ],
+          "slug": "sloth632/Nokia-app",
+          "lastUpdated": 1770556404,
+          "metadataPath": "repositories/sloth632/Nokia-app/metadata.json"
+        },
+        {
+          "name": "Tone Generator",
+          "description": "Tone generator that can play different frequencies/musical notes with customisable duration",
+          "category": "Audio",
+          "version": "1.0.0",
+          "commit": "3d3f98cd55a9671a1a0879b980b3a06356a81172",
+          "owner": "emericklaw",
+          "repo": "Bruce-Tone-Generator-App",
+          "path": "/",
+          "files": [
+            "Tone Generator.js"
+          ],
+          "slug": "emericklaw/Bruce-Tone-Generator-App/Tone Generator",
+          "lastUpdated": 1769395239,
+          "metadataPath": "repositories/emericklaw/Bruce-Tone-Generator-App/Tone Generator/metadata.json"
+        }
+      ],
+      "lastUpdated": 1770556404
+    },
+    {
+      "name": "Games",
+      "slug": "games",
+      "count": 9,
+      "apps": [
+        {
+          "name": "Arcade Games",
+          "description": "Collection of arcade games",
+          "category": "Games",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "supported-devices": "M5Stick.*",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "M5stickcplus2_arcade-games.js",
+              "destination": "Arcade Games.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/Arcade Games",
+          "lastUpdated": 1769975681,
+          "metadataPath": "repositories/BruceDevices/firmware/Arcade Games/metadata.json"
+        },
+        {
+          "name": "Dino",
+          "description": "Dino game",
+          "category": "Games",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "supported-devices": "T-Embed.*",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "dino_game.js",
+              "destination": "Dino.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/Dino",
+          "lastUpdated": 1769975681,
+          "metadataPath": "repositories/BruceDevices/firmware/Dino/metadata.json"
+        },
+        {
+          "name": "Highway Racer",
+          "description": "Car racing game",
+          "category": "Games",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "highway_racer.js",
+              "destination": "Highway Racer.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/Highway Racer",
+          "lastUpdated": 1769975681,
+          "metadataPath": "repositories/BruceDevices/firmware/Highway Racer/metadata.json"
+        },
+        {
+          "name": "Magic 8 Ball",
+          "description": "Ask a question, watch it Thinking..., receive a classic Magic 8 Ball answer",
+          "category": "Games",
+          "version": "1.14.0",
+          "commit": "c7d239d9323710a8d86ec9047dd56b95cde4018a",
+          "owner": "SasPes",
+          "repo": "magic-8-ball",
+          "path": "/",
+          "files": [
+            {
+              "source": "Magic8ball.js",
+              "destination": "Magic 8 Ball.js"
+            }
+          ],
+          "supported-devices": [
+            "Lilygo T-Embed",
+            "Lilygo T-Embed CC1101",
+            "Smoochiee Board"
+          ],
+          "slug": "SasPes/magic-8-ball/Magic 8 Ball",
+          "lastUpdated": 1770152020,
+          "metadataPath": "repositories/SasPes/magic-8-ball/Magic 8 Ball/metadata.json"
+        },
+        {
+          "name": "Ping Pong",
+          "description": "Ping Pong game",
+          "category": "Games",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "pingpong.js",
+              "destination": "Ping Pong.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/Ping Pong",
+          "lastUpdated": 1769975681,
+          "metadataPath": "repositories/BruceDevices/firmware/Ping Pong/metadata.json"
+        },
+        {
+          "name": "Snake",
+          "description": "Snake game",
+          "category": "Games",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "supported-devices": "Cardputer.*",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "Snake_Cardputer.js",
+              "destination": "Snake.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/Snake Cardputer",
+          "lastUpdated": 1769975681,
+          "metadataPath": "repositories/BruceDevices/firmware/Snake Cardputer/metadata.json"
+        },
+        {
+          "name": "Snake",
+          "description": "Snake game",
+          "category": "Games",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "supported-devices": "(M5Stick.*|M5Stack Core.*)",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "Snake_Stick_CoreS3.js",
+              "destination": "Snake.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/Snake M5 Stick",
+          "lastUpdated": 1769975681,
+          "metadataPath": "repositories/BruceDevices/firmware/Snake M5 Stick/metadata.json"
+        },
+        {
+          "name": "Space Shooter",
+          "description": "Space Shooter game",
+          "category": "Games",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "space_shooter.js",
+              "destination": "Space Shooter.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/Space Shooter",
+          "lastUpdated": 1769975681,
+          "metadataPath": "repositories/BruceDevices/firmware/Space Shooter/metadata.json"
+        },
+        {
+          "name": "Tamagochi",
+          "description": "Tamagochi virtual pet",
+          "category": "Games",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "tamagochi.js",
+              "destination": "Tamagochi.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/Tamagochi",
+          "lastUpdated": 1769975681,
+          "metadataPath": "repositories/BruceDevices/firmware/Tamagochi/metadata.json"
+        }
+      ],
+      "lastUpdated": 1770152020
+    },
+    {
+      "name": "Infrared",
+      "slug": "infrared",
+      "count": 2,
+      "apps": [
+        {
+          "name": "IR Brute Force",
+          "description": "Brute force IR remote control codes",
+          "category": "Infrared",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "ir_brute.js",
+              "destination": "IR Brute Force.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/IR Brute Force",
+          "lastUpdated": 1769976423,
+          "metadataPath": "repositories/BruceDevices/firmware/IR Brute Force/metadata.json"
+        },
+        {
+          "name": "IR2Keyboard",
+          "description": "Use any IR remote to send commands to your pc requires: IR receiver + USBHID-capable device",
+          "category": "Infrared",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "ir2keys.js",
+              "destination": "IR2Keyboard.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/IR2Keyboard",
+          "lastUpdated": 1769975681,
+          "metadataPath": "repositories/BruceDevices/firmware/IR2Keyboard/metadata.json"
+        }
+      ],
+      "lastUpdated": 1769976423
+    },
+    {
+      "name": "RF",
+      "slug": "rf",
+      "count": 1,
+      "apps": [
+        {
+          "name": "RF Brute Force",
+          "description": "Brute force RF signals",
+          "category": "RF",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "rf_brute.js",
+              "destination": "RF Brute Force.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/WiFi Brute Force",
+          "lastUpdated": 1769976423,
+          "metadataPath": "repositories/BruceDevices/firmware/WiFi Brute Force/metadata.json"
+        }
+      ],
+      "lastUpdated": 1769976423
+    },
+    {
+      "name": "Themes",
+      "slug": "themes",
+      "count": 8,
+      "apps": [
+        {
+          "name": "Bruce Theme (GIF)",
+          "slug-name": "GIF-240x135px",
+          "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
+          "category": "Themes",
+          "version": "1.3.0",
+          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "owner": "emericklaw",
+          "repo": "Bruce-Theme",
+          "supported-screen-size": "240x135",
+          "path": "/GIF-240x135px/",
+          "files": [
+            "Bruce_Theme.json",
+            "BLE.gif",
+            "Clock.gif",
+            "Config.gif",
+            "Connect.gif",
+            "Ethernet.gif",
+            "FM.gif",
+            "Files.gif",
+            "GPS.gif",
+            "IR.gif",
+            "JSInterpreter.gif",
+            "LoRa.gif",
+            "NRF24.gif",
+            "Others.gif",
+            "RF.gif",
+            "RFID.gif",
+            "WiFi.gif"
+          ],
+          "slug": "emericklaw/Bruce-Theme/Bruce Theme GIF-240x135px",
+          "lastUpdated": 1769978902,
+          "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme GIF-240x135px/metadata.json"
+        },
+        {
+          "name": "Bruce Theme (GIF)",
+          "slug-name": "GIF-320x170px",
+          "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
+          "category": "Themes",
+          "version": "1.3.0",
+          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "owner": "emericklaw",
+          "repo": "Bruce-Theme",
+          "supported-screen-size": "320x170",
+          "path": "/GIF-320x170px/",
+          "files": [
+            "Bruce_Theme.json",
+            "BLE.gif",
+            "Clock.gif",
+            "Config.gif",
+            "Connect.gif",
+            "Ethernet.gif",
+            "FM.gif",
+            "Files.gif",
+            "GPS.gif",
+            "IR.gif",
+            "JSInterpreter.gif",
+            "LoRa.gif",
+            "NRF24.gif",
+            "Others.gif",
+            "RF.gif",
+            "RFID.gif",
+            "WiFi.gif"
+          ],
+          "slug": "emericklaw/Bruce-Theme/Bruce Theme GIF-320x170px",
+          "lastUpdated": 1769978902,
+          "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme GIF-320x170px/metadata.json"
+        },
+        {
+          "name": "Bruce Theme (GIF)",
+          "slug-name": "GIF-320x240px",
+          "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
+          "category": "Themes",
+          "version": "1.3.0",
+          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "owner": "emericklaw",
+          "repo": "Bruce-Theme",
+          "supported-screen-size": "320x240",
+          "path": "/GIF-320x240px/",
+          "files": [
+            "Bruce_Theme.json",
+            "BLE.gif",
+            "Clock.gif",
+            "Config.gif",
+            "Connect.gif",
+            "Ethernet.gif",
+            "FM.gif",
+            "Files.gif",
+            "GPS.gif",
+            "IR.gif",
+            "JSInterpreter.gif",
+            "LoRa.gif",
+            "NRF24.gif",
+            "Others.gif",
+            "RF.gif",
+            "RFID.gif",
+            "WiFi.gif"
+          ],
+          "slug": "emericklaw/Bruce-Theme/Bruce Theme GIF-320x240px",
+          "lastUpdated": 1769978902,
+          "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme GIF-320x240px/metadata.json"
+        },
+        {
+          "name": "Bruce Theme (GIF)",
+          "slug-name": "GIF-480x222px",
+          "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
+          "category": "Themes",
+          "version": "1.3.0",
+          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "owner": "emericklaw",
+          "repo": "Bruce-Theme",
+          "supported-screen-size": "480x222",
+          "path": "/GIF-480x222px/",
+          "files": [
+            "Bruce_Theme.json",
+            "BLE.gif",
+            "Clock.gif",
+            "Config.gif",
+            "Connect.gif",
+            "Ethernet.gif",
+            "FM.gif",
+            "Files.gif",
+            "GPS.gif",
+            "IR.gif",
+            "JSInterpreter.gif",
+            "LoRa.gif",
+            "NRF24.gif",
+            "Others.gif",
+            "RF.gif",
+            "RFID.gif",
+            "WiFi.gif"
+          ],
+          "slug": "emericklaw/Bruce-Theme/Bruce Theme GIF-480x222px",
+          "lastUpdated": 1769978902,
+          "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme GIF-480x222px/metadata.json"
+        },
+        {
+          "name": "Bruce Theme (PNG)",
+          "slug-name": "PNG-240x135px",
+          "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
+          "category": "Themes",
+          "version": "1.3.0",
+          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "owner": "emericklaw",
+          "repo": "Bruce-Theme",
+          "supported-screen-size": "240x135",
+          "path": "/PNG-240x135px/",
+          "files": [
+            "Bruce_Theme.json",
+            "BLE.png",
+            "Clock.png",
+            "Config.png",
+            "Connect.png",
+            "Ethernet.png",
+            "FM.png",
+            "Files.png",
+            "GPS.png",
+            "IR.png",
+            "JSInterpreter.png",
+            "LoRa.png",
+            "NRF24.png",
+            "Others.png",
+            "RF.png",
+            "RFID.png",
+            "WiFi.png"
+          ],
+          "slug": "emericklaw/Bruce-Theme/Bruce Theme PNG-240x135px",
+          "lastUpdated": 1769978902,
+          "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme PNG-240x135px/metadata.json"
+        },
+        {
+          "name": "Bruce Theme (PNG)",
+          "slug-name": "PNG-320x170px",
+          "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
+          "category": "Themes",
+          "version": "1.3.0",
+          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "owner": "emericklaw",
+          "repo": "Bruce-Theme",
+          "supported-screen-size": "320x170",
+          "path": "/PNG-320x170px/",
+          "files": [
+            "Bruce_Theme.json",
+            "BLE.png",
+            "Clock.png",
+            "Config.png",
+            "Connect.png",
+            "Ethernet.png",
+            "FM.png",
+            "Files.png",
+            "GPS.png",
+            "IR.png",
+            "JSInterpreter.png",
+            "LoRa.png",
+            "NRF24.png",
+            "Others.png",
+            "RF.png",
+            "RFID.png",
+            "WiFi.png"
+          ],
+          "slug": "emericklaw/Bruce-Theme/Bruce Theme PNG-320x170px",
+          "lastUpdated": 1769978902,
+          "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme PNG-320x170px/metadata.json"
+        },
+        {
+          "name": "Bruce Theme (PNG)",
+          "slug-name": "PNG-320x240px",
+          "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
+          "category": "Themes",
+          "version": "1.3.0",
+          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "owner": "emericklaw",
+          "repo": "Bruce-Theme",
+          "supported-screen-size": "320x240",
+          "path": "/PNG-320x240px/",
+          "files": [
+            "Bruce_Theme.json",
+            "BLE.png",
+            "Clock.png",
+            "Config.png",
+            "Connect.png",
+            "Ethernet.png",
+            "FM.png",
+            "Files.png",
+            "GPS.png",
+            "IR.png",
+            "JSInterpreter.png",
+            "LoRa.png",
+            "NRF24.png",
+            "Others.png",
+            "RF.png",
+            "RFID.png",
+            "WiFi.png"
+          ],
+          "slug": "emericklaw/Bruce-Theme/Bruce Theme PNG-320x240px",
+          "lastUpdated": 1769978902,
+          "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme PNG-320x240px/metadata.json"
+        },
+        {
+          "name": "Bruce Theme (PNG)",
+          "slug-name": "PNG-480x222px",
+          "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
+          "category": "Themes",
+          "version": "1.3.0",
+          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "owner": "emericklaw",
+          "repo": "Bruce-Theme",
+          "supported-screen-size": "480x222",
+          "path": "/PNG-480x222px/",
+          "files": [
+            "Bruce_Theme.json",
+            "BLE.png",
+            "Clock.png",
+            "Config.png",
+            "Connect.png",
+            "Ethernet.png",
+            "FM.png",
+            "Files.png",
+            "GPS.png",
+            "IR.png",
+            "JSInterpreter.png",
+            "LoRa.png",
+            "NRF24.png",
+            "Others.png",
+            "RF.png",
+            "RFID.png",
+            "WiFi.png"
+          ],
+          "slug": "emericklaw/Bruce-Theme/Bruce Theme PNG-480x222px",
+          "lastUpdated": 1769978902,
+          "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme PNG-480x222px/metadata.json"
+        }
+      ],
+      "lastUpdated": 1769978902
+    },
+    {
+      "name": "Tools",
+      "slug": "tools",
+      "count": 4,
+      "apps": [
+        {
+          "name": "App Store",
+          "description": "App store for Bruce devices with over-the-air install and updates for scripts and themes",
+          "category": "Tools",
+          "version": "1.0.0",
+          "commit": "cb56f792cc9a47d5d432df2a60f1c0649fc08792",
+          "owner": "BruceDevices",
+          "repo": "App-Store",
+          "path": "/",
+          "files": [
+            {
+              "source": "minified/App Store.js",
+              "destination": "App Store.js"
+            }
+          ],
+          "slug": "BruceDevices/App-Store/App Store",
+          "lastUpdated": 1769971783,
+          "metadataPath": "repositories/BruceDevices/App-Store/App Store/metadata.json"
+        },
+        {
+          "name": "Device Info",
+          "description": "Device information display showing hardware details and memory statistics",
+          "category": "Tools",
+          "version": "1.0.1",
+          "commit": "e6607d9c4e049d3f2590d7b9e7acb7dd14259ec7",
+          "owner": "emericklaw",
+          "repo": "Bruce-Device-Info-App",
+          "path": "/",
+          "files": [
+            "Device Info.js"
+          ],
+          "slug": "emericklaw/Bruce-Device-Info-App/Device Info",
+          "lastUpdated": 1769482052,
+          "metadataPath": "repositories/emericklaw/Bruce-Device-Info-App/Device Info/metadata.json"
+        },
+        {
+          "name": "Key Decoding",
+          "description": "Decode and randomly generate key bitting patterns for a bunch of lock brands",
+          "category": "Tools",
+          "version": "1.14.0",
+          "commit": "8219565d63b44e4bbc1332523498f8c8b857cb36",
+          "owner": "SasPes",
+          "repo": "key-decoding",
+          "path": "/",
+          "files": [
+            {
+              "source": "KeyDecoding.js",
+              "destination": "Key Decoding.js"
+            }
+          ],
+          "supported-devices": [
+            "Lilygo T-Embed",
+            "Lilygo T-Embed CC1101",
+            "Smoochiee Board"
+          ],
+          "slug": "SasPes/key-decoding/Key Decoding",
+          "lastUpdated": 1770060041,
+          "metadataPath": "repositories/SasPes/key-decoding/Key Decoding/metadata.json"
+        },
+        {
+          "name": "Lock Device",
+          "description": "Password protection app that locks your Bruce device on startup or on-demand",
+          "category": "Tools",
+          "version": "1.1.1",
+          "commit": "fb875da3b0ec47a4d2e726a83a07b818e33a6a8e",
+          "owner": "emericklaw",
+          "repo": "Bruce-Lock-Device-App",
+          "path": "/",
+          "files": [
+            "Lock Device.js"
+          ],
+          "slug": "emericklaw/Bruce-Lock-Device-App/Lock Device",
+          "lastUpdated": 1769482177,
+          "metadataPath": "repositories/emericklaw/Bruce-Lock-Device-App/Lock Device/metadata.json"
+        }
+      ],
+      "lastUpdated": 1770060041
+    },
+    {
+      "name": "Utilities",
+      "slug": "utilities",
+      "count": 6,
+      "apps": [
+        {
+          "name": "Calculator",
+          "description": "Calculator",
+          "category": "Utilities",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "supported-devices": "M5Stick.*",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "M5stickcplus2_calculator.js",
+              "destination": "Calculator.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/Calculator M5 Stick",
+          "lastUpdated": 1769975681,
+          "metadataPath": "repositories/BruceDevices/firmware/Calculator M5 Stick/metadata.json"
+        },
+        {
+          "name": "Calculator",
+          "description": "Calculator",
+          "category": "Utilities",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "supported-devices": "T-Embed.*",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "calculator_t-embed.js",
+              "destination": "Calculator.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/Calculator T-Embed",
+          "lastUpdated": 1769975681,
+          "metadataPath": "repositories/BruceDevices/firmware/Calculator T-Embed/metadata.json"
+        },
+        {
+          "name": "Crypto Prices",
+          "description": "Track real-time crypto prices",
+          "category": "Utilities",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "crypto-prices.js",
+              "destination": "Crypto Prices.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/Crypto Prices",
+          "lastUpdated": 1769975681,
+          "metadataPath": "repositories/BruceDevices/firmware/Crypto Prices/metadata.json"
+        },
+        {
+          "name": "Flashlight",
+          "description": "Simple multi-colour flashlight",
+          "category": "Utilities",
+          "version": "1.0.1",
+          "commit": "15fc05a13a56086979bf2a938578ca3db68365b8",
+          "owner": "emericklaw",
+          "repo": "Bruce-Flashlight-App",
+          "path": "/",
+          "files": [
+            "Flashlight.js"
+          ],
+          "slug": "emericklaw/Bruce-Flashlight-App/Flashlight",
+          "lastUpdated": 1769482052,
+          "metadataPath": "repositories/emericklaw/Bruce-Flashlight-App/Flashlight/metadata.json"
+        },
+        {
+          "name": "Hello World",
+          "description": "A simple test app for the Bruce JavaScript interpreter that displays 'Hello World!' on the screen.",
+          "category": "Utilities",
+          "version": "1.0.0",
+          "commit": "b3ff054aab8e624ca29b346dfa687c5c0dcd9a3c",
+          "owner": "emericklaw",
+          "repo": "Bruce-Hello-World-Example-App",
+          "path": "/",
+          "files": [
+            {
+              "source": "Hello World.js",
+              "destination": "Hello World Example.js"
+            }
+          ],
+          "slug": "emericklaw/Bruce-Hello-World-Example-App/Hello World",
+          "lastUpdated": 1769424846,
+          "metadataPath": "repositories/emericklaw/Bruce-Hello-World-Example-App/Hello World/metadata.json"
+        },
+        {
+          "name": "Web Browser",
+          "description": "Very basic web browser",
+          "category": "Utilities",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "browser_bruce.js",
+              "destination": "Web Browser.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/Web Browser",
+          "lastUpdated": 1769975681,
+          "metadataPath": "repositories/BruceDevices/firmware/Web Browser/metadata.json"
+        }
+      ],
+      "lastUpdated": 1769975681
+    },
+    {
+      "name": "WiFi",
+      "slug": "wifi",
+      "count": 1,
+      "apps": [
+        {
+          "name": "WiFi Brute Force",
+          "description": "Brute force WiFi network password with dictionary attack",
+          "category": "WiFi",
+          "version": "1.0.1",
+          "commit": "c9d3731b38e67598e5b66a6488d8b12aeb8bf4dd",
+          "owner": "BruceDevices",
+          "repo": "firmware",
+          "path": "/sd_files/interpreter/",
+          "files": [
+            {
+              "source": "wifi_brute.js",
+              "destination": "WiFi Brute Force.js"
+            }
+          ],
+          "slug": "BruceDevices/firmware/RF Brute Force",
+          "lastUpdated": 1769976423,
+          "metadataPath": "repositories/BruceDevices/firmware/RF Brute Force/metadata.json"
+        }
+      ],
+      "lastUpdated": 1769976423
+    }
+  ]
+}
