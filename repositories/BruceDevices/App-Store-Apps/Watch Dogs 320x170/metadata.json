@@ -10,7 +10,7 @@
   "path": "/Themes/Watch Dogs 320x170/",
   "files": [
     {
-      "source": "Watch Dogs.json",
+      "source": "WD.json",
       "destination": "Watch Dogs.json"
     },
     "BLE.png",
