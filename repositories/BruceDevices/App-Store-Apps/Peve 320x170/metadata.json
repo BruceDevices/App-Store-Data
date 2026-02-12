@@ -1,0 +1,32 @@
+{
+  "name": "Peve",
+  "description": "Awesome theme from Peve!",
+  "category": "Themes",
+  "version": "1.0.0",
+  "commit": "",
+  "owner": "BruceDevices",
+  "repo": "App-Store-Apps",
+  "supported-screen-size": "320x170",
+  "path": "/Peve 320x170/",
+  "files": [
+    {
+      "source": "PeveBruceTheme.json",
+      "destination": "Peve.json"
+    },
+    "002ble-min.png",
+    "003rf-min.png",
+    "01wifi-min.png",
+    "04rfid-min.png",
+    "05ir-min.png",
+    "06fm-min.png",
+    "07files-min.png",
+    "08gps-min.png",
+    "09nrf-min.png",
+    "10JS-min.png",
+    "11other-min.png",
+    "12clock-min.png",
+    "13connect-min.png",
+    "14config-min.png",
+    "15ethernet-min.png"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Bebra First Creation",
+  "description": "Anime theme. First place on first Bruce Theme contest! By BBebbra3312",
+  "category": "Themes",
+  "version": "1.0.0",
+  "commit": "",
+  "owner": "BruceDevices",
+  "repo": "App-Store-Apps",
+  "supported-screen-size": "320x170",
+  "path": "/Bebra First Creation 320x170/",
+  "files": [
+    {
+      "source": "Theme.json",
+      "destination": "Bebra First Creation.json"
+    },
+    "BLE.png",
+    "boot.gif",
+    "CFG.png",
+    "CLOCK.png",
+    "CONNECT.png",
+    "FILES.png",
+    "FM.png",
+    "GPS.png",
+    "INT.png",
+    "IR.png",
+    "NRF.png",
+    "OTHERS.png",
+    "RF.png",
+    "RFID.png",
+    "WIFI.png"
+  ]
+}

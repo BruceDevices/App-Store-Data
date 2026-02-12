@@ -1,0 +1,33 @@
+{
+  "name": "GhostStrats",
+  "description": "Awesome Cyberpunk theme. Also used Steganography and Cryptography to hide some messages within the png file names for added fun! Second place on first Bruce Theme contest! By GhostStrats",
+  "category": "Themes",
+  "version": "1.0.0",
+  "commit": "",
+  "owner": "BruceDevices",
+  "repo": "App-Store-Apps",
+  "supported-screen-size": "320x170",
+  "path": "/GhostStrats 320x170/",
+  "files": [
+    {
+      "source": "Theme_175.json",
+      "destination": "GhostStrats.json"
+    },
+    "--....----...-...-.-.-.-.png",
+    "011100110110000101100110011001010111010001111001001000000110100101110011001000000110000101101110001000000110100101101100011011000111010101110011011010010110111101101110.png",
+    "390b3e2c0d1f0c09212c0d20293b2c25291c.png",
+    "47686f7374537472617473.png",
+    "5@f3^y_!$_@n_!11u$10n.png",
+    "736166657479697320616e20696c6c7573696f6e.png",
+    "boot.gif",
+    "boot.wav",
+    "BTYZV_EQ_SEFAYQTD.png",
+    "c2FmZXR5IGlzIGFuIGlsbHVzaW9u.png",
+    "GhostStrats.png",
+    "key_phase2_VnhtlHnpvkc.png",
+    "L_Oryh_Euxfh.png",
+    "R2hvc3RTdHJhdHM.png",
+    "saf3ty_iz_un1llus10n.png",
+    "ycpshnq_cm_fu_zpzreirq.png"
+  ]
+}

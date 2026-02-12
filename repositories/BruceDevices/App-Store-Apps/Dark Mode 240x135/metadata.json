@@ -1,0 +1,31 @@
+{
+  "name": "Dark Mode",
+  "description": "A sleek and modern dark theme. By wendellsilva",
+  "category": "Themes",
+  "version": "1.0.0",
+  "commit": "",
+  "owner": "BruceDevices",
+  "repo": "App-Store-Apps",
+  "supported-screen-size": "240x135",
+  "path": "/Dark Mode 240x135/",
+  "files": [
+    {
+      "source": "Theme.json",
+      "destination": "Dark Mode.json"
+    },
+    "ble.png",
+    "clock.png",
+    "config.png",
+    "connect.png",
+    "files.png",
+    "fm.png",
+    "gps.png",
+    "interpreter.png",
+    "ir.png",
+    "nrf.png",
+    "other.png",
+    "rf.png",
+    "rfid.png",
+    "wifi.png"
+  ]
+}

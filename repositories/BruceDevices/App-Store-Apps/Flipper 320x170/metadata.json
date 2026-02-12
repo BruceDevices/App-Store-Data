@@ -1,0 +1,31 @@
+{
+  "name": "Flipper",
+  "description": "Flipper Zero based theme. By mostixgrand",
+  "category": "Themes",
+  "version": "1.0.0",
+  "commit": "",
+  "owner": "BruceDevices",
+  "repo": "App-Store-Apps",
+  "supported-screen-size": "320x170",
+  "path": "/Flipper 320x170/",
+  "files": [
+    {
+      "source": "theme.json",
+      "destination": "Flipper.json"
+    },
+    "ble.png",
+    "clock.png",
+    "config.png",
+    "connect.png",
+    "files.png",
+    "fm.png",
+    "gps.png",
+    "interpreter.png",
+    "ir.png",
+    "nrf.png",
+    "others.png",
+    "rf.png",
+    "rfid.png",
+    "wifi.png"
+  ]
+}
