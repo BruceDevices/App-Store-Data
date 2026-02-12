@@ -1,16 +1,16 @@
 {
-  "name": "RF Brute Force",
-  "description": "Brute force RF signals",
-  "category": "RF",
-  "version": "1.0.2",
+  "name": "WiFi Brute Force",
+  "description": "Brute force WiFi network password with dictionary attack",
+  "category": "WiFi",
+  "version": "1.0.3",
   "commit": "18fe3c2c994c6a276447b2aee84e310c837ccbc4",
   "owner": "BruceDevices",
   "repo": "firmware",
   "path": "/sd_files/interpreter/",
   "files": [
     {
-      "source": "rf_brute.js",
-      "destination": "RF Brute Force.js"
+      "source": "wifi_brute.js",
+      "destination": "WiFi Brute Force.js"
     }
   ]
 }
