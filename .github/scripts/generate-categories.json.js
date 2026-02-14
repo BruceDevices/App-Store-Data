@@ -55,7 +55,7 @@ function readCategoryFiles() {
     }
 
     const categoryFiles = fs.readdirSync(releasesDir)
-        .filter(file => file.startsWith('category-') && file.endsWith('.json') && file !== 'categories.json');
+        .filter(file => file.startsWith('category-') && file.endsWith('.json') && !file.endsWith('.min.json') && file !== 'categories.json');
     
     console.log(`📄 Found ${categoryFiles.length} category files:`, categoryFiles);
 
