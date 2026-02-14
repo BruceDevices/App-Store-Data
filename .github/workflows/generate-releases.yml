@@ -44,6 +44,25 @@ jobs:
             echo "No category.json files to commit"
           fi
 
+      - name: Generate category.min files
+        run: |
+          node .github/scripts/generate-category-min.json-files.js
+
+      - name: Commit category.min.json files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          if [ -d "releases" ] && [ "$(ls -A releases/category-*.min.json 2>/dev/null)" ]; then
+            git add releases/category-*.min.json
+            if git diff --staged --quiet; then
+              echo "No category.min.json file changes to commit"
+            else
+              git commit -m "Update category.min.json files [skip ci]"
+            fi
+          else
+            echo "No category.min.json files to commit"
+          fi
+
       - name: Generate categories.json
         run: |
           node .github/scripts/generate-categories.json.js
