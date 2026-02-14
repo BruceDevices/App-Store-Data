@@ -9,11 +9,10 @@
   "supported-screen-size": "320x170",
   "path": "/Cyber_Hacker/",
   "files": [
-    { 
+    {
       "source": "Cyber_Hacker.json",
       "destination": "Cyber Hacker.json"
     },
-    "Cyber_Hacker.json",
     "BLE.gif",
     "Clock.gif",
     "Config.gif",
