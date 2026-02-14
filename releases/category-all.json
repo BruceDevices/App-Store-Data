@@ -1,6 +1,6 @@
 {
-  "generated": 1771032352,
-  "generatedISO": "2026-02-14T01:25:52.271Z",
+  "generated": 1771039340,
+  "generatedISO": "2026-02-14T03:22:20.292Z",
   "totalCategories": 8,
   "totalApps": 52,
   "categories": [
@@ -667,7 +667,6 @@
               "source": "Cyber_Hacker.json",
               "destination": "Cyber Hacker.json"
             },
-            "Cyber_Hacker.json",
             "BLE.gif",
             "Clock.gif",
             "Config.gif",
@@ -686,7 +685,7 @@
             "WiFi.gif"
           ],
           "slug": "CreeperRick/Cyber_Hacker/Cyber Hacker",
-          "lastUpdated": 1771032333,
+          "lastUpdated": 1771039116,
           "metadataPath": "repositories/CreeperRick/Cyber_Hacker/Cyber Hacker/metadata.json"
         },
         {
@@ -1204,7 +1203,7 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Watch Dogs 320x170/metadata.json"
         }
       ],
-      "lastUpdated": 1771032333
+      "lastUpdated": 1771039116
     },
     {
       "name": "Tools",
@@ -1215,8 +1214,8 @@
           "name": "App Store",
           "description": "App store for Bruce devices with over-the-air install and updates for scripts and themes",
           "category": "Tools",
-          "version": "1.0.0",
-          "commit": "cb56f792cc9a47d5d432df2a60f1c0649fc08792",
+          "version": "1.0.1",
+          "commit": "b0d03fe0fbcd0c1f2668af1294b6d0c292fe8d7a",
           "owner": "BruceDevices",
           "repo": "App-Store",
           "path": "/",
@@ -1227,7 +1226,7 @@
             }
           ],
           "slug": "BruceDevices/App-Store/App Store",
-          "lastUpdated": 1769971783,
+          "lastUpdated": 1771039124,
           "metadataPath": "repositories/BruceDevices/App-Store/App Store/metadata.json"
         },
         {
@@ -1287,7 +1286,7 @@
           "metadataPath": "repositories/emericklaw/Bruce-Lock-Device-App/Lock Device/metadata.json"
         }
       ],
-      "lastUpdated": 1770060041
+      "lastUpdated": 1771039124
     },
     {
       "name": "Utilities",
