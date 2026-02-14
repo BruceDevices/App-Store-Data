@@ -5,11 +5,11 @@
     {
       "name": "App Store",
       "description": "App store for Bruce devices with over-the-air install and updates for scripts and themes",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "slug": "BruceDevices/App-Store/App Store",
       "n": "App Store",
       "d": "App store for Bruce devices with over-the-air install and updates for scripts and themes",
-      "v": "1.0.0",
+      "v": "1.0.1",
       "s": "BruceDevices/App-Store/App Store"
     },
     {
