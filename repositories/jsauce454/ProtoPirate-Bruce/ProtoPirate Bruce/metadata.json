@@ -3,7 +3,7 @@
   "description": "Car key fob decoder with 11 protocols (Kia, Chrysler/Jeep, StarLine, Scher-Khan, Subaru, Fiat, Ford, Suzuki), frequency selection (315/433/868 MHz), load/save .sub files, rolling code TX.",
   "category": "RF",
   "version": "2.1.0",
-"commit": "a6fc8ece681fb3290b1ef4c496a9a0dfe6434992",
+"commit": "440e4f6ac15571a566f50e3140e21ddb6ee4ed56",
   "owner": "jsauce454",
   "repo": "ProtoPirate-Bruce",
   "path": "/",
