@@ -1,9 +1,9 @@
 {
   "name": "ProtoPirate Bruce",
-  "description": "Car key fob decoder with multi-protocol support, rolling code transmission, and CRC validation for Bruce Firmware",
+  "description": "Car key fob decoder supporting 10 protocols: Kia V0-V4, StarLine, Scher-Khan, Subaru, Fiat V0, Ford V0, Suzuki. Rolling code TX and CRC validation.",
   "category": "RF",
-  "version": "1.1.0",
-  "commit": "e1bcc00de23c680499a783aa83939e545abae9d4",
+  "version": "2.0.0",
+  "commit": "6afda35469d47f273636aa387ea868db6f4a1c20",
   "owner": "jsauce454",
   "repo": "ProtoPirate-Bruce",
   "path": "/",
