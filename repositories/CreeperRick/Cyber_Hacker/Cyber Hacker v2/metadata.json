@@ -10,7 +10,7 @@
   "path": "/Cyber_Hacker/",
   "files": [
     {
-      "source": "Cyber_Hacker.json",
+      "source": "Cyber_Hacker_Game.json",
       "destination": "Cyber Hacker v2.json"
     },
     "BLE.gif",
