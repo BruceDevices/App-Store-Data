@@ -1,6 +1,6 @@
 {
   "category": "Themes",
-  "count": 26,
+  "count": 28,
   "apps": [
     {
       "name": "Bebra First Creation",
@@ -121,25 +121,25 @@
     {
       "name": "Cyber Hacker",
       "description": "Cool matrix theme",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "supported-screen-size": "320x170",
-      "slug": "CreeperRick/Cyber_Hacker/Cyber Hacker",
+      "slug": "CreeperRick/BruceStore/Cyber Hacker",
       "n": "Cyber Hacker",
       "d": "Cool matrix theme",
-      "v": "1.0.0",
-      "s": "CreeperRick/Cyber_Hacker/Cyber Hacker",
+      "v": "1.0.1",
+      "s": "CreeperRick/BruceStore/Cyber Hacker",
       "sss": "320x170"
     },
     {
       "name": "Cyber Hacker v2",
       "description": "Cool matrix theme, JS Interpreter menu is called 'Games'",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "supported-screen-size": "320x170",
-      "slug": "CreeperRick/Cyber_Hacker/Cyber Hacker v2",
+      "slug": "CreeperRick/BruceStore/Cyber Hacker v2",
       "n": "Cyber Hacker v2",
       "d": "Cool matrix theme, JS Interpreter menu is called 'Games'",
-      "v": "1.0.0",
-      "s": "CreeperRick/Cyber_Hacker/Cyber Hacker v2",
+      "v": "1.0.1",
+      "s": "CreeperRick/BruceStore/Cyber Hacker v2",
       "sss": "320x170"
     },
     {
@@ -176,6 +176,30 @@
       "d": "A sleek and modern dark theme. By wendellsilva",
       "v": "1.0.0",
       "s": "BruceDevices/App-Store-Apps/Dark Mode 320x170",
+      "sss": "320x170"
+    },
+    {
+      "name": "Epstein (GIF)",
+      "description": "Epstein GIF Theme",
+      "version": "1.0.0",
+      "supported-screen-size": "320x170",
+      "slug": "CreeperRick/BruceStore/Epstein (GIF)",
+      "n": "Epstein (GIF)",
+      "d": "Epstein GIF Theme",
+      "v": "1.0.0",
+      "s": "CreeperRick/BruceStore/Epstein (GIF)",
+      "sss": "320x170"
+    },
+    {
+      "name": "Epstein (PNG)",
+      "description": "Epstein PNG Theme",
+      "version": "1.0.0",
+      "supported-screen-size": "320x170",
+      "slug": "CreeperRick/BruceStore/Epstein (PNG)",
+      "n": "Epstein (PNG)",
+      "d": "Epstein PNG Theme",
+      "v": "1.0.0",
+      "s": "CreeperRick/BruceStore/Epstein (PNG)",
       "sss": "320x170"
     },
     {
