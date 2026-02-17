@@ -1,8 +1,8 @@
 {
-  "generated": 1771123186,
-  "generatedISO": "2026-02-15T02:39:46.602Z",
+  "generated": 1771352010,
+  "generatedISO": "2026-02-17T18:13:30.754Z",
   "totalCategories": 8,
-  "totalApps": 53,
+  "totalApps": 55,
   "categories": [
     {
       "name": "Audio",
@@ -343,7 +343,7 @@
     {
       "name": "Themes",
       "slug": "themes",
-      "count": 26,
+      "count": 28,
       "apps": [
         {
           "name": "Bebra First Creation",
@@ -656,10 +656,10 @@
           "name": "Cyber Hacker",
           "description": "Cool matrix theme",
           "category": "Themes",
-          "version": "1.0.0",
-          "commit": "3d3ef8715765a49265250f809b8064c65b131460",
+          "version": "1.0.1",
+          "commit": "7f3c14d24cdd11d98bbaedc12287666777457330",
           "owner": "CreeperRick",
-          "repo": "Cyber_Hacker",
+          "repo": "BruceStore",
           "supported-screen-size": "320x170",
           "path": "/Cyber_Hacker/",
           "files": [
@@ -684,23 +684,23 @@
             "RFID.gif",
             "WiFi.gif"
           ],
-          "slug": "CreeperRick/Cyber_Hacker/Cyber Hacker",
-          "lastUpdated": 1771039116,
-          "metadataPath": "repositories/CreeperRick/Cyber_Hacker/Cyber Hacker/metadata.json"
+          "slug": "CreeperRick/BruceStore/Cyber Hacker",
+          "lastUpdated": 1771351119,
+          "metadataPath": "repositories/CreeperRick/BruceStore/Cyber Hacker/metadata.json"
         },
         {
           "name": "Cyber Hacker v2",
           "description": "Cool matrix theme, JS Interpreter menu is called 'Games'",
           "category": "Themes",
-          "version": "1.0.0",
-          "commit": "c3209cae9c2c4d7d07553e008c59d83bf0ce221b",
+          "version": "1.0.1",
+          "commit": "7f3c14d24cdd11d98bbaedc12287666777457330",
           "owner": "CreeperRick",
-          "repo": "Cyber_Hacker",
+          "repo": "BruceStore",
           "supported-screen-size": "320x170",
           "path": "/Cyber_Hacker/",
           "files": [
             {
-              "source": "Cyber_Hacker.json",
+              "source": "Cyber_Hacker_Game.json",
               "destination": "Cyber Hacker v2.json"
             },
             "BLE.gif",
@@ -720,9 +720,9 @@
             "RFID.gif",
             "WiFi.gif"
           ],
-          "slug": "CreeperRick/Cyber_Hacker/Cyber Hacker v2",
-          "lastUpdated": 1771123164,
-          "metadataPath": "repositories/CreeperRick/Cyber_Hacker/Cyber Hacker v2/metadata.json"
+          "slug": "CreeperRick/BruceStore/Cyber Hacker v2",
+          "lastUpdated": 1771350656,
+          "metadataPath": "repositories/CreeperRick/BruceStore/Cyber Hacker v2/metadata.json"
         },
         {
           "name": "Cyberpunk 2077",
@@ -825,6 +825,78 @@
           "slug": "BruceDevices/App-Store-Apps/Dark Mode 320x170",
           "lastUpdated": 1770861240,
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Dark Mode 320x170/metadata.json"
+        },
+        {
+          "name": "Epstein (GIF)",
+          "description": "Epstein GIF Theme",
+          "category": "Themes",
+          "version": "1.0.0",
+          "commit": "c79c9bff4e0beeefd8018cf74a6cc66ac1e6b33f",
+          "owner": "CreeperRick",
+          "repo": "BruceStore",
+          "supported-screen-size": "320x170",
+          "path": "/Theme_Epstein/GIF/",
+          "files": [
+            {
+              "source": "Theme_Epstein.json",
+              "destination": "Epstein (GIF).json"
+            },
+            "BLE.gif",
+            "Clock.gif",
+            "Config.gif",
+            "Connect.gif",
+            "Ethernet.gif",
+            "Radio.gif",
+            "Files.gif",
+            "Map.gif",
+            "IR.gif",
+            "JS.gif",
+            "LoRa.gif",
+            "NRF24.gif",
+            "Others.gif",
+            "RF.gif",
+            "RFID.gif",
+            "Wifi.gif"
+          ],
+          "slug": "CreeperRick/BruceStore/Epstein (GIF)",
+          "lastUpdated": 1771350882,
+          "metadataPath": "repositories/CreeperRick/BruceStore/Epstein (GIF)/metadata.json"
+        },
+        {
+          "name": "Epstein (PNG)",
+          "description": "Epstein PNG Theme",
+          "category": "Themes",
+          "version": "1.0.0",
+          "commit": "d1766a2239594771832d5e7b338f1fe2cfdb2f30",
+          "owner": "CreeperRick",
+          "repo": "BruceStore",
+          "supported-screen-size": "320x170",
+          "path": "/Theme_Epstein/PNG/",
+          "files": [
+            {
+              "source": "Theme_Epstein.json",
+              "destination": "Epstein (PNG).json"
+            },
+            "BLE.png",
+            "Clock.png",
+            "Config.png",
+            "Connect.png",
+            "Ethernet.png",
+            "Radio.png",
+            "Files.png",
+            "Map.png",
+            "IR.png",
+            "JS.png",
+            "LoRa.png",
+            "NRF24.png",
+            "Others.png",
+            "RF.png",
+            "RFID.png",
+            "Wifi.png"
+          ],
+          "slug": "CreeperRick/BruceStore/Epstein (PNG)",
+          "lastUpdated": 1771351716,
+          "metadataPath": "repositories/CreeperRick/BruceStore/Epstein (PNG)/metadata.json"
         },
         {
           "name": "Flipper",
@@ -1239,7 +1311,7 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Watch Dogs 320x170/metadata.json"
         }
       ],
-      "lastUpdated": 1771123164
+      "lastUpdated": 1771351716
     },
     {
       "name": "Tools",
