@@ -3,11 +3,13 @@
   "description": "brute force RF receivers using the C1101 & 433_ask module",
   "category": "RF",
   "version": "1.0.0",
-  "commit": "40-character-sha-hash-from-your-repository",
+  "commit": "d6fdf1dfc7659b64583f8bdb7b8f30426f6b0fd3",
   "owner": "Jiggyv3",
   "repo": "Orbnet-.js",
-  "path": "https://github.com/Jiggyv3/Orbnet-.js/RF-BRUTE",
+  "path": "/RF-BRUTE/",
   "files": [
-    "rf_brute_nmrf.js", "NM-RF_HAT_GUIDE.md", "logo.png",
+    "rf_brute_nmrf.js",
+    "NM-RF_HAT_GUIDE.md",
+    "logo.png"
   ]
 }
