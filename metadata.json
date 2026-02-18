@@ -1,0 +1,13 @@
+{
+  "name": "RF_433_Replay",
+  "description": "Transmit saved RF files through a 433_ask module",
+  "category": "RF",
+  "version": "1.0.0",
+  "commit": "40-character-sha-hash-from-your-repository",
+  "owner": "Jiggyv3",
+  "repo": "your-repository-name",
+  "path": "https://github.com/Jiggyv3/Orbnet-.js/RF_433",
+  "files": [
+    "rf_433_replay.js", "RF_TOOL_GUIDE.md",
+  ]
+}
