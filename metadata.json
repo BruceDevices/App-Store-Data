@@ -8,6 +8,6 @@
   "repo": "your-repository-name",
   "path": "https://github.com/Jiggyv3/Orbnet-.js/RF_433",
   "files": [
-    "rf_433_replay.js", "RF_TOOL_GUIDE.md",
+    "rf_433_replay.js", "RF_TOOL_GUIDE.md", "logo.png",
   ]
 }
