@@ -181,12 +181,12 @@
     {
       "name": "Epstein",
       "description": "Epstein Theme (just a joke)",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "supported-screen-size": "320x170",
       "slug": "CreeperRick/BruceStore/Epstein",
       "n": "Epstein",
       "d": "Epstein Theme (just a joke)",
-      "v": "1.0.0",
+      "v": "1.0.1",
       "s": "CreeperRick/BruceStore/Epstein",
       "sss": "320x170"
     },
