@@ -1,8 +1,8 @@
 {
-  "generated": 1771432176,
-  "generatedISO": "2026-02-18T16:29:36.336Z",
+  "generated": 1771555826,
+  "generatedISO": "2026-02-20T02:50:26.648Z",
   "totalCategories": 8,
-  "totalApps": 56,
+  "totalApps": 55,
   "categories": [
     {
       "name": "Audio",
@@ -360,7 +360,7 @@
     {
       "name": "Themes",
       "slug": "themes",
-      "count": 28,
+      "count": 27,
       "apps": [
         {
           "name": "Bebra First Creation",
@@ -844,8 +844,8 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Dark Mode 320x170/metadata.json"
         },
         {
-          "name": "Epstein (GIF)",
-          "description": "Epstein GIF Theme",
+          "name": "Epstein",
+          "description": "Epstein Theme (just a joke)",
           "category": "Themes",
           "version": "1.0.0",
           "commit": "c79c9bff4e0beeefd8018cf74a6cc66ac1e6b33f",
@@ -856,7 +856,7 @@
           "files": [
             {
               "source": "Theme_Epstein.json",
-              "destination": "Epstein (GIF).json"
+              "destination": "Epstein.json"
             },
             "BLE.gif",
             "Clock.gif",
@@ -875,45 +875,9 @@
             "RFID.gif",
             "Wifi.gif"
           ],
-          "slug": "CreeperRick/BruceStore/Epstein (GIF)",
-          "lastUpdated": 1771350882,
-          "metadataPath": "repositories/CreeperRick/BruceStore/Epstein (GIF)/metadata.json"
-        },
-        {
-          "name": "Epstein (PNG)",
-          "description": "Epstein PNG Theme",
-          "category": "Themes",
-          "version": "1.0.0",
-          "commit": "d1766a2239594771832d5e7b338f1fe2cfdb2f30",
-          "owner": "CreeperRick",
-          "repo": "BruceStore",
-          "supported-screen-size": "320x170",
-          "path": "/Theme_Epstein/PNG/",
-          "files": [
-            {
-              "source": "Theme_Epstein.json",
-              "destination": "Epstein (PNG).json"
-            },
-            "BLE.png",
-            "Clock.png",
-            "Config.png",
-            "Connect.png",
-            "Ethernet.png",
-            "Radio.png",
-            "Files.png",
-            "Map.png",
-            "IR.png",
-            "JS.png",
-            "LoRa.png",
-            "NRF24.png",
-            "Others.png",
-            "RF.png",
-            "RFID.png",
-            "Wifi.png"
-          ],
-          "slug": "CreeperRick/BruceStore/Epstein (PNG)",
-          "lastUpdated": 1771351716,
-          "metadataPath": "repositories/CreeperRick/BruceStore/Epstein (PNG)/metadata.json"
+          "slug": "CreeperRick/BruceStore/Epstein",
+          "lastUpdated": 1771555807,
+          "metadataPath": "repositories/CreeperRick/BruceStore/Epstein/metadata.json"
         },
         {
           "name": "Flipper",
@@ -1328,7 +1292,7 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Watch Dogs 320x170/metadata.json"
         }
       ],
-      "lastUpdated": 1771351716
+      "lastUpdated": 1771555807
     },
     {
       "name": "Tools",
