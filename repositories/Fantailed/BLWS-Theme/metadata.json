@@ -1,5 +1,5 @@
 {
-  "name": "BLWS Theme",
+  "name": "BLWS",
   "description": "Cute blue shark named BLWS (pronounced \"Blues\")",
   "category": "Themes",
   "version": "1.0.0",
@@ -9,7 +9,10 @@
   "supported-screen-size": "320x170",
   "path": "/theme/",
   "files": [
-    "blws_theme.json",
+    {
+      "source": "blws_theme.json",
+      "destination": "BLWS.json"
+    },
     "blws_t-embed_wifi.gif",
     "blws_t-embed_ble.gif",
     "blws_t-embed_config.gif",
