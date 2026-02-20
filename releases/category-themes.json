@@ -1,6 +1,6 @@
 {
   "category": "Themes",
-  "count": 27,
+  "count": 28,
   "apps": [
     {
       "name": "Bebra First Creation",
@@ -12,6 +12,18 @@
       "d": "Anime theme. First place on first Bruce Theme contest! By BBebbra3312",
       "v": "1.0.0",
       "s": "BruceDevices/App-Store-Apps/Bebra First Creation 320x170",
+      "sss": "320x170"
+    },
+    {
+      "name": "BLWS",
+      "description": "Cute blue shark named BLWS (pronounced \"Blues\")",
+      "version": "1.0.0",
+      "supported-screen-size": "320x170",
+      "slug": "Fantailed/BLWS/BLWS",
+      "n": "BLWS",
+      "d": "Cute blue shark named BLWS (pronounced \"Blues\")",
+      "v": "1.0.0",
+      "s": "Fantailed/BLWS/BLWS",
       "sss": "320x170"
     },
     {
