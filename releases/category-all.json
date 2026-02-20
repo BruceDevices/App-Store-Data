@@ -1,6 +1,6 @@
 {
-  "generated": 1771555826,
-  "generatedISO": "2026-02-20T02:50:26.648Z",
+  "generated": 1771555929,
+  "generatedISO": "2026-02-20T02:52:09.843Z",
   "totalCategories": 8,
   "totalApps": 55,
   "categories": [
@@ -847,7 +847,7 @@
           "name": "Epstein",
           "description": "Epstein Theme (just a joke)",
           "category": "Themes",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "commit": "c79c9bff4e0beeefd8018cf74a6cc66ac1e6b33f",
           "owner": "CreeperRick",
           "repo": "BruceStore",
@@ -876,7 +876,7 @@
             "Wifi.gif"
           ],
           "slug": "CreeperRick/BruceStore/Epstein",
-          "lastUpdated": 1771555807,
+          "lastUpdated": 1771555910,
           "metadataPath": "repositories/CreeperRick/BruceStore/Epstein/metadata.json"
         },
         {
@@ -1292,7 +1292,7 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Watch Dogs 320x170/metadata.json"
         }
       ],
-      "lastUpdated": 1771555807
+      "lastUpdated": 1771555910
     },
     {
       "name": "Tools",
