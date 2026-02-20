@@ -1062,16 +1062,8 @@ async function main() {
                 const { width, height } = dimensions;
                 console.log(`      - ℹ️ Logo size: ${width}x${height}`);
                 
-                if (width < 64 || height < 64) {
-                    console.log(`      - ❌ Logo too small: minimum size is 64x64`);
-                    validationFailed = true;
-                    directoryValid = false;
-                } else if (width > 512 || height > 512) {
-                    console.log(`      - ❌ Logo too large: maximum size is 512x512`);
-                    validationFailed = true;
-                    directoryValid = false;
-                } else if (width !== height) {
-                    console.log(`      - ❌ Logo must be square: ${width}x${height} is not square`);
+                if (width !== 128 || height !== 128) {
+                    console.log(`      - ❌ Logo must be exactly 128x128 pixels: found ${width}x${height}`);
                     validationFailed = true;
                     directoryValid = false;
                 } else {
