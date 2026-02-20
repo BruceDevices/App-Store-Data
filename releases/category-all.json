@@ -1,8 +1,8 @@
 {
-  "generated": 1771630443,
-  "generatedISO": "2026-02-20T23:34:03.593Z",
+  "generated": 1771630726,
+  "generatedISO": "2026-02-20T23:38:46.299Z",
   "totalCategories": 8,
-  "totalApps": 55,
+  "totalApps": 56,
   "categories": [
     {
       "name": "Audio",
@@ -360,7 +360,7 @@
     {
       "name": "Themes",
       "slug": "themes",
-      "count": 27,
+      "count": 28,
       "apps": [
         {
           "name": "Bebra First Creation",
@@ -396,6 +396,40 @@
           "slug": "BruceDevices/App-Store-Apps/Bebra First Creation 320x170",
           "lastUpdated": 1770861240,
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Bebra First Creation 320x170/metadata.json"
+        },
+        {
+          "name": "BLWS",
+          "description": "Cute blue shark named BLWS (pronounced \"Blues\")",
+          "category": "Themes",
+          "version": "1.0.0",
+          "commit": "143cd8f8135b16300c789d991ace3b586e5b68d9",
+          "owner": "Fantailed",
+          "repo": "BLWS",
+          "supported-screen-size": "320x170",
+          "path": "/theme/",
+          "files": [
+            {
+              "source": "blws_theme.json",
+              "destination": "BLWS.json"
+            },
+            "blws_t-embed_wifi.gif",
+            "blws_t-embed_ble.gif",
+            "blws_t-embed_config.gif",
+            "blws_t-embed_rf.gif",
+            "blws_t-embed_rfid.gif",
+            "blws_t-embed_ir.gif",
+            "blws_t-embed_files.gif",
+            "blws_t-embed_fm.gif",
+            "blws_t-embed_gps.gif",
+            "blws_t-embed_scripts.gif",
+            "blws_t-embed_nrf.gif",
+            "blws_t-embed_other.gif",
+            "blws_t-embed_clock.gif",
+            "blws_t-embed_connect.gif"
+          ],
+          "slug": "Fantailed/BLWS/BLWS",
+          "lastUpdated": 1771630606,
+          "metadataPath": "repositories/Fantailed/BLWS/BLWS/metadata.json"
         },
         {
           "name": "Bruce Theme (GIF)",
@@ -1292,7 +1326,7 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Watch Dogs 320x170/metadata.json"
         }
       ],
-      "lastUpdated": 1771555910
+      "lastUpdated": 1771630606
     },
     {
       "name": "Tools",
