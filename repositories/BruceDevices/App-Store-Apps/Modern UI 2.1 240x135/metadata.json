@@ -1,0 +1,33 @@
+{
+  "name": "Modern UI 2.1",
+  "description": "Another cool modern UI for your Bruce! By JustEnotik",
+  "category": "Themes",
+  "version": "2.1.0",
+  "commit": "f3a2bf5b5b8a167f52250a7fe84ecdc6cdcd265c",
+  "owner": "BruceDevices",
+  "repo": "App-Store-Apps",
+  "supported-screen-size": "240x135",
+  "path": "/Themes/Modern UI 2.1 240x135/",
+  "files": [
+    {
+      "source": "theme.json",
+      "destination": "Modern UI 2.1.json"
+    },
+    "ble.png",
+    "clock.png",
+    "config.png",
+    "connect.png",
+    "ethernet.png",
+    "files.png",
+    "fm.png",
+    "gps.png",
+    "interpreter.png",
+    "ir.png",
+    "lora.png",
+    "nrf.png",
+    "others.png",
+    "rf.png",
+    "rfid.png",
+    "wifi.png"
+  ]
+}
