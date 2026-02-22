@@ -1,8 +1,8 @@
 {
-  "generated": 1771630726,
-  "generatedISO": "2026-02-20T23:38:46.299Z",
+  "generated": 1771781310,
+  "generatedISO": "2026-02-22T17:28:30.234Z",
   "totalCategories": 8,
-  "totalApps": 56,
+  "totalApps": 57,
   "categories": [
     {
       "name": "Audio",
@@ -360,7 +360,7 @@
     {
       "name": "Themes",
       "slug": "themes",
-      "count": 28,
+      "count": 29,
       "apps": [
         {
           "name": "Bebra First Creation",
@@ -1188,6 +1188,42 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Modern UI 2 320x240/metadata.json"
         },
         {
+          "name": "Modern UI 2.1",
+          "description": "Another cool modern UI for your Bruce! By JustEnotik",
+          "category": "Themes",
+          "version": "2.1.0",
+          "commit": "f3a2bf5b5b8a167f52250a7fe84ecdc6cdcd265c",
+          "owner": "BruceDevices",
+          "repo": "App-Store-Apps",
+          "supported-screen-size": "240x135",
+          "path": "/Themes/Modern UI 2.1 240x135/",
+          "files": [
+            {
+              "source": "theme.json",
+              "destination": "Modern UI 2.1.json"
+            },
+            "ble.png",
+            "clock.png",
+            "config.png",
+            "connect.png",
+            "ethernet.png",
+            "files.png",
+            "fm.png",
+            "gps.png",
+            "interpreter.png",
+            "ir.png",
+            "lora.png",
+            "nrf.png",
+            "others.png",
+            "rf.png",
+            "rfid.png",
+            "wifi.png"
+          ],
+          "slug": "BruceDevices/App-Store-Apps/Modern UI 2.1 240x135",
+          "lastUpdated": 1771781293,
+          "metadataPath": "repositories/BruceDevices/App-Store-Apps/Modern UI 2.1 240x135/metadata.json"
+        },
+        {
           "name": "Peve",
           "description": "Awesome theme from Peve!",
           "category": "Themes",
@@ -1326,7 +1362,7 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Watch Dogs 320x170/metadata.json"
         }
       ],
-      "lastUpdated": 1771630606
+      "lastUpdated": 1771781293
     },
     {
       "name": "Tools",
