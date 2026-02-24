@@ -1,8 +1,8 @@
 {
-  "generated": 1771555929,
-  "generatedISO": "2026-02-20T02:52:09.843Z",
+  "generated": 1771879861,
+  "generatedISO": "2026-02-23T20:51:01.319Z",
   "totalCategories": 8,
-  "totalApps": 55,
+  "totalApps": 57,
   "categories": [
     {
       "name": "Audio",
@@ -360,7 +360,7 @@
     {
       "name": "Themes",
       "slug": "themes",
-      "count": 27,
+      "count": 29,
       "apps": [
         {
           "name": "Bebra First Creation",
@@ -396,6 +396,40 @@
           "slug": "BruceDevices/App-Store-Apps/Bebra First Creation 320x170",
           "lastUpdated": 1770861240,
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Bebra First Creation 320x170/metadata.json"
+        },
+        {
+          "name": "BLWS",
+          "description": "Cute blue shark named BLWS (pronounced \"Blues\")",
+          "category": "Themes",
+          "version": "1.0.0",
+          "commit": "143cd8f8135b16300c789d991ace3b586e5b68d9",
+          "owner": "Fantailed",
+          "repo": "BLWS",
+          "supported-screen-size": "320x170",
+          "path": "/theme/",
+          "files": [
+            {
+              "source": "blws_theme.json",
+              "destination": "BLWS.json"
+            },
+            "blws_t-embed_wifi.gif",
+            "blws_t-embed_ble.gif",
+            "blws_t-embed_config.gif",
+            "blws_t-embed_rf.gif",
+            "blws_t-embed_rfid.gif",
+            "blws_t-embed_ir.gif",
+            "blws_t-embed_files.gif",
+            "blws_t-embed_fm.gif",
+            "blws_t-embed_gps.gif",
+            "blws_t-embed_scripts.gif",
+            "blws_t-embed_nrf.gif",
+            "blws_t-embed_other.gif",
+            "blws_t-embed_clock.gif",
+            "blws_t-embed_connect.gif"
+          ],
+          "slug": "Fantailed/BLWS/BLWS",
+          "lastUpdated": 1771630606,
+          "metadataPath": "repositories/Fantailed/BLWS/BLWS/metadata.json"
         },
         {
           "name": "Bruce Theme (GIF)",
@@ -1154,6 +1188,42 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Modern UI 2 320x240/metadata.json"
         },
         {
+          "name": "Modern UI 2.1",
+          "description": "Another cool modern UI for your Bruce! By JustEnotik",
+          "category": "Themes",
+          "version": "2.1.0",
+          "commit": "f3a2bf5b5b8a167f52250a7fe84ecdc6cdcd265c",
+          "owner": "BruceDevices",
+          "repo": "App-Store-Apps",
+          "supported-screen-size": "240x135",
+          "path": "/Themes/Modern UI 2.1 240x135/",
+          "files": [
+            {
+              "source": "theme.json",
+              "destination": "Modern UI 2.1.json"
+            },
+            "ble.png",
+            "clock.png",
+            "config.png",
+            "connect.png",
+            "ethernet.png",
+            "files.png",
+            "fm.png",
+            "gps.png",
+            "interpreter.png",
+            "ir.png",
+            "lora.png",
+            "nrf.png",
+            "others.png",
+            "rf.png",
+            "rfid.png",
+            "wifi.png"
+          ],
+          "slug": "BruceDevices/App-Store-Apps/Modern UI 2.1 240x135",
+          "lastUpdated": 1771781293,
+          "metadataPath": "repositories/BruceDevices/App-Store-Apps/Modern UI 2.1 240x135/metadata.json"
+        },
+        {
           "name": "Peve",
           "description": "Awesome theme from Peve!",
           "category": "Themes",
@@ -1292,7 +1362,7 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Watch Dogs 320x170/metadata.json"
         }
       ],
-      "lastUpdated": 1771555910
+      "lastUpdated": 1771781293
     },
     {
       "name": "Tools",
@@ -1338,8 +1408,8 @@
           "name": "Key Decoding",
           "description": "Decode and randomly generate key bitting patterns for a bunch of lock brands",
           "category": "Tools",
-          "version": "1.14.0",
-          "commit": "8219565d63b44e4bbc1332523498f8c8b857cb36",
+          "version": "1.14.1",
+          "commit": "78729f8c44bcc65a2c2945fc148a877e3501cd2c",
           "owner": "SasPes",
           "repo": "key-decoding",
           "path": "/",
@@ -1355,7 +1425,7 @@
             "Smoochiee Board"
           ],
           "slug": "SasPes/key-decoding/Key Decoding",
-          "lastUpdated": 1770060041,
+          "lastUpdated": 1771877424,
           "metadataPath": "repositories/SasPes/key-decoding/Key Decoding/metadata.json"
         },
         {
@@ -1375,7 +1445,7 @@
           "metadataPath": "repositories/emericklaw/Bruce-Lock-Device-App/Lock Device/metadata.json"
         }
       ],
-      "lastUpdated": 1771039124
+      "lastUpdated": 1771877424
     },
     {
       "name": "Utilities",

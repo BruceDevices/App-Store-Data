@@ -25,7 +25,7 @@
     {
       "name": "Key Decoding",
       "description": "Decode and randomly generate key bitting patterns for a bunch of lock brands",
-      "version": "1.14.0",
+      "version": "1.14.1",
       "supported-devices": [
         "Lilygo T-Embed",
         "Lilygo T-Embed CC1101",
@@ -34,7 +34,7 @@
       "slug": "SasPes/key-decoding/Key Decoding",
       "n": "Key Decoding",
       "d": "Decode and randomly generate key bitting patterns for a bunch of lock brands",
-      "v": "1.14.0",
+      "v": "1.14.1",
       "s": "SasPes/key-decoding/Key Decoding",
       "sd": [
         "Lilygo T-Embed",

@@ -1,6 +1,6 @@
 {
   "category": "Themes",
-  "count": 27,
+  "count": 29,
   "apps": [
     {
       "name": "Bebra First Creation",
@@ -12,6 +12,18 @@
       "d": "Anime theme. First place on first Bruce Theme contest! By BBebbra3312",
       "v": "1.0.0",
       "s": "BruceDevices/App-Store-Apps/Bebra First Creation 320x170",
+      "sss": "320x170"
+    },
+    {
+      "name": "BLWS",
+      "description": "Cute blue shark named BLWS (pronounced \"Blues\")",
+      "version": "1.0.0",
+      "supported-screen-size": "320x170",
+      "slug": "Fantailed/BLWS/BLWS",
+      "n": "BLWS",
+      "d": "Cute blue shark named BLWS (pronounced \"Blues\")",
+      "v": "1.0.0",
+      "s": "Fantailed/BLWS/BLWS",
       "sss": "320x170"
     },
     {
@@ -285,6 +297,18 @@
       "v": "1.0.0",
       "s": "BruceDevices/App-Store-Apps/Modern UI 2 320x240",
       "sss": "320x240"
+    },
+    {
+      "name": "Modern UI 2.1",
+      "description": "Another cool modern UI for your Bruce! By JustEnotik",
+      "version": "2.1.0",
+      "supported-screen-size": "240x135",
+      "slug": "BruceDevices/App-Store-Apps/Modern UI 2.1 240x135",
+      "n": "Modern UI 2.1",
+      "d": "Another cool modern UI for your Bruce! By JustEnotik",
+      "v": "2.1.0",
+      "s": "BruceDevices/App-Store-Apps/Modern UI 2.1 240x135",
+      "sss": "240x135"
     },
     {
       "name": "Peve",
