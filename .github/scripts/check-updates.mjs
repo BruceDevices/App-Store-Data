@@ -130,35 +130,25 @@ async function main() {
           console.log(`   ✅ Up to date\n`);
         }
       } else {
-        // Always show update available info, regardless of onlyShowUpdates setting
-        if (onlyShowUpdates) {
-          console.log(`📦 Checking: ${metadata.name} (${metadata.owner}/${metadata.repo})`);
-          console.log(`   Repository: https://github.com/${metadata.owner}/${metadata.repo}`);
-          console.log(`   Current commit: ${metadata.commit}`);
-          console.log(`   Latest commit: ${latestCommit.sha}`);
-          console.log(`   Latest commit date: ${latestCommit.commit.committer.date}`);
-          console.log(`   Latest commit message: "${latestCommit.commit.message.split('\n')[0]}"`);
-        }
-        console.log(`   🔄 UPDATE AVAILABLE!`);
-        console.log(`   📄 Compare commits: https://github.com/${metadata.owner}/${metadata.repo}/compare/${metadata.commit}...${latestCommit.sha}`);
-        updatesAvailable++;
-        
         // Get file paths to track
         let filePaths = [];
         if (Array.isArray(metadata.files)) {
           filePaths = metadata.files.map(file => {
             if (typeof file === 'string') {
-              return path.join(metadata.path || '/', file);
+              return path.join(metadata.path || '/', file).replace(/\\/g, '/');
             } else if (file.source) {
-              return path.join(metadata.path || '/', file.source);
+              return path.join(metadata.path || '/', file.source).replace(/\\/g, '/');
             }
             return '';
           }).filter(p => p);
         }
         
-        // Get detailed changes if requested
-        if (detailedOutput && filePaths.length > 0) {
-          const changes = await getFileChanges(
+        // Check if tracked files have actually changed
+        let hasRelevantChanges = false;
+        let changes = null;
+        
+        if (filePaths.length > 0) {
+          changes = await getFileChanges(
             metadata.owner,
             metadata.repo,
             metadata.commit,
@@ -166,7 +156,34 @@ async function main() {
             filePaths
           );
           
-          if (changes) {
+          if (changes && changes.relevantChanges > 0) {
+            hasRelevantChanges = true;
+          }
+        } else {
+          // If no specific files to track, assume any commit means changes
+          hasRelevantChanges = true;
+        }
+        
+        if (!hasRelevantChanges) {
+          if (!onlyShowUpdates) {
+            console.log(`   ✅ Up to date (no relevant file changes)\n`);
+          }
+        } else {
+          // Always show update available info, regardless of onlyShowUpdates setting
+          if (onlyShowUpdates) {
+            console.log(`📦 Checking: ${metadata.name} (${metadata.owner}/${metadata.repo})`);
+            console.log(`   Repository: https://github.com/${metadata.owner}/${metadata.repo}`);
+            console.log(`   Current commit: ${metadata.commit}`);
+            console.log(`   Latest commit: ${latestCommit.sha}`);
+            console.log(`   Latest commit date: ${latestCommit.commit.committer.date}`);
+            console.log(`   Latest commit message: "${latestCommit.commit.message.split('\n')[0]}"`);
+          }
+          console.log(`   🔄 UPDATE AVAILABLE!`);
+          console.log(`   📄 Compare commits: https://github.com/${metadata.owner}/${metadata.repo}/compare/${metadata.commit}...${latestCommit.sha}`);
+          updatesAvailable++;
+          
+          // Get detailed changes if requested
+          if (detailedOutput && changes) {
             console.log(`   📊 Total repository changes: ${changes.totalChanges} files`);
             console.log(`   📊 Relevant file changes: ${changes.relevantChanges} files`);
             
@@ -177,8 +194,8 @@ async function main() {
               }
             }
           }
+          console.log('');
         }
-        console.log('');
       }
       
       // Small delay to avoid rate limiting
