@@ -26,7 +26,7 @@ jobs:
     
     - name: Install dependencies
       run: |
-        npm install -g @octokit/rest
+        npm install @octokit/rest
         npm install axios
     
     - name: Check metadata for updates
