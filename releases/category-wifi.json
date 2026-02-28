@@ -5,11 +5,11 @@
     {
       "name": "WiFi Brute Force",
       "description": "Brute force WiFi network password with dictionary attack",
-      "version": "1.0.4",
+      "version": "1.0.3",
       "slug": "BruceDevices/firmware/WiFi Brute Force",
       "n": "WiFi Brute Force",
       "d": "Brute force WiFi network password with dictionary attack",
-      "v": "1.0.4",
+      "v": "1.0.3",
       "s": "BruceDevices/firmware/WiFi Brute Force"
     }
   ]
