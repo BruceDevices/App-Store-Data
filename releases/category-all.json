@@ -1,6 +1,6 @@
 {
-  "generated": 1772243062,
-  "generatedISO": "2026-02-28T01:44:22.656Z",
+  "generated": 1772243642,
+  "generatedISO": "2026-02-28T01:54:02.238Z",
   "totalCategories": 8,
   "totalApps": 56,
   "categories": [
@@ -1541,8 +1541,8 @@
           "name": "WiFi Brute Force",
           "description": "Brute force WiFi network password with dictionary attack",
           "category": "WiFi",
-          "version": "1.0.3",
-          "commit": "18fe3c2c994c6a276447b2aee84e310c837ccbc4",
+          "version": "1.0.4",
+          "commit": "8c3cacc3b32509a436bc35dd4f6b40975664285a",
           "owner": "BruceDevices",
           "repo": "firmware",
           "path": "/sd_files/interpreter/",
@@ -1553,11 +1553,11 @@
             }
           ],
           "slug": "BruceDevices/firmware/WiFi Brute Force",
-          "lastUpdated": 1770902042,
+          "lastUpdated": 1772243625,
           "metadataPath": "repositories/BruceDevices/firmware/WiFi Brute Force/metadata.json"
         }
       ],
-      "lastUpdated": 1770902042
+      "lastUpdated": 1772243625
     }
   ]
 }
