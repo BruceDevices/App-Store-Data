@@ -1,6 +1,6 @@
 {
-  "generated": 1772242377,
-  "generatedISO": "2026-02-28T01:32:57.454Z",
+  "generated": 1772243062,
+  "generatedISO": "2026-02-28T01:44:22.656Z",
   "totalCategories": 8,
   "totalApps": 56,
   "categories": [
@@ -366,8 +366,8 @@
           "name": "Bebra First Creation",
           "description": "Anime theme. First place on first Bruce Theme contest! By BBebbra3312",
           "category": "Themes",
-          "version": "1.0.0",
-          "commit": "c3a78d4a4e431351833d8124109bc81f7c267b57",
+          "version": "1.0.1",
+          "commit": "84298735e27b7591bcd4cd6d8b20721d9e71eb12",
           "owner": "BruceDevices",
           "repo": "App-Store-Apps",
           "supported-screen-size": "320x170",
@@ -394,7 +394,7 @@
             "WIFI.png"
           ],
           "slug": "BruceDevices/App-Store-Apps/Bebra First Creation 320x170",
-          "lastUpdated": 1770861240,
+          "lastUpdated": 1772243047,
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Bebra First Creation 320x170/metadata.json"
         },
         {
@@ -1326,7 +1326,7 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Watch Dogs 320x170/metadata.json"
         }
       ],
-      "lastUpdated": 1771781293
+      "lastUpdated": 1772243047
     },
     {
       "name": "Tools",
