@@ -33,4 +33,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         DETAILED_OUTPUT: ${{ inputs.detailed_output }}
-      run: node .github/scripts/check-updates.js
+      run: node .github/scripts/check-updates.mjs
