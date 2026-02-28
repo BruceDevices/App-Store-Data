@@ -87,16 +87,22 @@ async function main() {
   let errors = 0;
   
   const detailedOutput = process.env.DETAILED_OUTPUT === 'true';
+  const onlyShowUpdates = process.env.ONLY_SHOW_UPDATES === 'true';
   
   for (const metadataFile of metadataFiles) {
     try {
       totalChecked++;
       const metadata = JSON.parse(fs.readFileSync(metadataFile, 'utf8'));
       
-      console.log(`📦 Checking: ${metadata.name} (${metadata.owner}/${metadata.repo})`);
-      console.log(`   Repository: https://github.com/${metadata.owner}/${metadata.repo}`);
-      console.log(`   Current commit: ${metadata.commit}`);
-      console.log(`   Path: ${metadata.path || '/'}`);
+      // Skip showing repository info if only showing updates and this repo is up to date
+      const shouldShowBasicInfo = !onlyShowUpdates;
+      
+      if (shouldShowBasicInfo) {
+        console.log(`📦 Checking: ${metadata.name} (${metadata.owner}/${metadata.repo})`);
+        console.log(`   Repository: https://github.com/${metadata.owner}/${metadata.repo}`);
+        console.log(`   Current commit: ${metadata.commit}`);
+        console.log(`   Path: ${metadata.path || '/'}`);
+      }
       
       // Get latest commit from the repository
       const latestCommit = await getLatestCommit(
@@ -106,18 +112,33 @@ async function main() {
       );
       
       if (!latestCommit) {
-        console.log(`   ❌ Could not fetch latest commit\n`);
+        if (shouldShowBasicInfo) {
+          console.log(`   ❌ Could not fetch latest commit\n`);
+        }
         errors++;
         continue;
       }
       
-      console.log(`   Latest commit: ${latestCommit.sha}`);
-      console.log(`   Latest commit date: ${latestCommit.commit.committer.date}`);
-      console.log(`   Latest commit message: "${latestCommit.commit.message.split('\n')[0]}"`);
+      if (shouldShowBasicInfo) {
+        console.log(`   Latest commit: ${latestCommit.sha}`);
+        console.log(`   Latest commit date: ${latestCommit.commit.committer.date}`);
+        console.log(`   Latest commit message: "${latestCommit.commit.message.split('\n')[0]}"`);
+      }
       
       if (metadata.commit === latestCommit.sha) {
-        console.log(`   ✅ Up to date\n`);
+        if (!onlyShowUpdates) {
+          console.log(`   ✅ Up to date\n`);
+        }
       } else {
+        // Always show update available info, regardless of onlyShowUpdates setting
+        if (onlyShowUpdates) {
+          console.log(`📦 Checking: ${metadata.name} (${metadata.owner}/${metadata.repo})`);
+          console.log(`   Repository: https://github.com/${metadata.owner}/${metadata.repo}`);
+          console.log(`   Current commit: ${metadata.commit}`);
+          console.log(`   Latest commit: ${latestCommit.sha}`);
+          console.log(`   Latest commit date: ${latestCommit.commit.committer.date}`);
+          console.log(`   Latest commit message: "${latestCommit.commit.message.split('\n')[0]}"`);
+        }
         console.log(`   🔄 UPDATE AVAILABLE!`);
         updatesAvailable++;
         

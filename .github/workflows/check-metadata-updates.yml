@@ -8,6 +8,11 @@ on:
         required: false
         default: true
         type: boolean
+      only_show_updates:
+        description: 'Only show repositories with updates available'
+        required: false
+        default: true
+        type: boolean
 
 jobs:
   check-updates:
@@ -33,4 +38,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         DETAILED_OUTPUT: ${{ inputs.detailed_output }}
+        ONLY_SHOW_UPDATES: ${{ inputs.only_show_updates }}
       run: node .github/scripts/check-updates.mjs
