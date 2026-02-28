@@ -1,6 +1,6 @@
 {
-  "generated": 1772243642,
-  "generatedISO": "2026-02-28T01:54:02.238Z",
+  "generated": 1772244105,
+  "generatedISO": "2026-02-28T02:01:45.468Z",
   "totalCategories": 8,
   "totalApps": 56,
   "categories": [
@@ -322,8 +322,8 @@
           "name": "ProtoPirate",
           "description": "Car key fob decoder with 11 protocols (Kia, Chrysler/Jeep, StarLine, Scher-Khan, Subaru, Fiat, Ford, Suzuki), frequency selection (315/433/868 MHz), load/save .sub files, rolling code TX.",
           "category": "RF",
-          "version": "2.1.0",
-          "commit": "e2ad557ccc0108f5f4a3f843e839fd8a7ca80640",
+          "version": "2.2.0",
+          "commit": "77b4df3a49235472eacc0079f1daba8eb584a2ba",
           "owner": "jsauce454",
           "repo": "ProtoPirate-Bruce",
           "path": "/",
@@ -332,7 +332,7 @@
             "ProtoPirate.js"
           ],
           "slug": "jsauce454/ProtoPirate-Bruce/ProtoPirate Bruce",
-          "lastUpdated": 1771432128,
+          "lastUpdated": 1772244087,
           "metadataPath": "repositories/jsauce454/ProtoPirate-Bruce/ProtoPirate Bruce/metadata.json"
         },
         {
@@ -355,7 +355,7 @@
           "metadataPath": "repositories/BruceDevices/firmware/RF Brute Force/metadata.json"
         }
       ],
-      "lastUpdated": 1771432128
+      "lastUpdated": 1772244087
     },
     {
       "name": "Themes",
@@ -1541,8 +1541,8 @@
           "name": "WiFi Brute Force",
           "description": "Brute force WiFi network password with dictionary attack",
           "category": "WiFi",
-          "version": "1.0.4",
-          "commit": "8c3cacc3b32509a436bc35dd4f6b40975664285a",
+          "version": "1.0.3",
+          "commit": "18fe3c2c994c6a276447b2aee84e310c837ccbc4",
           "owner": "BruceDevices",
           "repo": "firmware",
           "path": "/sd_files/interpreter/",
@@ -1553,11 +1553,11 @@
             }
           ],
           "slug": "BruceDevices/firmware/WiFi Brute Force",
-          "lastUpdated": 1772243625,
+          "lastUpdated": 1772244078,
           "metadataPath": "repositories/BruceDevices/firmware/WiFi Brute Force/metadata.json"
         }
       ],
-      "lastUpdated": 1772243625
+      "lastUpdated": 1772244078
     }
   ]
 }
