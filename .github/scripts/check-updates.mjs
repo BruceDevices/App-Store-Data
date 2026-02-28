@@ -140,6 +140,7 @@ async function main() {
           console.log(`   Latest commit message: "${latestCommit.commit.message.split('\n')[0]}"`);
         }
         console.log(`   🔄 UPDATE AVAILABLE!`);
+        console.log(`   📄 Compare commits: https://github.com/${metadata.owner}/${metadata.repo}/compare/${metadata.commit}...${latestCommit.sha}`);
         updatesAvailable++;
         
         // Get file paths to track
