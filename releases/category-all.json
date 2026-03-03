@@ -1,6 +1,6 @@
 {
-  "generated": 1772535827,
-  "generatedISO": "2026-03-03T11:03:47.434Z",
+  "generated": 1772536050,
+  "generatedISO": "2026-03-03T11:07:30.931Z",
   "totalCategories": 8,
   "totalApps": 58,
   "categories": [
@@ -712,7 +712,7 @@
           "owner": "CreeperRick",
           "repo": "BruceStore",
           "supported-screen-size": "240x135",
-          "path": "/Cyber_Hacker/",
+          "path": "/Cyber_Hacker_240x135/",
           "files": [
             {
               "source": "Cyber_Hacker.json",
@@ -736,7 +736,7 @@
             "WiFi.gif"
           ],
           "slug": "CreeperRick/BruceStore/Cyber Hacker 240x135",
-          "lastUpdated": 1772535776,
+          "lastUpdated": 1772536015,
           "metadataPath": "repositories/CreeperRick/BruceStore/Cyber Hacker 240x135/metadata.json"
         },
         {
@@ -748,7 +748,7 @@
           "owner": "CreeperRick",
           "repo": "BruceStore",
           "supported-screen-size": "320x170",
-          "path": "/Cyber_Hacker/",
+          "path": "/Cyber_Hacker_320x170/",
           "files": [
             {
               "source": "Cyber_Hacker.json",
@@ -772,7 +772,7 @@
             "WiFi.gif"
           ],
           "slug": "CreeperRick/BruceStore/Cyber Hacker 320x170",
-          "lastUpdated": 1772535776,
+          "lastUpdated": 1772536015,
           "metadataPath": "repositories/CreeperRick/BruceStore/Cyber Hacker 320x170/metadata.json"
         },
         {
@@ -784,7 +784,7 @@
           "owner": "CreeperRick",
           "repo": "BruceStore",
           "supported-screen-size": "240x135",
-          "path": "/Cyber_Hacker/",
+          "path": "/Cyber_Hacker_240x135/",
           "files": [
             {
               "source": "Cyber_Hacker_Game.json",
@@ -808,7 +808,7 @@
             "WiFi.gif"
           ],
           "slug": "CreeperRick/BruceStore/Cyber Hacker v2 240x135",
-          "lastUpdated": 1772535776,
+          "lastUpdated": 1772536015,
           "metadataPath": "repositories/CreeperRick/BruceStore/Cyber Hacker v2 240x135/metadata.json"
         },
         {
@@ -820,7 +820,7 @@
           "owner": "CreeperRick",
           "repo": "BruceStore",
           "supported-screen-size": "320x170",
-          "path": "/Cyber_Hacker/",
+          "path": "/Cyber_Hacker_320x170/",
           "files": [
             {
               "source": "Cyber_Hacker_Game.json",
@@ -844,7 +844,7 @@
             "WiFi.gif"
           ],
           "slug": "CreeperRick/BruceStore/Cyber Hacker v2 320x170",
-          "lastUpdated": 1772535776,
+          "lastUpdated": 1772536015,
           "metadataPath": "repositories/CreeperRick/BruceStore/Cyber Hacker v2 320x170/metadata.json"
         },
         {
@@ -1398,7 +1398,7 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Watch Dogs 320x170/metadata.json"
         }
       ],
-      "lastUpdated": 1772535776
+      "lastUpdated": 1772536015
     },
     {
       "name": "Tools",
