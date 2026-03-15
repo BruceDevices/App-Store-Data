@@ -7,6 +7,10 @@
   "owner": "MiskaJuro",
   "repo": "bruce-applications",
   "path": "/Morse-Code/",
-  "files": [ "morse-code.js" ],
-  "supported-devices": [ "m5stickc_plus2" ]
+  "files": [
+    "morse-code.js"
+  ],
+  "supported-devices": [
+    "M5StickC Plus2"
+  ]
 }
