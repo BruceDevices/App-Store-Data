@@ -204,7 +204,7 @@ function compareVersions(v1, v2) {
 }
 
 // Function to validate JSON structure
-async function validateMetadata(filePath, dir, prAuthor, logoValidationFailed = false, logoPath = null) {
+async function validateMetadata(filePath, dir, prAuthor, logoValidationFailed = false) {
     let hasErrors = logoValidationFailed; // Start with logo validation result
     let metadata;
     try {
@@ -591,32 +591,6 @@ async function validateMetadata(filePath, dir, prAuthor, logoValidationFailed = 
         metadataInfo += `- **Changes:** [View commit comparison](${compareLink})\n`;
     }
     metadataInfo += '\n';
-
-    // Add logo validation output at the end of metadata validation
-    if (logoPath) {
-        console.log(`    - 📄 \`logo.png\``);
-        if (fs.existsSync(logoPath)) {
-            console.log(`      - ✅ File exists`);
-            
-            // Check logo dimensions
-            console.log(`      - 🔍 Checking logo dimensions...`);
-            const dimensions = getPngDimensions(logoPath);
-            if (dimensions) {
-                const { width, height } = dimensions;
-                console.log(`        - ℹ️ Logo size: ${width}x${height}`);
-                
-                if (width !== 128 || height !== 128) {
-                    console.log(`        - ❌ Logo must be exactly 128x128 pixels: found ${width}x${height}`);
-                } else {
-                    console.log(`        - ✅ Logo size valid: ${width}x${height}`);
-                }
-            } else {
-                console.log(`        - ❌ Unable to read logo dimensions (not a valid PNG?)`);
-            }
-        } else {
-            console.log(`      - ❌ File not found`);
-        }
-    }
 
     return { success: !hasErrors, metadataInfo }; // Return success status and metadata info
 }
@@ -1059,39 +1033,51 @@ async function main() {
         let logoValidationFailed = false;
         
         // Check for metadata.json
-        console.log(`    📄 \`metadata.json\``);
+        console.log(`📄 \`metadata.json\``);
         if (fs.existsSync(metadataFile)) {
-            console.log(`    - ✅ File exists`);
+            console.log(`    ✅ File exists`);
             metadataFound = true;
         } else {
-            console.log(`    - ❌ File not found`);
+            console.log(`    ❌ File not found`);
             directoryValid = false;
         }
 
-        // Validate metadata.json if it exists, passing logo validation result (we'll determine this first)
-        // First check logo validation status without outputting
+        // Check for logo.png first to determine logo validation status
+        console.log(`📄 \`logo.png\``);
         if (fs.existsSync(logoPath)) {
+            console.log(`    ✅ File exists`);
+            
+            // Check logo dimensions
+            console.log(`    🔍 Checking logo dimensions...`);
             const dimensions = getPngDimensions(logoPath);
             if (dimensions) {
                 const { width, height } = dimensions;
+                console.log(`        ℹ️ Logo size: ${width}x${height}`);
+                
                 if (width !== 128 || height !== 128) {
-                    logoValidationFailed = true;
+                    console.log(`        ❌ Logo must be exactly 128x128 pixels: found ${width}x${height}`);
                     validationFailed = true;
                     directoryValid = false;
+                    logoValidationFailed = true;
+                } else {
+                    console.log(`        ✅ Logo size valid: ${width}x${height}`);
                 }
             } else {
-                logoValidationFailed = true;
+                console.log(`        ❌ Unable to read logo dimensions (not a valid PNG?)`);
                 validationFailed = true;
                 directoryValid = false;
+                logoValidationFailed = true;
             }
         } else {
-            logoValidationFailed = true;
+            console.log(`    ❌ File not found`);
             validationFailed = true;
             directoryValid = false;
+            logoValidationFailed = true;
         }
 
+        // Validate metadata.json if it exists, passing logo validation result
         if (fs.existsSync(metadataFile)) {
-            const result = await validateMetadata(metadataFile, dirPath, prAuthor, logoValidationFailed, logoPath);
+            const result = await validateMetadata(metadataFile, dirPath, prAuthor, logoValidationFailed);
             if (!result.success) {
                 validationFailed = true;
                 hasInvalidMetadata = true;
