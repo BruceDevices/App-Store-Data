@@ -1097,7 +1097,6 @@ async function main() {
         } else {
             console.log(`    - ❌ File not found`);
         }
-        }
         
         return { directoryValid, directoryMetadataInfo, hasMissingLogo: !fs.existsSync(logoPath) };
     }
