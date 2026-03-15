@@ -1,16 +1,14 @@
 {
   "name": "Morse Code",
   "description": "Convert text to morse code.",
-  "category": "Utilities",
+  "category": "Audio",
   "version": "1.0.0",
   "commit": "df54096328c96f9e373c909f8f9dfa2e9f871cfc",
   "owner": "MiskaJuro",
   "repo": "bruce-applications",
   "path": "/Morse-Code/",
   "files": [
-    "morse-code.js"
-  ],
-  "supported-devices": [
-    "M5StickC Plus2"
+    "source": "morse-code.js",
+    "destination": "Morse Code.js"
   ]
 }
