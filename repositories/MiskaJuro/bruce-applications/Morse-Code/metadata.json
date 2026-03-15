@@ -8,7 +8,9 @@
   "repo": "bruce-applications",
   "path": "/Morse-Code/",
   "files": [
-    "source": "morse-code.js",
-    "destination": "Morse Code.js"
+    {
+      "source": "morse-code.js",
+      "destination": "Morse Code.js"
+    }
   ]
 }
