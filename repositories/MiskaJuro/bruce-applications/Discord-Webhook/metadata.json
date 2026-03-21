@@ -1,0 +1,20 @@
+{
+  "name": "Discord Webhook",
+  "description": "Send messages to Discord.",
+  "category": "Utilities",
+  "version": "1.0.0",
+  "commit": "be03a954ec4ab82453a53bb14b1141c0ec4dc543",
+  "owner": "MiskaJuro",
+  "repo": "bruce-applications",
+  "path": "/Discord-Webhook/",
+  "supported-devices": [
+    "Lilygo T-Embed CC1101",
+    "Lilygo T-Embed"
+  ],
+  "files": [
+    {
+      "source": "discord-webhook.js",
+      "destination": "Discord Webhook.js"
+    }
+  ]
+}
