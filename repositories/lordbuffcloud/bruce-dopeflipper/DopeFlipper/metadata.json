@@ -1,9 +1,9 @@
 {
   "name": "DopeFlipper",
-  "description": "CK42X DopeWars: buy low, sell high, travel NYC boroughs, dodge cops. Exports stats.ck42x for the ck42x.com leaderboard.",
+  "description": "CK42X DopeWars for T-Embed: buy low, sell high, dodge cops, survive 30 days across NYC. Exports stats.ck42x for ck42x.com.",
   "category": "Games",
   "version": "1.0.0",
-  "commit": "b037a6b2170d0a9d6176b149b9cc3939c44dfe63",
+  "commit": "a2ae0c233a42f30fd327b9a9c27300dad12c3aac",
   "owner": "lordbuffcloud",
   "repo": "bruce-dopeflipper",
   "path": "/",
@@ -12,9 +12,6 @@
     "Lilygo T-Embed CC1101"
   ],
   "files": [
-    {
-      "source": "dopeflipper.js",
-      "destination": "dopeflipper.js"
-    }
+    "dopeflipper.js"
   ]
 }
