@@ -1,9 +1,9 @@
 {
   "name": "DopeFlipper",
-  "description": "CK42X DopeWars for T-Embed: buy low, sell high, dodge cops, survive 30 days across NYC. Exports stats.ck42x for ck42x.com.",
+  "description": "CK42X DopeWars for T-Embed: buy low, sell high, dodge cops, survive 30 days across NYC boroughs. Exports stats.ck42x for ck42x.com.",
   "category": "Games",
-  "version": "1.0.0",
-  "commit": "a2ae0c233a42f30fd327b9a9c27300dad12c3aac",
+  "version": "1.0.3",
+  "commit": "ad9df6fed89f7cb88ed2dd8a2598018f77042915",
   "owner": "lordbuffcloud",
   "repo": "bruce-dopeflipper",
   "path": "/",
