@@ -39,18 +39,19 @@ jobs:
           })
 
     - name: Checkout base branch to get latest validation script
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
       with:
         ref: ${{ github.base_ref }}
         fetch-depth: 0
         path: base-repo
 
     - name: Checkout PR code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
       with:
         ref: ${{ github.event.pull_request.head.sha }}
         fetch-depth: 0
         path: pr-repo
+        allow-unsafe-pr-checkout: true
 
     - name: Copy validation script from base branch
       run: |
@@ -58,9 +59,9 @@ jobs:
         cp base-repo/.github/scripts/validate-pull-request.js pr-repo/.github/scripts/
 
     - name: Setup Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v7
       with:
-        node-version: '18'
+        node-version: '24'
         
     - name: Change to PR directory and validate
       working-directory: pr-repo
