@@ -1,8 +1,8 @@
 {
-  "generated": 1785718759,
-  "generatedISO": "2026-08-03T00:59:19.099Z",
+  "generated": 1785720232,
+  "generatedISO": "2026-08-03T01:23:52.914Z",
   "totalCategories": 8,
-  "totalApps": 61,
+  "totalApps": 62,
   "categories": [
     {
       "name": "Audio",
@@ -101,7 +101,7 @@
     {
       "name": "Games",
       "slug": "games",
-      "count": 9,
+      "count": 10,
       "apps": [
         {
           "name": "Arcade Games",
@@ -246,6 +246,26 @@
           "metadataPath": "repositories/BruceDevices/firmware/Snake M5 Stick/metadata.json"
         },
         {
+          "name": "Snake",
+          "description": "Jogo da cobrinha classico para Cardputer, com placar e velocidade progressiva",
+          "category": "Games",
+          "version": "1.0.0",
+          "commit": "30b6753c76fdf27c7303b252a2e9037cc13f5344",
+          "owner": "mateuspereirabr71-bit",
+          "repo": "bruce-snake",
+          "path": "/",
+          "supported-devices": "M5Stack Cardputer",
+          "files": [
+            {
+              "source": "snake.js",
+              "destination": "Snake.js"
+            }
+          ],
+          "slug": "mateuspereirabr71-bit/bruce-snake/Snake",
+          "lastUpdated": 1785719059,
+          "metadataPath": "repositories/mateuspereirabr71-bit/bruce-snake/Snake/metadata.json"
+        },
+        {
           "name": "Space Shooter",
           "description": "Space Shooter game",
           "category": "Games",
@@ -284,7 +304,7 @@
           "metadataPath": "repositories/BruceDevices/firmware/Tamagochi/metadata.json"
         }
       ],
-      "lastUpdated": 1770152020
+      "lastUpdated": 1785719059
     },
     {
       "name": "Infrared",

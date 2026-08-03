@@ -1,0 +1,17 @@
+{
+  "name": "Snake",
+  "description": "Jogo da cobrinha classico para Cardputer, com placar e velocidade progressiva",
+  "category": "Games",
+  "version": "1.0.0",
+  "commit": "30b6753c76fdf27c7303b252a2e9037cc13f5344",
+  "owner": "mateuspereirabr71-bit",
+  "repo": "bruce-snake",
+  "path": "/",
+  "supported-devices": "M5Stack Cardputer",
+  "files": [
+    {
+      "source": "snake.js",
+      "destination": "Snake.js"
+    }
+  ]
+}
