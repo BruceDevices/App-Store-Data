@@ -8,10 +8,6 @@
   "repo": "bruce-ean-generator",
   "path": "/",
   "files": [
-    "EAN13.js",
-    {
-      "source": "EAN13.js",
-      "destination": "EAN13.js"
-    }
+    "EAN13.js"
   ]
 }
