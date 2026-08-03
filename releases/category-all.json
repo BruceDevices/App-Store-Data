@@ -1,8 +1,8 @@
 {
-  "generated": 1785718624,
-  "generatedISO": "2026-08-03T00:57:04.301Z",
+  "generated": 1785718705,
+  "generatedISO": "2026-08-03T00:58:25.087Z",
   "totalCategories": 8,
-  "totalApps": 59,
+  "totalApps": 60,
   "categories": [
     {
       "name": "Audio",
@@ -1422,7 +1422,7 @@
     {
       "name": "Tools",
       "slug": "tools",
-      "count": 4,
+      "count": 5,
       "apps": [
         {
           "name": "App Store",
@@ -1458,6 +1458,26 @@
           "slug": "emericklaw/Bruce-Device-Info-App/Device Info",
           "lastUpdated": 1769482052,
           "metadataPath": "repositories/emericklaw/Bruce-Device-Info-App/Device Info/metadata.json"
+        },
+        {
+          "name": "EAN13",
+          "description": "An app to create and display EAN-13 barcodes.",
+          "category": "Tools",
+          "version": "1.0.0",
+          "commit": "d619d6d8b31db23002911aca7c6d5ef6cd6d1bb4",
+          "owner": "jackmcbrezel",
+          "repo": "bruce-ean-generator",
+          "path": "/",
+          "files": [
+            "EAN13.js",
+            {
+              "source": "EAN13.js",
+              "destination": "EAN13.js"
+            }
+          ],
+          "slug": "jackmcbrezel/bruce-ean-generator",
+          "lastUpdated": 1783085519,
+          "metadataPath": "repositories/jackmcbrezel/bruce-ean-generator/metadata.json"
         },
         {
           "name": "Key Decoding",
