@@ -1,6 +1,6 @@
 {
-  "generated": 1785720232,
-  "generatedISO": "2026-08-03T01:23:52.914Z",
+  "generated": 1785720691,
+  "generatedISO": "2026-08-03T01:31:31.164Z",
   "totalCategories": 8,
   "totalApps": 62,
   "categories": [
@@ -1489,14 +1489,10 @@
           "repo": "bruce-ean-generator",
           "path": "/",
           "files": [
-            "EAN13.js",
-            {
-              "source": "EAN13.js",
-              "destination": "EAN13.js"
-            }
+            "EAN13.js"
           ],
           "slug": "jackmcbrezel/bruce-ean-generator",
-          "lastUpdated": 1783085519,
+          "lastUpdated": 1785720678,
           "metadataPath": "repositories/jackmcbrezel/bruce-ean-generator/metadata.json"
         },
         {
@@ -1540,7 +1536,7 @@
           "metadataPath": "repositories/emericklaw/Bruce-Lock-Device-App/Lock Device/metadata.json"
         }
       ],
-      "lastUpdated": 1784214149
+      "lastUpdated": 1785720678
     },
     {
       "name": "Utilities",
