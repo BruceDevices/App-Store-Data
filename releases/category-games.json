@@ -1,6 +1,6 @@
 {
   "category": "Games",
-  "count": 9,
+  "count": 10,
   "apps": [
     {
       "name": "Arcade Games",
@@ -89,6 +89,18 @@
       "v": "1.0.1",
       "s": "BruceDevices/firmware/Snake M5 Stick",
       "sd": "(M5Stick.*|M5Stack Core.*)"
+    },
+    {
+      "name": "Snake",
+      "description": "Jogo da cobrinha classico para Cardputer, com placar e velocidade progressiva",
+      "version": "1.0.0",
+      "supported-devices": "M5Stack Cardputer",
+      "slug": "mateuspereirabr71-bit/bruce-snake/Snake",
+      "n": "Snake",
+      "d": "Jogo da cobrinha classico para Cardputer, com placar e velocidade progressiva",
+      "v": "1.0.0",
+      "s": "mateuspereirabr71-bit/bruce-snake/Snake",
+      "sd": "M5Stack Cardputer"
     },
     {
       "name": "Space Shooter",
