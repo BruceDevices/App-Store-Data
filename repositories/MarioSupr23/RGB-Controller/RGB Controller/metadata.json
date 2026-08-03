@@ -1,0 +1,14 @@
+{
+  "name": "RGB Controller",
+  "description": "A simple app that allows you to control the RGB LED on the back of your CYD",
+  "category": "Utilities",
+  "version": "1.0.0",
+  "commit": "9b33bd9d4a20c6bb9c06dd2b96d5635f39a6e419",
+  "owner": "MarioSupr23",
+  "repo": "RGB-Controller",
+  "path": "/",
+  "supported-devices": "CYD-2432S028",
+  "files": [
+    "RGB Controller.js"
+  ]
+}
