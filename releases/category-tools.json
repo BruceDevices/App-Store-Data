@@ -1,6 +1,6 @@
 {
   "category": "Tools",
-  "count": 4,
+  "count": 5,
   "apps": [
     {
       "name": "App Store",
@@ -21,6 +21,16 @@
       "d": "Device information display showing hardware details and memory statistics",
       "v": "1.0.1",
       "s": "emericklaw/Bruce-Device-Info-App/Device Info"
+    },
+    {
+      "name": "EAN13",
+      "description": "An app to create and display EAN-13 barcodes.",
+      "version": "1.0.0",
+      "slug": "jackmcbrezel/bruce-ean-generator/bruce-ean-generator",
+      "n": "EAN13",
+      "d": "An app to create and display EAN-13 barcodes.",
+      "v": "1.0.0",
+      "s": "jackmcbrezel/bruce-ean-generator/bruce-ean-generator"
     },
     {
       "name": "Key Decoding",
