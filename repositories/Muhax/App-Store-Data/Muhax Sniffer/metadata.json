@@ -1,0 +1,11 @@
+{
+  "name": "Muhax Sniffer",
+  "description": "WiFi network scanner with CSV export to SD or LittleFS",
+  "category": "WiFi",
+  "version": "1.0.0",
+  "commit": "165f88d148039800649a95503277c6755397df87",
+  "owner": "Muhax",
+  "repo": "App-Store-Data",
+  "path": "/repositories/your-github-username/App-Store-Data/Muhax Sniffer/",
+  "files": ["muhax_sniffer.js"]
+}
