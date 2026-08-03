@@ -1,8 +1,8 @@
 {
-  "generated": 1785718705,
-  "generatedISO": "2026-08-03T00:58:25.087Z",
+  "generated": 1785718759,
+  "generatedISO": "2026-08-03T00:59:19.099Z",
   "totalCategories": 8,
-  "totalApps": 60,
+  "totalApps": 61,
   "categories": [
     {
       "name": "Audio",
@@ -1525,7 +1525,7 @@
     {
       "name": "Utilities",
       "slug": "utilities",
-      "count": 6,
+      "count": 7,
       "apps": [
         {
           "name": "Calculator",
@@ -1622,6 +1622,23 @@
           "metadataPath": "repositories/emericklaw/Bruce-Hello-World-Example-App/Hello World/metadata.json"
         },
         {
+          "name": "RGB Controller",
+          "description": "A simple app that allows you to control the RGB LED on the back of your CYD",
+          "category": "Utilities",
+          "version": "1.0.0",
+          "commit": "9b33bd9d4a20c6bb9c06dd2b96d5635f39a6e419",
+          "owner": "MarioSupr23",
+          "repo": "RGB-Controller",
+          "path": "/",
+          "supported-devices": "CYD-2432S028",
+          "files": [
+            "RGB Controller.js"
+          ],
+          "slug": "MarioSupr23/RGB-Controller/RGB Controller",
+          "lastUpdated": 1782735535,
+          "metadataPath": "repositories/MarioSupr23/RGB-Controller/RGB Controller/metadata.json"
+        },
+        {
           "name": "Web Browser",
           "description": "Very basic web browser",
           "category": "Utilities",
@@ -1641,7 +1658,7 @@
           "metadataPath": "repositories/BruceDevices/firmware/Web Browser/metadata.json"
         }
       ],
-      "lastUpdated": 1769975681
+      "lastUpdated": 1782735535
     },
     {
       "name": "WiFi",
