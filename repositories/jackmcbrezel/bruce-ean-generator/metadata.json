@@ -1,0 +1,17 @@
+{
+  "name": "EAN13",
+  "description": "An app to create and display EAN-13 barcodes.",
+  "category": "Tools",
+  "version": "1.0.0",
+  "commit": "d619d6d8b31db23002911aca7c6d5ef6cd6d1bb4",
+  "owner": "jackmcbrezel",
+  "repo": "bruce-ean-generator",
+  "path": "/",
+  "files": [
+    "EAN13.js",
+    {
+      "source": "EAN13.js",
+      "destination": "EAN13.js"
+    }
+  ]
+}
