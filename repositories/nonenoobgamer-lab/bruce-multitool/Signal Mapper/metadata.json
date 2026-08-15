@@ -1,0 +1,17 @@
+{
+  "name": "Signal Mapper",
+  "description": "Capture IR and Sub-GHz RF, save sendable .ir/.sub files, and read NFC tags. No Wi-Fi scanning.",
+  "category": "Tools",
+  "version": "1.0.0",
+  "commit": "3c7e68faa28f0f02ce3593a00b4f1c1bfedca7dd",
+  "owner": "nonenoobgamer-lab",
+  "repo": "bruce-multitool",
+  "path": "/scripts/",
+  "supported-devices": [
+    "Lilygo T-Embed",
+    "Lilygo T-Embed CC1101"
+  ],
+  "files": [
+    "signalmap.js"
+  ]
+}
