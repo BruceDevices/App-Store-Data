@@ -1,0 +1,33 @@
+{
+  "name": "Spider-Man",
+  "description": "Spider-Man theme \u2014 big current picto beside its name in the classic comic font.",
+  "category": "Themes",
+  "version": "1.0.0",
+  "commit": "d25325f6ffed21d5be4a25d78655ca697e60f0f6",
+  "owner": "koua29",
+  "repo": "bruce-spiderman-theme",
+  "supported-screen-size": "320x170",
+  "path": "/Spiderman/140px/",
+  "files": [
+    {
+      "source": "Theme_Spiderman.json",
+      "destination": "Spider-Man.json"
+    },
+    "Wifi.png",
+    "Ble.png",
+    "Rf.png",
+    "Nrf24.png",
+    "Lora.png",
+    "Fm.png",
+    "Ir.png",
+    "Eth.png",
+    "Gps.png",
+    "Rfid.png",
+    "Files.png",
+    "Js.png",
+    "Clock.png",
+    "Others.png",
+    "Config.png",
+    "Connect.png"
+  ]
+}

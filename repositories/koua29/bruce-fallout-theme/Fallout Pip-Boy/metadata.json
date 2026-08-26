@@ -1,0 +1,33 @@
+{
+  "name": "Fallout Pip-Boy",
+  "description": "Fallout Pip-Boy terminal theme \u2014 rusty green CRT bezel with a scrolling menu.",
+  "category": "Themes",
+  "version": "1.0.0",
+  "commit": "8218ecd2e0020b15ba1d14a2a8f0c1bb37543615",
+  "owner": "koua29",
+  "repo": "bruce-fallout-theme",
+  "supported-screen-size": "320x170",
+  "path": "/Fallout_PipBoy/140px/",
+  "files": [
+    {
+      "source": "Theme_Fallout_PipBoy.json",
+      "destination": "Fallout Pip-Boy.json"
+    },
+    "Wifi.png",
+    "Ble.png",
+    "Rf.png",
+    "Nrf24.png",
+    "Lora.png",
+    "Fm.png",
+    "Ir.png",
+    "Eth.png",
+    "Gps.png",
+    "Rfid.png",
+    "Files.png",
+    "Js.png",
+    "Clock.png",
+    "Others.png",
+    "Config.png",
+    "Connect.png"
+  ]
+}
