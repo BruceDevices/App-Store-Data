@@ -1,8 +1,8 @@
 {
-  "generated": 1785720691,
-  "generatedISO": "2026-08-03T01:31:31.164Z",
+  "generated": 1788214348,
+  "generatedISO": "2026-08-31T22:12:28.680Z",
   "totalCategories": 8,
-  "totalApps": 62,
+  "totalApps": 63,
   "categories": [
     {
       "name": "Audio",
@@ -101,7 +101,7 @@
     {
       "name": "Games",
       "slug": "games",
-      "count": 10,
+      "count": 11,
       "apps": [
         {
           "name": "Arcade Games",
@@ -142,6 +142,25 @@
           "slug": "BruceDevices/firmware/Dino",
           "lastUpdated": 1769975681,
           "metadataPath": "repositories/BruceDevices/firmware/Dino/metadata.json"
+        },
+        {
+          "name": "Flappy Bird",
+          "description": "Classic Flappy Bird arcade game for Bruce devices with score tracking and sound effects",
+          "category": "Games",
+          "version": "1.0.0",
+          "commit": "c09a196dfb22911425fddfde63d0bb28e52aff50",
+          "owner": "Valkrycxx",
+          "repo": "bruce-flappybird",
+          "path": "/",
+          "files": [
+            {
+              "source": "flappybird.js",
+              "destination": "Flappy Bird.js"
+            }
+          ],
+          "slug": "Valkrycxx/bruce-flappybird/Flappy Bird",
+          "lastUpdated": 1788211653,
+          "metadataPath": "repositories/Valkrycxx/bruce-flappybird/Flappy Bird/metadata.json"
         },
         {
           "name": "Highway Racer",
@@ -304,7 +323,7 @@
           "metadataPath": "repositories/BruceDevices/firmware/Tamagochi/metadata.json"
         }
       ],
-      "lastUpdated": 1785719059
+      "lastUpdated": 1788211653
     },
     {
       "name": "Infrared",
