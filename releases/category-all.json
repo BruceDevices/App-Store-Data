@@ -1,6 +1,6 @@
 {
-  "generated": 1788216232,
-  "generatedISO": "2026-08-31T22:43:52.878Z",
+  "generated": 1788217135,
+  "generatedISO": "2026-08-31T22:58:55.415Z",
   "totalCategories": 8,
   "totalApps": 63,
   "categories": [
@@ -147,8 +147,8 @@
           "name": "Flappy Bird",
           "description": "Classic Flappy Bird arcade game for Bruce devices with score tracking and sound effects",
           "category": "Games",
-          "version": "1.0.5",
-          "commit": "474df58d963e609450e3826355168218261a9566",
+          "version": "1.0.7",
+          "commit": "97a826ea98be2d108c71fbb1d296458a386033ad",
           "owner": "Valkrycxx",
           "repo": "bruce-flappybird",
           "path": "/",
@@ -159,7 +159,7 @@
             }
           ],
           "slug": "Valkrycxx/bruce-flappybird/Flappy Bird",
-          "lastUpdated": 1788215988,
+          "lastUpdated": 1788216738,
           "metadataPath": "repositories/Valkrycxx/bruce-flappybird/Flappy Bird/metadata.json"
         },
         {
@@ -323,7 +323,7 @@
           "metadataPath": "repositories/BruceDevices/firmware/Tamagochi/metadata.json"
         }
       ],
-      "lastUpdated": 1788215988
+      "lastUpdated": 1788216738
     },
     {
       "name": "Infrared",
