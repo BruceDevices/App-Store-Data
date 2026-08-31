@@ -1,6 +1,6 @@
 {
   "category": "Games",
-  "count": 10,
+  "count": 11,
   "apps": [
     {
       "name": "Arcade Games",
@@ -25,6 +25,16 @@
       "v": "1.0.1",
       "s": "BruceDevices/firmware/Dino",
       "sd": "T-Embed.*"
+    },
+    {
+      "name": "Flappy Bird",
+      "description": "Classic Flappy Bird arcade game for Bruce devices with score tracking and sound effects",
+      "version": "1.0.0",
+      "slug": "Valkrycxx/bruce-flappybird/Flappy Bird",
+      "n": "Flappy Bird",
+      "d": "Classic Flappy Bird arcade game for Bruce devices with score tracking and sound effects",
+      "v": "1.0.0",
+      "s": "Valkrycxx/bruce-flappybird/Flappy Bird"
     },
     {
       "name": "Highway Racer",
