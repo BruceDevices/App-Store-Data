@@ -1,0 +1,16 @@
+{
+  "name": "Flappy Bird",
+  "description": "Classic Flappy Bird arcade game for Bruce devices with score tracking and sound effects",
+  "category": "Games",
+  "version": "1.0.0",
+  "commit": "c09a196dfb22911425fddfde63d0bb28e52aff50",
+  "owner": "Valkrycxx",
+  "repo": "bruce-flappybird",
+  "path": "/",
+  "files": [
+    {
+      "source": "flappybird.js",
+      "destination": "Flappy Bird.js"
+    }
+  ]
+}
