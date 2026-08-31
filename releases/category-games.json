@@ -29,11 +29,11 @@
     {
       "name": "Flappy Bird",
       "description": "Classic Flappy Bird arcade game for Bruce devices with score tracking and sound effects",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "slug": "Valkrycxx/bruce-flappybird/Flappy Bird",
       "n": "Flappy Bird",
       "d": "Classic Flappy Bird arcade game for Bruce devices with score tracking and sound effects",
-      "v": "1.0.0",
+      "v": "1.0.2",
       "s": "Valkrycxx/bruce-flappybird/Flappy Bird"
     },
     {
