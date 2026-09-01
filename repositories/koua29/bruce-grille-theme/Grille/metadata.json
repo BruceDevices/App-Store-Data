@@ -1,0 +1,33 @@
+{
+  "name": "Grille",
+  "description": "Minimal 4x4 grid of Material icons; the current menu is inverted in a filled circle.",
+  "category": "Themes",
+  "version": "1.0.0",
+  "commit": "0285e50ae45f3a09fff51ef1b95123cc43c9ffc5",
+  "owner": "koua29",
+  "repo": "bruce-grille-theme",
+  "supported-screen-size": "320x170",
+  "path": "/Grille/140px/",
+  "files": [
+    {
+      "source": "Theme_Grille.json",
+      "destination": "Grille.json"
+    },
+    "Wifi.png",
+    "Ble.png",
+    "Rf.png",
+    "Nrf24.png",
+    "Lora.png",
+    "Fm.png",
+    "Ir.png",
+    "Eth.png",
+    "Gps.png",
+    "Rfid.png",
+    "Files.png",
+    "Js.png",
+    "Clock.png",
+    "Others.png",
+    "Config.png",
+    "Connect.png"
+  ]
+}
