@@ -1,8 +1,8 @@
 {
-  "generated": 1788217135,
-  "generatedISO": "2026-08-31T22:58:55.415Z",
+  "generated": 1789047904,
+  "generatedISO": "2026-09-10T13:45:04.096Z",
   "totalCategories": 8,
-  "totalApps": 63,
+  "totalApps": 66,
   "categories": [
     {
       "name": "Audio",
@@ -418,7 +418,7 @@
     {
       "name": "Themes",
       "slug": "themes",
-      "count": 30,
+      "count": 33,
       "apps": [
         {
           "name": "Bebra First Creation",
@@ -1008,6 +1008,42 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Dark Mode 320x170/metadata.json"
         },
         {
+          "name": "Fallout Pip-Boy",
+          "description": "Fallout Pip-Boy terminal theme — rusty green CRT bezel with a scrolling menu.",
+          "category": "Themes",
+          "version": "1.0.0",
+          "commit": "8218ecd2e0020b15ba1d14a2a8f0c1bb37543615",
+          "owner": "koua29",
+          "repo": "bruce-fallout-theme",
+          "supported-screen-size": "320x170",
+          "path": "/Fallout_PipBoy/140px/",
+          "files": [
+            {
+              "source": "Theme_Fallout_PipBoy.json",
+              "destination": "Fallout Pip-Boy.json"
+            },
+            "Wifi.png",
+            "Ble.png",
+            "Rf.png",
+            "Nrf24.png",
+            "Lora.png",
+            "Fm.png",
+            "Ir.png",
+            "Eth.png",
+            "Gps.png",
+            "Rfid.png",
+            "Files.png",
+            "Js.png",
+            "Clock.png",
+            "Others.png",
+            "Config.png",
+            "Connect.png"
+          ],
+          "slug": "koua29/bruce-fallout-theme/Fallout Pip-Boy",
+          "lastUpdated": 1787777603,
+          "metadataPath": "repositories/koua29/bruce-fallout-theme/Fallout Pip-Boy/metadata.json"
+        },
+        {
           "name": "Flipper",
           "description": "Flipper Zero based theme. By mostixgrand",
           "category": "Themes",
@@ -1144,6 +1180,42 @@
           "slug": "BruceDevices/App-Store-Apps/GhostStrats 320x170",
           "lastUpdated": 1770861240,
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/GhostStrats 320x170/metadata.json"
+        },
+        {
+          "name": "Grille",
+          "description": "Minimal 4x4 grid of Material icons; the current menu is inverted in a filled circle.",
+          "category": "Themes",
+          "version": "1.0.0",
+          "commit": "0285e50ae45f3a09fff51ef1b95123cc43c9ffc5",
+          "owner": "koua29",
+          "repo": "bruce-grille-theme",
+          "supported-screen-size": "320x170",
+          "path": "/Grille/140px/",
+          "files": [
+            {
+              "source": "Theme_Grille.json",
+              "destination": "Grille.json"
+            },
+            "Wifi.png",
+            "Ble.png",
+            "Rf.png",
+            "Nrf24.png",
+            "Lora.png",
+            "Fm.png",
+            "Ir.png",
+            "Eth.png",
+            "Gps.png",
+            "Rfid.png",
+            "Files.png",
+            "Js.png",
+            "Clock.png",
+            "Others.png",
+            "Config.png",
+            "Connect.png"
+          ],
+          "slug": "koua29/bruce-grille-theme/Grille",
+          "lastUpdated": 1787777603,
+          "metadataPath": "repositories/koua29/bruce-grille-theme/Grille/metadata.json"
         },
         {
           "name": "Mad Shark",
@@ -1421,6 +1493,42 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Shark Blue 320x170/metadata.json"
         },
         {
+          "name": "Spider-Man",
+          "description": "Spider-Man theme — big current picto beside its name in the classic comic font.",
+          "category": "Themes",
+          "version": "1.0.0",
+          "commit": "d25325f6ffed21d5be4a25d78655ca697e60f0f6",
+          "owner": "koua29",
+          "repo": "bruce-spiderman-theme",
+          "supported-screen-size": "320x170",
+          "path": "/Spiderman/140px/",
+          "files": [
+            {
+              "source": "Theme_Spiderman.json",
+              "destination": "Spider-Man.json"
+            },
+            "Wifi.png",
+            "Ble.png",
+            "Rf.png",
+            "Nrf24.png",
+            "Lora.png",
+            "Fm.png",
+            "Ir.png",
+            "Eth.png",
+            "Gps.png",
+            "Rfid.png",
+            "Files.png",
+            "Js.png",
+            "Clock.png",
+            "Others.png",
+            "Config.png",
+            "Connect.png"
+          ],
+          "slug": "koua29/bruce-spiderman-theme/Spider-Man",
+          "lastUpdated": 1787777603,
+          "metadataPath": "repositories/koua29/bruce-spiderman-theme/Spider-Man/metadata.json"
+        },
+        {
           "name": "Watch Dogs",
           "description": "A theme for Bruce based on the Watch Dogs video game series, featuring futuristic design elements and hacker aesthetics. By NEKKO",
           "category": "Themes",
@@ -1456,7 +1564,7 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Watch Dogs 320x170/metadata.json"
         }
       ],
-      "lastUpdated": 1772536015
+      "lastUpdated": 1787777603
     },
     {
       "name": "Tools",
