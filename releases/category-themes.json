@@ -1,6 +1,6 @@
 {
   "category": "Themes",
-  "count": 30,
+  "count": 33,
   "apps": [
     {
       "name": "Bebra First Creation",
@@ -215,6 +215,18 @@
       "sss": "320x170"
     },
     {
+      "name": "Fallout Pip-Boy",
+      "description": "Fallout Pip-Boy terminal theme — rusty green CRT bezel with a scrolling menu.",
+      "version": "1.0.0",
+      "supported-screen-size": "320x170",
+      "slug": "koua29/bruce-fallout-theme/Fallout Pip-Boy",
+      "n": "Fallout Pip-Boy",
+      "d": "Fallout Pip-Boy terminal theme — rusty green CRT bezel with a scrolling menu.",
+      "v": "1.0.0",
+      "s": "koua29/bruce-fallout-theme/Fallout Pip-Boy",
+      "sss": "320x170"
+    },
+    {
       "name": "Flipper",
       "description": "Flipper Zero based theme. By mostixgrand",
       "version": "1.0.0",
@@ -260,6 +272,18 @@
       "d": "Awesome Cyberpunk theme. Also used Steganography and Cryptography to hide some messages within the png file names for added fun! Second place on first Bruce Theme contest! By GhostStrats",
       "v": "1.0.0",
       "s": "BruceDevices/App-Store-Apps/GhostStrats 320x170",
+      "sss": "320x170"
+    },
+    {
+      "name": "Grille",
+      "description": "Minimal 4x4 grid of Material icons; the current menu is inverted in a filled circle.",
+      "version": "1.0.0",
+      "supported-screen-size": "320x170",
+      "slug": "koua29/bruce-grille-theme/Grille",
+      "n": "Grille",
+      "d": "Minimal 4x4 grid of Material icons; the current menu is inverted in a filled circle.",
+      "v": "1.0.0",
+      "s": "koua29/bruce-grille-theme/Grille",
       "sss": "320x170"
     },
     {
@@ -356,6 +380,18 @@
       "d": "Blue Shark theme for Bruce. By peppemas_65088",
       "v": "1.0.0",
       "s": "BruceDevices/App-Store-Apps/Shark Blue 320x170",
+      "sss": "320x170"
+    },
+    {
+      "name": "Spider-Man",
+      "description": "Spider-Man theme — big current picto beside its name in the classic comic font.",
+      "version": "1.0.0",
+      "supported-screen-size": "320x170",
+      "slug": "koua29/bruce-spiderman-theme/Spider-Man",
+      "n": "Spider-Man",
+      "d": "Spider-Man theme — big current picto beside its name in the classic comic font.",
+      "v": "1.0.0",
+      "s": "koua29/bruce-spiderman-theme/Spider-Man",
       "sss": "320x170"
     },
     {
