@@ -1,0 +1,21 @@
+{
+  "name": "Morse Code",
+  "description": "Learning and exploring Morse code through an interactive visual grid",
+  "category": "Utilities",
+  "version": "1.0.0",
+  "commit": "9fbfe93c3dce42da724e4e33dca4c7e736bea3b8",
+  "owner": "SasPes",
+  "repo": "morse-code",
+  "path": "/",
+  "files": [
+    {
+      "source": "MorseCode.js",
+      "destination": "Morse Code.js"
+    }
+  ],
+  "supported-devices": [
+    "Lilygo T-Embed",
+    "Lilygo T-Embed CC1101",
+    "Smoochiee Board"
+  ]
+}
