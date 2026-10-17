@@ -1,6 +1,6 @@
 {
   "totalCategories": 8,
-  "totalApps": 67,
+  "totalApps": 68,
   "categories": [
     {
       "name": "Audio",
@@ -41,8 +41,8 @@
     {
       "name": "Utilities",
       "slug": "utilities",
-      "count": 7,
-      "lastUpdated": 1785718757
+      "count": 8,
+      "lastUpdated": 1792230161
     },
     {
       "name": "WiFi",
