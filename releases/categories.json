@@ -1,12 +1,12 @@
 {
   "totalCategories": 8,
-  "totalApps": 66,
+  "totalApps": 67,
   "categories": [
     {
       "name": "Audio",
       "slug": "audio",
-      "count": 5,
-      "lastUpdated": 1773584487
+      "count": 6,
+      "lastUpdated": 1792230053
     },
     {
       "name": "Games",
