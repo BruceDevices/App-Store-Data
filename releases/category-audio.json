@@ -45,12 +45,12 @@
     {
       "name": "Soundboard",
       "description": "A soundboard with 43 built-in sounds. Favorites, loop, color themes and auto-detection of your own WAV files.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "supported-devices": "Lilygo T-Embed CC1101",
       "slug": "MagicKanickel/bruce-soundboard/Soundboard",
       "n": "Soundboard",
       "d": "A soundboard with 43 built-in sounds. Favorites, loop, color themes and auto-detection of your own WAV files.",
-      "v": "1.0.0",
+      "v": "1.0.1",
       "s": "MagicKanickel/bruce-soundboard/Soundboard",
       "sd": "Lilygo T-Embed CC1101"
     },
