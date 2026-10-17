@@ -1,13 +1,13 @@
 {
-  "generated": 1789047904,
-  "generatedISO": "2026-09-10T13:45:04.096Z",
+  "generated": 1792230054,
+  "generatedISO": "2026-10-17T09:40:54.926Z",
   "totalCategories": 8,
-  "totalApps": 66,
+  "totalApps": 67,
   "categories": [
     {
       "name": "Audio",
       "slug": "audio",
-      "count": 5,
+      "count": 6,
       "apps": [
         {
           "name": "Cricket",
@@ -80,6 +80,66 @@
           "metadataPath": "repositories/sloth632/Nokia-app/Nokia/metadata.json"
         },
         {
+          "name": "Soundboard",
+          "description": "A soundboard with 43 built-in sounds. Favorites, loop, color themes and auto-detection of your own WAV files.",
+          "category": "Audio",
+          "version": "1.0.0",
+          "commit": "3fd068c33a3f10e8f9c85c2fc8d399403761e17e",
+          "owner": "MagicKanickel",
+          "repo": "bruce-soundboard",
+          "path": "bruce-soundboard_repo",
+          "files": [
+            "Soundboard.js",
+            "air_horn.wav",
+            "alarm.wav",
+            "alarm_beeps.wav",
+            "annoying_laughing.wav",
+            "beep.wav",
+            "blip.wav",
+            "burp.wav",
+            "buzzer.wav",
+            "cat_meow.wav",
+            "chime.wav",
+            "coin.wav",
+            "cricket.wav",
+            "ding.wav",
+            "double_beep.wav",
+            "engine_idling.wav",
+            "engine_start_fail.wav",
+            "error.wav",
+            "fart_1.wav",
+            "fart_2.wav",
+            "fart_3.wav",
+            "growling_bear.wav",
+            "high_pitched_laughing.wav",
+            "jump.wav",
+            "knocking.wav",
+            "laser.wav",
+            "machine_gun.wav",
+            "movie_theme.wav",
+            "notify.wav",
+            "phone_ring.wav",
+            "power_down.wav",
+            "power_up.wav",
+            "predators_talking.wav",
+            "ringtone_1.wav",
+            "ringtone_2.wav",
+            "scream_1.wav",
+            "scream_2.wav",
+            "shotgun.wav",
+            "siren.wav",
+            "sounds_from_space.wav",
+            "success.wav",
+            "ufo.wav",
+            "wolf.wav",
+            "zap.wav"
+          ],
+          "supported-devices": "Lilygo T-Embed CC1101",
+          "slug": "MagicKanickel/bruce-soundboard/Soundboard",
+          "lastUpdated": 1791037043,
+          "metadataPath": "repositories/MagicKanickel/bruce-soundboard/Soundboard/metadata.json"
+        },
+        {
           "name": "Tone Generator",
           "description": "Tone generator that can play different frequencies/musical notes with customisable duration",
           "category": "Audio",
@@ -96,7 +156,7 @@
           "metadataPath": "repositories/emericklaw/Bruce-Tone-Generator-App/Tone Generator/metadata.json"
         }
       ],
-      "lastUpdated": 1773584432
+      "lastUpdated": 1791037043
     },
     {
       "name": "Games",
