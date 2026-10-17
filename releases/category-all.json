@@ -1,8 +1,8 @@
 {
-  "generated": 1792230054,
-  "generatedISO": "2026-10-17T09:40:54.926Z",
+  "generated": 1792230163,
+  "generatedISO": "2026-10-17T09:42:43.450Z",
   "totalCategories": 8,
-  "totalApps": 67,
+  "totalApps": 68,
   "categories": [
     {
       "name": "Audio",
@@ -1728,7 +1728,7 @@
     {
       "name": "Utilities",
       "slug": "utilities",
-      "count": 7,
+      "count": 8,
       "apps": [
         {
           "name": "Calculator",
@@ -1825,6 +1825,30 @@
           "metadataPath": "repositories/emericklaw/Bruce-Hello-World-Example-App/Hello World/metadata.json"
         },
         {
+          "name": "Morse Code",
+          "description": "Learning and exploring Morse code through an interactive visual grid",
+          "category": "Utilities",
+          "version": "1.0.0",
+          "commit": "9fbfe93c3dce42da724e4e33dca4c7e736bea3b8",
+          "owner": "SasPes",
+          "repo": "morse-code",
+          "path": "/",
+          "files": [
+            {
+              "source": "MorseCode.js",
+              "destination": "Morse Code.js"
+            }
+          ],
+          "supported-devices": [
+            "Lilygo T-Embed",
+            "Lilygo T-Embed CC1101",
+            "Smoochiee Board"
+          ],
+          "slug": "SasPes/morse-code/Morse Code",
+          "lastUpdated": 1791150813,
+          "metadataPath": "repositories/SasPes/morse-code/Morse Code/metadata.json"
+        },
+        {
           "name": "RGB Controller",
           "description": "A simple app that allows you to control the RGB LED on the back of your CYD",
           "category": "Utilities",
@@ -1861,7 +1885,7 @@
           "metadataPath": "repositories/BruceDevices/firmware/Web Browser/metadata.json"
         }
       ],
-      "lastUpdated": 1782735535
+      "lastUpdated": 1791150813
     },
     {
       "name": "WiFi",
