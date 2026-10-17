@@ -1,6 +1,6 @@
 {
   "category": "Utilities",
-  "count": 7,
+  "count": 8,
   "apps": [
     {
       "name": "Calculator",
@@ -55,6 +55,26 @@
       "d": "A simple test app for the Bruce JavaScript interpreter that displays 'Hello World!' on the screen.",
       "v": "1.0.0",
       "s": "emericklaw/Bruce-Hello-World-Example-App/Hello World"
+    },
+    {
+      "name": "Morse Code",
+      "description": "Learning and exploring Morse code through an interactive visual grid",
+      "version": "1.0.0",
+      "supported-devices": [
+        "Lilygo T-Embed",
+        "Lilygo T-Embed CC1101",
+        "Smoochiee Board"
+      ],
+      "slug": "SasPes/morse-code/Morse Code",
+      "n": "Morse Code",
+      "d": "Learning and exploring Morse code through an interactive visual grid",
+      "v": "1.0.0",
+      "s": "SasPes/morse-code/Morse Code",
+      "sd": [
+        "Lilygo T-Embed",
+        "Lilygo T-Embed CC1101",
+        "Smoochiee Board"
+      ]
     },
     {
       "name": "RGB Controller",
