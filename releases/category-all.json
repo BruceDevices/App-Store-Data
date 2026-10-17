@@ -1,6 +1,6 @@
 {
-  "generated": 1792230230,
-  "generatedISO": "2026-10-17T09:43:50.961Z",
+  "generated": 1792245418,
+  "generatedISO": "2026-10-17T13:56:58.443Z",
   "totalCategories": 8,
   "totalApps": 68,
   "categories": [
@@ -83,11 +83,11 @@
           "name": "Soundboard",
           "description": "A soundboard with 43 built-in sounds. Favorites, loop, color themes and auto-detection of your own WAV files.",
           "category": "Audio",
-          "version": "1.0.0",
-          "commit": "3fd068c33a3f10e8f9c85c2fc8d399403761e17e",
+          "version": "1.0.1",
+          "commit": "eafaf8851b49eb862f9c75695d665238023ab282",
           "owner": "MagicKanickel",
           "repo": "bruce-soundboard",
-          "path": "bruce-soundboard_repo",
+          "path": "/bruce-soundboard_repo/",
           "files": [
             "Soundboard.js",
             "air_horn.wav",
@@ -136,7 +136,7 @@
           ],
           "supported-devices": "Lilygo T-Embed CC1101",
           "slug": "MagicKanickel/bruce-soundboard/Soundboard",
-          "lastUpdated": 1791037043,
+          "lastUpdated": 1792242168,
           "metadataPath": "repositories/MagicKanickel/bruce-soundboard/Soundboard/metadata.json"
         },
         {
@@ -156,7 +156,7 @@
           "metadataPath": "repositories/emericklaw/Bruce-Tone-Generator-App/Tone Generator/metadata.json"
         }
       ],
-      "lastUpdated": 1791037043
+      "lastUpdated": 1792242168
     },
     {
       "name": "Games",
