@@ -3,7 +3,7 @@
   "description": "Audio-only SoundCloud + YouTube player: search with filters, EQ, queue, seeking with the encoder, offline downloads. Needs a server (self-hostable one included).",
   "category": "Audio",
   "version": "1.0.0",
-  "commit": "ba4a4f382196c29aa4cd3c6260e987871380ad2a",
+  "commit": "2bbefc05f86104792a00d7c9cb79640f7138544f",
   "owner": "HDMI1online",
   "repo": "bruce-musicstreaming",
   "path": "/",
