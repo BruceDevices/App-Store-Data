@@ -1,6 +1,6 @@
 {
   "category": "Audio",
-  "count": 6,
+  "count": 7,
   "apps": [
     {
       "name": "Cricket",
@@ -31,6 +31,24 @@
       "d": "Convert text to morse code.",
       "v": "1.0.0",
       "s": "MiskaJuro/bruce-applications/Morse-Code"
+    },
+    {
+      "name": "Musicstreaming",
+      "description": "Audio-only SoundCloud + YouTube player: search with filters, EQ, queue, seeking with the encoder, offline downloads. Needs a server (self-hostable one included).",
+      "version": "1.0.0",
+      "supported-devices": [
+        "Lilygo T-Embed",
+        "Lilygo T-Embed CC1101"
+      ],
+      "slug": "HDMI1online/bruce-musicstreaming/Musicstreaming",
+      "n": "Musicstreaming",
+      "d": "Audio-only SoundCloud + YouTube player: search with filters, EQ, queue, seeking with the encoder, offline downloads. Needs a server (self-hostable one included).",
+      "v": "1.0.0",
+      "s": "HDMI1online/bruce-musicstreaming/Musicstreaming",
+      "sd": [
+        "Lilygo T-Embed",
+        "Lilygo T-Embed CC1101"
+      ]
     },
     {
       "name": "Nokia",
