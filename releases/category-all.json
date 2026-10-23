@@ -1,13 +1,13 @@
 {
-  "generated": 1792245418,
-  "generatedISO": "2026-10-17T13:56:58.443Z",
+  "generated": 1792761000,
+  "generatedISO": "2026-10-23T13:10:00.661Z",
   "totalCategories": 8,
-  "totalApps": 68,
+  "totalApps": 69,
   "categories": [
     {
       "name": "Audio",
       "slug": "audio",
-      "count": 6,
+      "count": 7,
       "apps": [
         {
           "name": "Cricket",
@@ -62,6 +62,26 @@
           "slug": "MiskaJuro/bruce-applications/Morse-Code",
           "lastUpdated": 1773584432,
           "metadataPath": "repositories/MiskaJuro/bruce-applications/Morse-Code/metadata.json"
+        },
+        {
+          "name": "Musicstreaming",
+          "description": "Audio-only SoundCloud + YouTube player: search with filters, EQ, queue, seeking with the encoder, offline downloads. Needs a server (self-hostable one included).",
+          "category": "Audio",
+          "version": "1.0.0",
+          "commit": "2bbefc05f86104792a00d7c9cb79640f7138544f",
+          "owner": "HDMI1online",
+          "repo": "bruce-musicstreaming",
+          "path": "/",
+          "files": [
+            "music.js"
+          ],
+          "supported-devices": [
+            "Lilygo T-Embed",
+            "Lilygo T-Embed CC1101"
+          ],
+          "slug": "HDMI1online/bruce-musicstreaming/Musicstreaming",
+          "lastUpdated": 1792429991,
+          "metadataPath": "repositories/HDMI1online/bruce-musicstreaming/Musicstreaming/metadata.json"
         },
         {
           "name": "Nokia",
@@ -156,7 +176,7 @@
           "metadataPath": "repositories/emericklaw/Bruce-Tone-Generator-App/Tone Generator/metadata.json"
         }
       ],
-      "lastUpdated": 1792242168
+      "lastUpdated": 1792429991
     },
     {
       "name": "Games",
