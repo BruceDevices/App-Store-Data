@@ -1,6 +1,6 @@
 {
-  "generated": 1793493957,
-  "generatedISO": "2026-11-01T00:45:57.605Z",
+  "generated": 1793577476,
+  "generatedISO": "2026-11-01T23:57:56.232Z",
   "totalCategories": 8,
   "totalApps": 70,
   "categories": [
@@ -594,14 +594,15 @@
           "slug-name": "GIF-240x135px",
           "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
           "category": "Themes",
-          "version": "1.3.0",
-          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "version": "1.4.0",
+          "commit": "d30f6ad5bacf492d45f24cf17c4f89d2da139d1e",
           "owner": "emericklaw",
           "repo": "Bruce-Theme",
           "supported-screen-size": "240x135",
           "path": "/GIF-240x135px/",
           "files": [
             "Bruce_Theme.json",
+            "Bruce.gif",
             "BLE.gif",
             "Clock.gif",
             "Config.gif",
@@ -617,10 +618,11 @@
             "Others.gif",
             "RF.gif",
             "RFID.gif",
-            "WiFi.gif"
+            "WiFi.gif",
+            "WireTools.gif"
           ],
           "slug": "emericklaw/Bruce-Theme/Bruce Theme GIF-240x135px",
-          "lastUpdated": 1769978902,
+          "lastUpdated": 1793577458,
           "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme GIF-240x135px/metadata.json"
         },
         {
@@ -628,14 +630,15 @@
           "slug-name": "GIF-320x170px",
           "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
           "category": "Themes",
-          "version": "1.3.0",
-          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "version": "1.4.0",
+          "commit": "d30f6ad5bacf492d45f24cf17c4f89d2da139d1e",
           "owner": "emericklaw",
           "repo": "Bruce-Theme",
           "supported-screen-size": "320x170",
           "path": "/GIF-320x170px/",
           "files": [
             "Bruce_Theme.json",
+            "Bruce.gif",
             "BLE.gif",
             "Clock.gif",
             "Config.gif",
@@ -651,10 +654,11 @@
             "Others.gif",
             "RF.gif",
             "RFID.gif",
-            "WiFi.gif"
+            "WiFi.gif",
+            "WireTools.gif"
           ],
           "slug": "emericklaw/Bruce-Theme/Bruce Theme GIF-320x170px",
-          "lastUpdated": 1769978902,
+          "lastUpdated": 1793577458,
           "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme GIF-320x170px/metadata.json"
         },
         {
@@ -662,14 +666,15 @@
           "slug-name": "GIF-320x240px",
           "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
           "category": "Themes",
-          "version": "1.3.0",
-          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "version": "1.4.0",
+          "commit": "d30f6ad5bacf492d45f24cf17c4f89d2da139d1e",
           "owner": "emericklaw",
           "repo": "Bruce-Theme",
           "supported-screen-size": "320x240",
           "path": "/GIF-320x240px/",
           "files": [
             "Bruce_Theme.json",
+            "Bruce.gif",
             "BLE.gif",
             "Clock.gif",
             "Config.gif",
@@ -685,10 +690,11 @@
             "Others.gif",
             "RF.gif",
             "RFID.gif",
-            "WiFi.gif"
+            "WiFi.gif",
+            "WireTools.gif"
           ],
           "slug": "emericklaw/Bruce-Theme/Bruce Theme GIF-320x240px",
-          "lastUpdated": 1769978902,
+          "lastUpdated": 1793577458,
           "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme GIF-320x240px/metadata.json"
         },
         {
@@ -696,14 +702,15 @@
           "slug-name": "GIF-480x222px",
           "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
           "category": "Themes",
-          "version": "1.3.0",
-          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "version": "1.4.0",
+          "commit": "d30f6ad5bacf492d45f24cf17c4f89d2da139d1e",
           "owner": "emericklaw",
           "repo": "Bruce-Theme",
           "supported-screen-size": "480x222",
           "path": "/GIF-480x222px/",
           "files": [
             "Bruce_Theme.json",
+            "Bruce.gif",
             "BLE.gif",
             "Clock.gif",
             "Config.gif",
@@ -719,10 +726,11 @@
             "Others.gif",
             "RF.gif",
             "RFID.gif",
-            "WiFi.gif"
+            "WiFi.gif",
+            "WireTools.gif"
           ],
           "slug": "emericklaw/Bruce-Theme/Bruce Theme GIF-480x222px",
-          "lastUpdated": 1769978902,
+          "lastUpdated": 1793577458,
           "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme GIF-480x222px/metadata.json"
         },
         {
@@ -730,14 +738,15 @@
           "slug-name": "PNG-240x135px",
           "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
           "category": "Themes",
-          "version": "1.3.0",
-          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "version": "1.4.0",
+          "commit": "d30f6ad5bacf492d45f24cf17c4f89d2da139d1e",
           "owner": "emericklaw",
           "repo": "Bruce-Theme",
           "supported-screen-size": "240x135",
           "path": "/PNG-240x135px/",
           "files": [
             "Bruce_Theme.json",
+            "Bruce.png",
             "BLE.png",
             "Clock.png",
             "Config.png",
@@ -753,10 +762,11 @@
             "Others.png",
             "RF.png",
             "RFID.png",
-            "WiFi.png"
+            "WiFi.png",
+            "WireTools.png"
           ],
           "slug": "emericklaw/Bruce-Theme/Bruce Theme PNG-240x135px",
-          "lastUpdated": 1769978902,
+          "lastUpdated": 1793577458,
           "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme PNG-240x135px/metadata.json"
         },
         {
@@ -764,14 +774,15 @@
           "slug-name": "PNG-320x170px",
           "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
           "category": "Themes",
-          "version": "1.3.0",
-          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "version": "1.4.0",
+          "commit": "d30f6ad5bacf492d45f24cf17c4f89d2da139d1e",
           "owner": "emericklaw",
           "repo": "Bruce-Theme",
           "supported-screen-size": "320x170",
           "path": "/PNG-320x170px/",
           "files": [
             "Bruce_Theme.json",
+            "Bruce.png",
             "BLE.png",
             "Clock.png",
             "Config.png",
@@ -787,10 +798,11 @@
             "Others.png",
             "RF.png",
             "RFID.png",
-            "WiFi.png"
+            "WiFi.png",
+            "WireTools.png"
           ],
           "slug": "emericklaw/Bruce-Theme/Bruce Theme PNG-320x170px",
-          "lastUpdated": 1769978902,
+          "lastUpdated": 1793577458,
           "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme PNG-320x170px/metadata.json"
         },
         {
@@ -798,14 +810,15 @@
           "slug-name": "PNG-320x240px",
           "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
           "category": "Themes",
-          "version": "1.3.0",
-          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "version": "1.4.0",
+          "commit": "d30f6ad5bacf492d45f24cf17c4f89d2da139d1e",
           "owner": "emericklaw",
           "repo": "Bruce-Theme",
           "supported-screen-size": "320x240",
           "path": "/PNG-320x240px/",
           "files": [
             "Bruce_Theme.json",
+            "Bruce.png",
             "BLE.png",
             "Clock.png",
             "Config.png",
@@ -821,10 +834,11 @@
             "Others.png",
             "RF.png",
             "RFID.png",
-            "WiFi.png"
+            "WiFi.png",
+            "WireTools.png"
           ],
           "slug": "emericklaw/Bruce-Theme/Bruce Theme PNG-320x240px",
-          "lastUpdated": 1769978902,
+          "lastUpdated": 1793577458,
           "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme PNG-320x240px/metadata.json"
         },
         {
@@ -832,14 +846,15 @@
           "slug-name": "PNG-480x222px",
           "description": "A bold, glowing upgrade for your Bruce device with neon energy and shark power.",
           "category": "Themes",
-          "version": "1.3.0",
-          "commit": "46b8d3dd699694b1b0f44581b6743e70b20f3951",
+          "version": "1.4.0",
+          "commit": "d30f6ad5bacf492d45f24cf17c4f89d2da139d1e",
           "owner": "emericklaw",
           "repo": "Bruce-Theme",
           "supported-screen-size": "480x222",
           "path": "/PNG-480x222px/",
           "files": [
             "Bruce_Theme.json",
+            "Bruce.png",
             "BLE.png",
             "Clock.png",
             "Config.png",
@@ -855,10 +870,11 @@
             "Others.png",
             "RF.png",
             "RFID.png",
-            "WiFi.png"
+            "WiFi.png",
+            "WireTools.png"
           ],
           "slug": "emericklaw/Bruce-Theme/Bruce Theme PNG-480x222px",
-          "lastUpdated": 1769978902,
+          "lastUpdated": 1793577458,
           "metadataPath": "repositories/emericklaw/Bruce-Theme/Bruce Theme PNG-480x222px/metadata.json"
         },
         {
@@ -1664,7 +1680,7 @@
           "metadataPath": "repositories/BruceDevices/App-Store-Apps/Watch Dogs 320x170/metadata.json"
         }
       ],
-      "lastUpdated": 1787777603
+      "lastUpdated": 1793577458
     },
     {
       "name": "Tools",
