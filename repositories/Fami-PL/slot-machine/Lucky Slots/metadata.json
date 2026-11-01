@@ -1,0 +1,17 @@
+{
+  "name": "Lucky Slots",
+  "description": "A simple three-reel slot machine for the M5StickS3 running Bruce firmware.",
+  "category": "Games",
+  "version": "1.0.0",
+  "commit": "b96654db73df14a66522b0262e23f9a088f31d08",
+  "owner": "Fami-PL",
+  "repo": "slot-machine",
+  "path": "/",
+  "files": [
+    {
+      "source": "slot_machine.js",
+      "destination": "Slot Machine.js"
+    }
+  ],
+  "supported-devices": "M5StickS3"
+}
