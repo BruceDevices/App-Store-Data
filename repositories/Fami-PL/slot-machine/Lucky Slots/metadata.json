@@ -9,7 +9,7 @@
   "path": "/",
   "files": [
     {
-      "source": "slot-machine.js",
+      "source": "slot_machine.js",
       "destination": "Slot Machine.js"
     }
   ],
