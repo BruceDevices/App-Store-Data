@@ -7,6 +7,11 @@
   "owner": "Fami-PL",
   "repo": "slot-machine",
   "path": "/",
-  "files": ["slot_machine.js"],
+  "files": [
+    {
+      "source": "slot-machine.js",
+      "destination": "Slot Machine.js"
+    }
+  ],
   "supported-devices": "M5StickS3"
 }
