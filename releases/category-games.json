@@ -1,6 +1,6 @@
 {
   "category": "Games",
-  "count": 11,
+  "count": 12,
   "apps": [
     {
       "name": "Arcade Games",
@@ -45,6 +45,18 @@
       "d": "Car racing game",
       "v": "1.0.1",
       "s": "BruceDevices/firmware/Highway Racer"
+    },
+    {
+      "name": "Lucky Slots",
+      "description": "A simple three-reel slot machine for the M5StickS3 running Bruce firmware.",
+      "version": "1.0.0",
+      "supported-devices": "M5StickS3",
+      "slug": "Fami-PL/slot-machine/Lucky Slots",
+      "n": "Lucky Slots",
+      "d": "A simple three-reel slot machine for the M5StickS3 running Bruce firmware.",
+      "v": "1.0.0",
+      "s": "Fami-PL/slot-machine/Lucky Slots",
+      "sd": "M5StickS3"
     },
     {
       "name": "Magic 8 Ball",
