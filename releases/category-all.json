@@ -1,8 +1,8 @@
 {
-  "generated": 1792761000,
-  "generatedISO": "2026-10-23T13:10:00.661Z",
+  "generated": 1793493957,
+  "generatedISO": "2026-11-01T00:45:57.605Z",
   "totalCategories": 8,
-  "totalApps": 69,
+  "totalApps": 70,
   "categories": [
     {
       "name": "Audio",
@@ -181,7 +181,7 @@
     {
       "name": "Games",
       "slug": "games",
-      "count": 11,
+      "count": 12,
       "apps": [
         {
           "name": "Arcade Games",
@@ -260,6 +260,26 @@
           "slug": "BruceDevices/firmware/Highway Racer",
           "lastUpdated": 1769975681,
           "metadataPath": "repositories/BruceDevices/firmware/Highway Racer/metadata.json"
+        },
+        {
+          "name": "Lucky Slots",
+          "description": "A simple three-reel slot machine for the M5StickS3 running Bruce firmware.",
+          "category": "Games",
+          "version": "1.0.0",
+          "commit": "b96654db73df14a66522b0262e23f9a088f31d08",
+          "owner": "Fami-PL",
+          "repo": "slot-machine",
+          "path": "/",
+          "files": [
+            {
+              "source": "slot_machine.js",
+              "destination": "Slot Machine.js"
+            }
+          ],
+          "supported-devices": "M5StickS3",
+          "slug": "Fami-PL/slot-machine/Lucky Slots",
+          "lastUpdated": 1793493842,
+          "metadataPath": "repositories/Fami-PL/slot-machine/Lucky Slots/metadata.json"
         },
         {
           "name": "Magic 8 Ball",
@@ -403,7 +423,7 @@
           "metadataPath": "repositories/BruceDevices/firmware/Tamagochi/metadata.json"
         }
       ],
-      "lastUpdated": 1788216738
+      "lastUpdated": 1793493842
     },
     {
       "name": "Infrared",
