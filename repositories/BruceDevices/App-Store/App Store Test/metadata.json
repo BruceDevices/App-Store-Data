@@ -1,0 +1,17 @@
+{
+  "name": "App Store Beta",
+  "description": "FOR USE ON BETA ONLY. App store for Bruce devices with over-the-air install and updates for scripts and themes",
+  "category": "Tools",
+  "version": "1.1.0",
+  "requiredBruceVersion": "1.17.0",
+  "commit": "1ac76bbbffa03f135d3406be534d7d12d466fc01",
+  "owner": "BruceDevices",
+  "repo": "App-Store",
+  "path": "/",
+  "files": [
+    {
+      "source": "bin/App Store.bin",
+      "destination": "App Store.bin"
+    }
+  ]
+}
