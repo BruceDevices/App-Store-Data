@@ -108,7 +108,7 @@ jobs:
           PROXY_CACHE_BUST_API_KEY: ${{ secrets.PROXY_CACHE_BUST_API_KEY }}
         run: |
           echo "Invalidating main cache..."
-          curl -X DELETE -H "Authorization: Bearer $PROXY_CACHE_BUST_API_KEY" http://ghp.iceis.co.uk/invalidate-cache/main
+          curl -X DELETE -H "Authorization: Bearer $PROXY_CACHE_BUST_API_KEY" http://appstore.bruce.computer/invalidate-cache/main
           echo "Invalidating manual cache..."
-          curl -X DELETE -H "Authorization: Bearer $PROXY_CACHE_BUST_API_KEY" http://ghp.iceis.co.uk/invalidate-cache/manual
+          curl -X DELETE -H "Authorization: Bearer $PROXY_CACHE_BUST_API_KEY" http://appstore.bruce.computer/invalidate-cache/manual
           echo "Cache invalidation completed"
