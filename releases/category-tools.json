@@ -1,6 +1,6 @@
 {
   "category": "Tools",
-  "count": 6,
+  "count": 5,
   "apps": [
     {
       "name": "App Store",
@@ -11,17 +11,6 @@
       "d": "App store for Bruce devices with over-the-air install and updates for scripts and themes",
       "v": "1.0.1",
       "s": "BruceDevices/App-Store/App Store"
-    },
-    {
-      "name": "App Store Beta",
-      "description": "FOR USE ON BETA ONLY. App store for Bruce devices with over-the-air install and updates for scripts and themes",
-      "version": "1.1.0",
-      "requiredBruceVersion": "1.17.0",
-      "slug": "BruceDevices/App-Store/App Store Test",
-      "n": "App Store Beta",
-      "d": "FOR USE ON BETA ONLY. App store for Bruce devices with over-the-air install and updates for scripts and themes",
-      "v": "1.1.0",
-      "s": "BruceDevices/App-Store/App Store Test"
     },
     {
       "name": "Device Info",
