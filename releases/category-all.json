@@ -1,8 +1,8 @@
 {
-  "generated": 1793577950,
-  "generatedISO": "2026-11-02T00:05:50.439Z",
+  "generated": 1794107360,
+  "generatedISO": "2026-11-08T03:09:20.419Z",
   "totalCategories": 8,
-  "totalApps": 70,
+  "totalApps": 71,
   "categories": [
     {
       "name": "Audio",
@@ -1685,7 +1685,7 @@
     {
       "name": "Tools",
       "slug": "tools",
-      "count": 5,
+      "count": 6,
       "apps": [
         {
           "name": "App Store",
@@ -1705,6 +1705,26 @@
           "slug": "BruceDevices/App-Store/App Store",
           "lastUpdated": 1771039124,
           "metadataPath": "repositories/BruceDevices/App-Store/App Store/metadata.json"
+        },
+        {
+          "name": "App Store",
+          "description": "App store for Bruce devices with over-the-air install and updates for scripts and themes",
+          "category": "Tools",
+          "version": "1.1.0",
+          "requiredBruceVersion": "1.17.0",
+          "commit": "82d75699f7f555c27da38d8443cda4c7dd3d70f0",
+          "owner": "BruceDevices",
+          "repo": "App-Store",
+          "path": "/",
+          "files": [
+            {
+              "source": "bin/App Store.bin",
+              "destination": "App Store.bin"
+            }
+          ],
+          "slug": "BruceDevices/App-Store/App Store Test",
+          "lastUpdated": 1794107335,
+          "metadataPath": "repositories/BruceDevices/App-Store/App Store Test/metadata.json"
         },
         {
           "name": "Device Info",
@@ -1779,7 +1799,7 @@
           "metadataPath": "repositories/emericklaw/Bruce-Lock-Device-App/Lock Device/metadata.json"
         }
       ],
-      "lastUpdated": 1789939982
+      "lastUpdated": 1794107335
     },
     {
       "name": "Utilities",
