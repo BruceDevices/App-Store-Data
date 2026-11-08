@@ -1,6 +1,6 @@
 {
-  "generated": 1794111027,
-  "generatedISO": "2026-11-08T04:10:27.345Z",
+  "generated": 1794133661,
+  "generatedISO": "2026-11-08T10:27:41.462Z",
   "totalCategories": 8,
   "totalApps": 70,
   "categories": [
@@ -1691,20 +1691,19 @@
           "name": "App Store",
           "description": "App store for Bruce devices with over-the-air install and updates for scripts and themes",
           "category": "Tools",
-          "version": "1.1.0",
-          "requiredBruceVersion": "1.17.0",
-          "commit": "d9de93a5dab9fadc7e64cd4220a6e56a24f6af6e",
+          "version": "1.0.1",
+          "commit": "b0d03fe0fbcd0c1f2668af1294b6d0c292fe8d7a",
           "owner": "BruceDevices",
           "repo": "App-Store",
           "path": "/",
           "files": [
             {
-              "source": "bin/App Store.bin",
-              "destination": "App Store.bin"
+              "source": "minified/App Store.js",
+              "destination": "App Store.js"
             }
           ],
           "slug": "BruceDevices/App-Store/App Store",
-          "lastUpdated": 1794109868,
+          "lastUpdated": 1794133557,
           "metadataPath": "repositories/BruceDevices/App-Store/App Store/metadata.json"
         },
         {
@@ -1780,7 +1779,7 @@
           "metadataPath": "repositories/emericklaw/Bruce-Lock-Device-App/Lock Device/metadata.json"
         }
       ],
-      "lastUpdated": 1794109868
+      "lastUpdated": 1794133557
     },
     {
       "name": "Utilities",
