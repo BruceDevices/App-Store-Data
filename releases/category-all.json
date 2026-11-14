@@ -1,6 +1,6 @@
 {
-  "generated": 1794526624,
-  "generatedISO": "2026-11-12T23:37:04.381Z",
+  "generated": 1794653851,
+  "generatedISO": "2026-11-14T10:57:31.988Z",
   "totalCategories": 8,
   "totalApps": 70,
   "categories": [
@@ -1743,8 +1743,8 @@
           "name": "Key Decoding",
           "description": "Decode and randomly generate key bitting patterns for a bunch of lock brands",
           "category": "Tools",
-          "version": "1.16.0",
-          "commit": "d8d76327b427b3a6b008c368035bead165893af7",
+          "version": "1.17.0",
+          "commit": "573293fca3fc12f437516605b7bda7760d0c4489",
           "owner": "SasPes",
           "repo": "key-decoding",
           "path": "/",
@@ -1760,7 +1760,7 @@
             "Smoochiee Board"
           ],
           "slug": "SasPes/key-decoding/Key Decoding",
-          "lastUpdated": 1789939982,
+          "lastUpdated": 1794603847,
           "metadataPath": "repositories/SasPes/key-decoding/Key Decoding/metadata.json"
         },
         {
@@ -1780,7 +1780,7 @@
           "metadataPath": "repositories/emericklaw/Bruce-Lock-Device-App/Lock Device/metadata.json"
         }
       ],
-      "lastUpdated": 1794134198
+      "lastUpdated": 1794603847
     },
     {
       "name": "Utilities",
