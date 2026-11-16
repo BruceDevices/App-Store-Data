@@ -1,0 +1,20 @@
+{
+  "name": "Flappy Bird Lite",
+  "description": "Lightweight Flappy Bird-style arcade game for CYD devices running Bruce Firmware.",
+  "category": "Games",
+  "version": "1.0.0",
+  "commit": "42c625a3771ffd1bb4b597d24dc444a05eadbf77",
+  "owner": "arthur2012-dot",
+  "repo": "FlappyBird-CYD-Bruce",
+  "path": "/",
+  "files": [
+    {
+      "source": "FlappyBird-Lite.js",
+      "destination": "Flappy Bird Lite.js"
+    }
+  ],
+  "supported-devices": [
+    "CYD-2432S028",
+    "CYD-2USB"
+  ]
+}
