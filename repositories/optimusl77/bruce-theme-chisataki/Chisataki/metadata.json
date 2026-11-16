@@ -1,0 +1,36 @@
+{
+  "name": "Chisataki",
+  "description": "Lycoris Recoil theme (Chisato x Takina) with full-width menu cards and a red/blue accent, made for the T-Embed CC1101.",
+  "category": "Themes",
+  "version": "1.0.0",
+  "commit": "23a70034723164d765155854a03710923ee484c7",
+  "owner": "optimusl77",
+  "repo": "bruce-theme-chisataki",
+  "supported-screen-size": "320x170",
+  "path": "/Chisataki/140px/",
+  "files": [
+    {
+      "source": "Theme_Chisataki.json",
+      "destination": "Chisataki.json"
+    },
+    "wifi.jpg",
+    "ble.jpg",
+    "ethernet.jpg",
+    "rf.jpg",
+    "rfid.jpg",
+    "ir.jpg",
+    "fm.jpg",
+    "files.jpg",
+    "gps.jpg",
+    "nrf.jpg",
+    "interpreter.jpg",
+    "lora.jpg",
+    "others.jpg",
+    "clock.jpg",
+    "connect.jpg",
+    "config.jpg",
+    "wire.jpg",
+    "arsenal.jpg",
+    "boot.jpg"
+  ]
+}
