@@ -1,6 +1,6 @@
 {
   "category": "Games",
-  "count": 12,
+  "count": 13,
   "apps": [
     {
       "name": "Arcade Games",
@@ -35,6 +35,24 @@
       "d": "Classic Flappy Bird arcade game for Bruce devices with score tracking and sound effects",
       "v": "1.0.7",
       "s": "Valkrycxx/bruce-flappybird/Flappy Bird"
+    },
+    {
+      "name": "Flappy Bird Lite",
+      "description": "Lightweight Flappy Bird-style arcade game for CYD devices running Bruce Firmware.",
+      "version": "1.0.0",
+      "supported-devices": [
+        "CYD-2432S028",
+        "CYD-2USB"
+      ],
+      "slug": "arthur2012-dot/FlappyBird-CYD-Bruce/Flappy Bird Lite",
+      "n": "Flappy Bird Lite",
+      "d": "Lightweight Flappy Bird-style arcade game for CYD devices running Bruce Firmware.",
+      "v": "1.0.0",
+      "s": "arthur2012-dot/FlappyBird-CYD-Bruce/Flappy Bird Lite",
+      "sd": [
+        "CYD-2432S028",
+        "CYD-2USB"
+      ]
     },
     {
       "name": "Highway Racer",
