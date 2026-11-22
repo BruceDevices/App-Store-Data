@@ -1,8 +1,8 @@
 {
-  "generated": 1794653851,
-  "generatedISO": "2026-11-14T10:57:31.988Z",
+  "generated": 1795347597,
+  "generatedISO": "2026-11-22T11:39:57.662Z",
   "totalCategories": 8,
-  "totalApps": 70,
+  "totalApps": 71,
   "categories": [
     {
       "name": "Audio",
@@ -181,7 +181,7 @@
     {
       "name": "Games",
       "slug": "games",
-      "count": 12,
+      "count": 13,
       "apps": [
         {
           "name": "Arcade Games",
@@ -241,6 +241,29 @@
           "slug": "Valkrycxx/bruce-flappybird/Flappy Bird",
           "lastUpdated": 1788216738,
           "metadataPath": "repositories/Valkrycxx/bruce-flappybird/Flappy Bird/metadata.json"
+        },
+        {
+          "name": "Flappy Bird Lite",
+          "description": "Lightweight Flappy Bird-style arcade game for CYD devices running Bruce Firmware.",
+          "category": "Games",
+          "version": "1.0.0",
+          "commit": "42c625a3771ffd1bb4b597d24dc444a05eadbf77",
+          "owner": "arthur2012-dot",
+          "repo": "FlappyBird-CYD-Bruce",
+          "path": "/",
+          "files": [
+            {
+              "source": "FlappyBird-Lite.js",
+              "destination": "Flappy Bird Lite.js"
+            }
+          ],
+          "supported-devices": [
+            "CYD-2432S028",
+            "CYD-2USB"
+          ],
+          "slug": "arthur2012-dot/FlappyBird-CYD-Bruce/Flappy Bird Lite",
+          "lastUpdated": 1794856971,
+          "metadataPath": "repositories/arthur2012-dot/FlappyBird-CYD-Bruce/Flappy Bird Lite/metadata.json"
         },
         {
           "name": "Highway Racer",
@@ -423,7 +446,7 @@
           "metadataPath": "repositories/BruceDevices/firmware/Tamagochi/metadata.json"
         }
       ],
-      "lastUpdated": 1793493842
+      "lastUpdated": 1794856971
     },
     {
       "name": "Infrared",
