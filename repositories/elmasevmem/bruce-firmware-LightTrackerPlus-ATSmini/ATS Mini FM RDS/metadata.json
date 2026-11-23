@@ -1,0 +1,16 @@
+{
+  "name": "ATS Mini FM RDS",
+  "description": "FM radio with RDS for the ATS Mini (ESP32-S3 + SI4732): tune 87.5-108 MHz, seek, volume, station name (PS), radio text (RT), RSSI/SNR/stereo. ATS Mini only; needs a firmware with i2c.read().",
+  "category": "Audio",
+  "version": "1.1.0",
+  "commit": "0c92dc34f59f97616cbcd65c03b0f82cdfc8abbe",
+  "owner": "elmasevmem",
+  "repo": "bruce-firmware-LightTrackerPlus-ATSmini",
+  "path": "/sd_files/interpreter/",
+  "files": [
+    {
+      "source": "ats_mini_fm_rds.js",
+      "destination": "ATS Mini FM RDS.js"
+    }
+  ]
+}
